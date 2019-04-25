@@ -1,2 +1,2 @@
 # Zion-SKR-SDK
-SDK for social seed recovery 
+SDK for Zion Social Key Recovery
