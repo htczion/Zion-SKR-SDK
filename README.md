@@ -12,7 +12,7 @@ Zion SKR SDK provides interfaces for 3rd party apps to integrate HTC Zion Vault'
 
 # Architecture
 
-![Architecture](media/skr_architecture.png "Architecture")
+![Architecture](media/architecture.png "Architecture")
 
 # Flow
 
