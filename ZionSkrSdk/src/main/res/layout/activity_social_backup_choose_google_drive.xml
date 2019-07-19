@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/wallet_background"
+    android:clipToPadding="false"
+    android:descendantFocusability="beforeDescendants"
+    android:filterTouchesWhenObscured="true"
+    android:fitsSystemWindows="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    tools:context=".backup.SocialKeyRecoveryChooseDriveAccountActivity"
+    >
+
+    <include
+        android:id="@+id/app_layout_social_backup_google_drive_toolbar"
+        layout="@layout/social_backup_choose_google_drive_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_layout_social_backup_google_drive_toolbar"
+        android:layout_marginBottom="@dimen/M1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="4.5dp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@string/font_family_regular"
+            android:gravity="center_horizontal"
+            android:text="@string/backup_choose_google_drive_title"
+            android:textColor="#ffffff"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/tv_sub_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@string/font_family_regular"
+            android:gravity="center_horizontal"
+            android:text="@string/backup_choose_google_drive_sub_title"
+            android:textColor="#ffffff"
+            android:textSize="15sp"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_switch_service"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="28.75dp"
+        android:layout_below="@+id/rl_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/M1"
+        android:layout_marginTop="@dimen/M1"
+        android:background="@drawable/shape_social_backup_drive_choose_button"
+        android:drawableEnd="@drawable/common_expand_small"
+        android:drawablePadding="@dimen/M5"
+        android:fontFamily="@string/font_family_regular"
+        android:foreground="@drawable/shape_social_backup_drive_choose_button_overlay"
+        android:gravity="center"
+        android:maxLines="1"
+        android:paddingEnd="@dimen/M1"
+        android:paddingStart="25dp"
+        android:text="@string/service_item_google_drive"
+        android:textAllCaps="false"
+        android:textColor="#ffffffff"
+        android:textSize="15sp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lv_accounts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_switch_service"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_bottom_parts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="4.5dp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="145dp"
+            android:layout_height="@dimen/socialkm_button_height"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape_social_backup_google_choose_cancel_button"
+            android:fontFamily="@string/font_family_regular"
+            android:foreground="@drawable/shape_social_backup_google_choose_cancel_button_overlay"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:text="@string/backup_choose_google_drive_bottom_cancel_btn"
+            android:textAllCaps="false"
+            android:textColor="#f7b66a"/>
+
+        <Button
+            android:id="@+id/btn_continue"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="145dp"
+            android:layout_height="@dimen/socialkm_button_height"
+            android:layout_toRightOf="@id/btn_cancel"
+            android:background="@drawable/shape_social_backup_google_choose_continue_button"
+            android:fontFamily="@string/font_family_regular"
+            android:foreground="@drawable/shape_social_backup_google_choose_continue_button_overlay"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:text="@string/backup_choose_google_drive_bottom_continue_btn"
+            android:textAllCaps="false"
+            android:textColor="#f7b66a"/>
+    </RelativeLayout>
+
+</RelativeLayout>

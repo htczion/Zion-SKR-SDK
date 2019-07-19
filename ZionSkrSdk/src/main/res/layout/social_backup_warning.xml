@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/rl_warning"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_below="@+id/app_layout_social_backup_toolbar"
+                android:gravity="center_vertical"
+                android:background="#e6341c">
+
+    <ImageView
+        android:id="@+id/iv_warning_icon"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/icon_indicator_warning_dark"/>
+
+    <TextView
+        android:id="@+id/tv_warning_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="45dp"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:layout_toEndOf="@id/iv_warning_icon"
+        android:fontFamily="@string/font_family_light"
+        android:text="@string/backup_warning_title"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/warning_header_text_size"/>
+</RelativeLayout>

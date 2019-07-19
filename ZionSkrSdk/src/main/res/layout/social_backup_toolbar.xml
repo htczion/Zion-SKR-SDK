@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignWithParentIfMissing="true"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tb_social_backup_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/common_colorPrimary"
+        android:theme="@style/SocialBackupToolbarTheme">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginRight="10dp"
+            android:foreground="@drawable/social_backup_restore_toolbar_overlay"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_btn_previous_light"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp"
+                android:text="@string/backup_toolbar_title"
+                android:textColor="@color/light_primaryfont_color"
+                android:textSize="18sp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_toolbar_title">
+
+                <ImageView
+                    android:id="@+id/iv_status_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="4.5dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/shape_social_backup_toolbar_no_active_status_icon"
+                    android:gravity="center_vertical"/>
+
+                <TextView
+                    android:id="@+id/tv_toolbar_sub_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toEndOf="@id/iv_status_icon"
+                    android:fontFamily="@string/font_family_light"
+                    android:text="@string/backup_toolbar_sub_title_no_active_status"
+                    android:textColor="#959cab"
+                    android:textSize="15sp"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+</android.support.design.widget.AppBarLayout>

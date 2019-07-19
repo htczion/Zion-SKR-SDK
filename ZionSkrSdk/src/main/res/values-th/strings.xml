@@ -1,0 +1,172 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">ไม่</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">ตกลง</string><!--OK-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- general -->
+    <string name="gen_new_version">มีเวอร์ชันใหม่</string><!--New version available-->
+    <string name="gen_new_version_hint">โปรดอัพเดตแอพพลิเคชันเป็นเวอร์ชันที่ใหม่กว่าเพื่อความปลอดภัยและประสบการณ์ผู้ใช้ที่ดีขึ้น</string><!--Please update app to newer version for enhanced security and user experience.-->
+    <string name="gen_update_now">อัพเดตเดี๋ยวนี้</string><!--UPDATE NOW-->
+<!-- end general -->
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">%1$s ได้เพิ่มคุณเป็นรายชื่อติดต่อที่เชื่อถือได้</string><!--%1$s added you as a trusted contact-->
+    <string name="ver_step1">ขั้นตอนที่ 1 ป้อนชื่อของคุณและขอรหัสตรวจสอบยืนยันจาก %1$s</string><!--Step 1. Enter your name and get the verification code from %1$s.--> 
+    <string name="ver_step2">ขั้นตอนที่ 2 รหัสตรวจสอบยืนยันของคุณได้รับการสร้างขึ้นบนโทรศัพท์ของ %1$s ขอรหัสจากพวกเขาและป้อนรหัส</string> 
+    <string name="ver_enter_name_hint">ป้อนชื่อของคุณ</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">รหัสคำขอ</string><!--Request code-->
+    <string name="ver_sharing_title">แบ่งปันรหัสนี้ให้กับ %1$s</string><!--Share this code to %1$s-->
+    <string name="ver_sharing_remind_route">M: %1$s\nผ่าน %2$s</string><!--M: %1$s\nvia %1$s-->
+    <string name="ver_sharing_reject">ปฏิเสธ</string><!--REJECT-->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">คำขอใหม่จาก %1$s</string><!--New request from %1$s--> 
+    <string name="ver_notification_request_content">แตะเพื่อดูรหัสตรวจสอบยืนยันและแบ่งปันกับ %1$s</string><!--Tap to see the verification code and share it with %1$s.-->
+    <string name="ver_notification_request_button">แสดงรหัสตรวจสอบยืนยัน</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">ไม่ได้รับคำตอบหรือ? คุณสามารถส่งคำขออีกครั้งได้ใน %1$s</string>
+    <string name="ver_verify">ตรวจสอบ</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">ขณะนี้คุณเป็นรายชื่อติดต่อที่เชื่อถือได้สำหรับ %1$s</string><!--You are now a trusted contact for %1$s.--> 
+    <string name="ver_ok_congratulation_msg">ขณะนี้คุณสามารถช่วย %1$s กู้คืนกระเป๋าเงินหากกระเป๋าเงินสูญหายหรือถูกขโมย Zion ได้เข้ารหัสและบันทึกข้อมูลการกู้คืนกระเป๋าเงินส่วนหนึ่งไว้กับอุปกรณ์ของคุณ ตรวจสอบให้แน่ใจว่าไม่ได้ลบ Zion หรือข้อมูลแอพพลิเคชัน Zion มิฉะนั้นข้อมูลนี้จะหายไป Zion จะตรวจสอบกับ %2$s เป็นระยะ ๆ เพื่อยืนยันว่าข้อมูลการกู้คืนยังคงใช้ได้</string><!--You can now help %1$s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %1$s periodically to verify the recovery data is still valid.-->
+    <string name="ver_ok_done">เสร็จ</string><!--Done-->
+    <string name="ver_pin_error_hint">รหัสนี้ไม่ถูกต้อง โปรดลองอีกครั้ง</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_btn_ok">ตกลง</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">คุณเป็นรายชื่อติดต่อที่เชื่อถือได้ของ %1$s แล้ว</string><!--You are already %1$s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">ขอบคุณสำหรับความช่วยเหลือในการกู้คืนข้อมูลของ %1$s</string><!--Thanks for helping back up %1$s’s data-->
+    <string name="ver_dialog_verifying_title">ส่งรหัสตรวจสอบยืนยันแล้ว</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">กำลังรอการตรวจสอบ คุณจะเป็นรายชื่อติดต่อที่เชื่อถือได้ของ %1$s เมื่อการตรวจสอบยืนยันเสร็จสมบูรณ์</string><!--Waiting for verifying. You will be %1$s’s trusted contact when verification is completed.-->
+    <string name="ver_unknown_phone_number">ไม่รู้จัก</string><!--Unknown-->
+    <string name="ver_unknown_name">ไม่รู้จัก</string><!--Unknown-->
+    <string name="ver_dialog_trusted_contact_full_title">ขอบคุณที่ช่วยเหลือ!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">ขณะนี้ %1$s มีรายชื่อติดต่อที่เชื่อถือได้ครบจำนวนสูงสุด 5 รายชื่อแล้ว</string><!--%1$s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">ลิงก์นี้หมดอายุ โปรดสอบถาม %1$s ให้ส่งลิงก์อัพเดต</string><!--This link is expired, please ask %1$s to send the updated link.-->
+    <string name="ver_request_timeout">คำขอหมดเวลา โปรดลองอีกครั้งในภายหลัง</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">โปรดลองอีกครั้งในภายหลัง</string><!--Please try again later-->
+    <string name="try_too_often_message">คุณลองบ่อยเกินไป โปรดลองอีกครั้งหลังผ่านไป %1$d นาที</string>
+
+    <!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Social Key Recovery คืออะไร\</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">Social Key Recovery สามารถช่วยคุณกู้คืนกระเป๋าเงินของคุณจากเพื่อนหรือสมาชิกในครอบครัวที่เชื่อถือได้ของคุณได้โดยสะดวก</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">เชิญเพื่อน 3 ถึง 5 คนเป็นรายชื่อติดต่อที่เชื่อถือได้ที่สามารถช่วยคุณกู้คืนกระเป๋าเงินของคุณ</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">รายชื่อติดต่อที่เชื่อถือได้ของคุณสามารถส่งรหัสเพื่อช่วยคุณคืนค่ากระเป๋าเงินของคุณ</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">ตั้งค่า</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href="com.htc.wallet://">ไม่ใช่ตอนนี้</a></string>
+    <string name="backup_introduction_ok">ตกลง</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">สำรองข้อมูลรายการรายชื่อติดต่อที่เชื่อถือได้ของคุณ</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">ในการกู้คืนกระเป๋าเงินของคุณด้วย Social Key Recovery เลือกบัญชี Google เพื่อสำรองข้อมูลรายชื่อติดต่อที่เชื่อถือได้ของคุณ รายชื่อติดต่อที่เชื่อถือได้ของคุณจะได้รับการบันทึกไว้ใน Google ไดร์ฟ</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">เพิ่มบัญชี</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">ยกเลิก</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">ดำเนินการต่อ</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="backup_trusted_contact">รายชื่อติดต่อที่เชื่อถือได้</string><!--Trusted contact-->
+    <string name="backup_null_contact">คุณยังไม่ได้เพิ่มรายชื่อติดต่อที่เชื่อถือได้</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">Social Key Recovery จะสามารถใช้ได้เมื่อคุณมีรายชื่อติดต่อที่เชื่อถือได้อย่างน้อย 3 คน (สูงสุด 5 คน)</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">เชิญเพื่อนเป็นรายชื่อติดต่อ\nที่เชื่อถือได้ของคุณ</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">เชิญเพื่อนหรือสมาชิกในครอบครัว 3 ถึง 5 คนเป็นรายชื่อติดต่อที่เชื่อถือได้เพื่อช่วยคุณกู้คืนกระเป๋าเงินของคุณ</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.-->
+    <string name="backup_invitation_hi">สวัสดี %1$s</string><!--Hi %1$s,-->
+    <string name="backup_invitation_sharing">แชร์คำเชิญ</string><!--Share invitation-->
+    <string name="backup_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">ไม่ได้ทำงาน</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">ทำงาน</string><!--Active-->
+    <string name="backup_invitation_message_first_part">สวัสดี \n\n ฉันได้กำหนดให้คุณเป็นรายชื่อติดต่อที่เชื่อถือได้สำหรับคุณสมบัติ Social Key Recovery ของกระเป๋าเงิน Zion \nโปรดทำตามคำแนะนำด้านล่างเพื่อ\nช่วยเหลือฉันสำรองข้อมูลการกู้คืนของฉัน\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) แตะลิงก์นี้เพื่อดาวน์โหลดและติดตั้ง Zion:\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) เมื่อคุณดำเนินการแล้วเสร็จ อย่าลืม\nสอบถามรหัสตรวจสอบยืนยันจากฉัน\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">ขอบคุณ!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">เวลาที่ตรวจสอบครั้งล่าสุด: %1$s</string><!--Last checked time: %1$s-->
+    <string name="backup_trust_item_sub2">แตะที่นี่เพื่อสร้างรหัส</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">ส่งใหม่</string><!--Resend-->
+    <string name="backup_bottom_request_show">คำขอจากเพื่อน</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">ลบรายชื่อติดต่อที่เชื่อถือได้</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_delete">ลบ (%1$d)</string><!--Remove(%1$d)-->
+    <string name="backup_menu_remove_trust_title">ลบรายชื่อติดต่อที่เชื่อถือได้</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">ออกจากระบบ</string>
+    <string name="backup_pending_target_toolbar">คำขอจากเพื่อน</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">ไม่มีคำขอในขณะนี้</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">ไม่รองรับการสำรองข้อมูลบนอุปกรณ์เดียวกัน</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">มีการใช้บัญชีนี้บนอุปกรณ์เครื่องอื่น</string><!--This account has been used in another device-->
+    <string name="db_security_concern">เพื่อความปลอดภัย สามารถใช้บัญชีแต่ละบัญชีได้สำหรับอุปกรณ์เดียวเท่านั้น</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">คุณยังคงต้องการใช้บัญชีนี้หรือใช้บัญชีอื่นเพื่อเริ่มต้น Social Key Recovery</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">ใช้บัญชีนี้</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">รายการรายชื่อติดต่อที่เชื่อถือได้ก่อนหน้าของคุณจะหายไปอย่างถาวร</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">ใช้บัญชีอื่น</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">เก็บข้อมูลก่อนหน้าและสร้างใหม่</string><!--Keep previous data and create a new one.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">สวัสดี \n\n เนื่องจากคุณเป็นรายชื่อติดต่อที่เชื่อถือได้ของฉัน ฉันต้องการความช่วยเหลือจากคุณในการกู้คืนกระเป๋าเงิน Zion ของฉัน\nสำหรับการกู้คืน ฉันต้องการให้คุณดำเนินการดังต่อไปนี้\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) แตะลิงก์นี้และสร้างรหัสตรวจสอบยืนยัน\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) ส่งรหัสให้ฉัน\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">ขอบคุณ!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">โปรดรอ...</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">เข้าสู่ระบบ...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">บัญชีนี้ไม่ได้เปิดใช้งาน Social Key Recovery</string>
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">โปรดลองบัญชีอื่นหรือใช้วลีกู้คืน 12 คำเพื่อคืนค่ากระเป๋าเงินของคุณ</string>
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">โปรดรอ...</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">กำลังสต้างลิงก์...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">ลงชื่อใช้งานบัญชีของคุณ</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">ในการกู้คืนกระเป๋าเงินของคุณด้วย Social Key Recovery เลือกบัญชี Google ที่คุณได้บันทึกรายชื่อติดต่อที่เชื่อถือได้ของคุณไว้ก่อนหน้านี้</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">การสร้างลิงก์แชร์ล้มเหลว</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">กรุณาลองอีกครั้งในภายหลัง</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">เข้าสู่ระบบล้มเหลว</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">กรุณาลองอีกครั้งในภายหลัง</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">ขอความช่วยเหลือจากรายชื่อติดต่อที่เชื่อถือได้ของคุณ</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. ติดต่อรายชื่อติดต่อที่เชื่อถือได้ของคุณสามคนและแบ่งปันลิงก์นี้ให้พวกเขา</string><!--1. Reach out three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. แต่ละคนจะให้รหัสแก่คุณ ป้อนแต่ละรหัสด้านล่าง:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">อย่างน้อยหนึ่งรหัสไม่ถูกต้อง ลองอีกครั้ง</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">ป้อนรหัส</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">ยกเลิก</string><!--Cancel-->
+    <string name="social_restore_btn_next">ถัดไป</string><!--Next-->
+    <string name="social_restore_no_backup_on_device">ไม่มีข้อมูลสำรองสำหรับ %1$s บนอุปกรณ์ของคุณ</string><!--There\'s no backup for %1$s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">การคืนค่าล้มเหลว</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">ลองใช้บัญชีอื่นหรือใช้วลีกู้คืน 12 คำของคุณเพื่อคืนค่า</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">คำเชิญของ %1$s</string><!--%1$s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">แตะเพื่อยอมรับ</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">คำขอสนับสนุนการกู้คืนจาก %1$s</string><!--Recovery support request from %1$s-->
+    <string name="social_restore_backup_tap_to_generate_code">แตะเพื่อสร้างรหัส</string><!--Tap to generate code.-->
+    <string name="social_backup_update_backup_status">อัพเดตสถานะการสำรองข้อมูล</string><!--Update backup status-->
+    <string name="social_backup_not_now">ไม่ใช่ตอนนี้</string><!--Not now-->
+    <string name="social_backup_oops_inactive">รายชื่อติดต่อที่เชื่อถือได้ของคุณบางรายการไม่ได้ใช้งาน</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">ตรวจสอบกับรายชื่อติดต่อที่เชื่อถือได้ของคุณเพื่อรับรองการเชื่อมต่อ</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">คุณได้ใช้บัญชีนี้ในอุปกรณ์อื่น</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">ไม่สามารถใช้ข้อมูล Social Key Recovery ทั้งหมดของคุณได้อย่างถาวร คุณต้องเข้าสู่ระบบบัญชีอื่นเพื่อใช้ Social Key Recovery ต่อไป</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Some trusted contacts need to be re-/connected</string>-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">For security concerns, you need to resend the trusted contact invitation to %1$s, %2$s again.</string>-->
+
+    <string name="Settings">การตั้งค่า</string><!--Settings-->
+
+    <string name="socialkm_network_connection_title">ไม่สามารถเชื่อมต่อได้</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">คุณต้องมีการเชื่อมต่อเครือข่ายเพื่อใช้แอพพลิเคชันนี้ โปรดเปิดใช้ข้อมูลโมบายล์หรือ Wi-Fi ในการตั้งค่า</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">ยกเลิก</string><!--Cancel-->
+	<!--<string name="check">Check</string>-->
+
+    <string name="entry_ios_coming_soon">เร็ว ๆ นี้สำหรับ IOS</string><!--COMING SOON FOR IOS-->
+
+	<!--<string name="socialkm_not_active_title">Social Key Recovery is not active</string>-->
+	<!--<string name="socialkm_not_active_message">You can try to contact your trusted contacts and check their backup status or find a new contact to help you.</string>-->
+
+</resources>

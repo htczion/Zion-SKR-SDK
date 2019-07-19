@@ -1,0 +1,173 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">Tidak</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">OK</string><!--OK-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- general -->
+    <string name="gen_new_version">Versi baharu tersedia</string><!--New version available-->
+    <string name="gen_new_version_hint">Sila kemas kini aplikasi ke versi terbaru untuk keselamatan dan pengalaman pengguna yang dipertingkat.</string><!--Please update app to newer version for enhanced security and user experience.-->
+    <string name="gen_update_now">KEMAS KINI SEKARANG</string><!--UPDATE NOW-->
+<!-- end general -->
+
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">%1$s telah menambah anda sebagai kenalan yang dipercayai</string><!--%1$s added you as a trusted contact-->
+    <string name="ver_step1">Langkah 1. Masukkan nama anda dan dapatkan kod pengesahan daripada %1$s.</string><!--Step 1. Enter your name and get the verification code from %1$s.--> 
+    <string name="ver_step2">Langkah 2. Kod pengesahan anda dihasilkan pada telefon %1$s. Minta kod daripada mereka dan masukkan kod tersebut.</string> 
+    <string name="ver_enter_name_hint">Masukkan nama anda</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">Minta kod</string><!--Request code-->
+    <string name="ver_sharing_title">Kongsi kod ini dengan %1$s</string><!--Share this code to %1$s-->
+    <string name="ver_sharing_remind_route">M: %1$s melalui %2$s\n</string><!--M: %1$s\nvia %1$s-->
+    <string name="ver_sharing_reject">TOLAK</string><!--REJECT-->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">Permintaan baharu daripada %1$s</string><!--New request from %1$s--> 
+    <string name="ver_notification_request_content">Ketik untuk melihat kod pengesahan dan kongsikannya dengan %1$s.</string><!--Tap to see the verification code and share it with %1$s.-->
+    <string name="ver_notification_request_button">TUNJUKKAN KOD PENGESAHAN</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">Tiada jawapan? Anda boleh membuat permintaan lain dalam %1$s</string>
+    <string name="ver_verify">Sahkan</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">Anda kini kenalan yang dipercayai untuk %1$s.</string><!--You are now a trusted contact for %1$s.--> 
+    <string name="ver_ok_congratulation_msg">Kini anda boleh membantu %1$s memulihkan dompet mereka jika ia hilang atau dicuri. Zion telah menyulitkan dan menyimpan sebahagian data pemulihan dompet mereka ke peranti anda. Pastikan Zion atau data aplikasi Zion tidak dipadamkan, jika tidak data pemulihan ini akan hilang. Zion akan menyemak dengan %2$s secara berkala bagi mengesahkan data pemulihan tersebut masih sah.</string><!--You can now help %1$s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %1$s periodically to verify the recovery data is still valid.-->
+    <string name="ver_ok_done">Selesai</string><!--Done-->
+    <string name="ver_pin_error_hint">Kod ini tidak sah, sila cuba lagi.</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_btn_ok">OK</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">Anda sudah menjadi kenalan %1$s yang dipercayai</string><!--You are already %1$s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">Terima kasih kerana membantu menyandarkan data %1$s</string><!--Thanks for helping back up %1$s’s data-->
+    <string name="ver_dialog_verifying_title">Pengesahan dihantar</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">Menunggu pengesahan. Anda akan menjadi kenalan %1$s yang dipercayai apabila pengesahan lengkap.</string><!--Waiting for verifying. You will be %1$s’s trusted contact when verification is completed.-->
+    <string name="ver_unknown_phone_number">Tidak diketahui</string><!--Unknown-->
+    <string name="ver_unknown_name">Tidak diketahui</string><!--Unknown-->
+    <string name="ver_dialog_trusted_contact_full_title">Terima kasih kerana membantu!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">%1$s sudah mencapai maksimum 5 kenalan yang dipercayai.</string><!--%1$s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">Pautan ini tamat tempoh, sila minta %1$s menghantar pautan yang dikemas kini.</string><!--This link is expired, please ask %1$s to send the updated link.-->
+    <string name="ver_request_timeout">Masa permintaan tamat, sila cuba lagi kemudian.</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">Sila cuba sebentar lagi</string><!--Please try again later-->
+    <string name="try_too_often_message">Anda sedang mencuba terlalu kerap, sila cuba lagi selepas %1$d minit</string>
+
+    <!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Apakah itu Social Key Recovery\?</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">Social Key Recovery boleh membantu anda memulihkan dompet anda daripada rakan atau ahli keluarga anda yang dipercayai dengan mudah.</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">Jemput 3 hingga 5 orang menjadi kenalan dipercayai yang boleh membantu memulihkan dompet anda.</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">Kenalan anda yang dipercayai boleh menghantar kod bagi membantu anda memulihkan dompet anda.</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">Sediakan</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href="com.htc.wallet://">Bukan sekarang</a></string>
+    <string name="backup_introduction_ok">OK</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">Sandarkan senarai kenalan anda yang dipercayai</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">Untuk memulihkan dompet anda dengan Social Key Recovery, pilih akaun Google untuk menyandarkan kenalan anda yang dipercayai. Senarai kenalan anda yang dipercayai akan disimpan dalam Google Drive.</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">Tambah akaun</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">Batal</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">Teruskan</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="backup_trusted_contact">Kenalan dipercayai</string><!--Trusted contact-->
+    <string name="backup_null_contact">Anda belum menambah sebarang kenalan yang dipercayai lagi.</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">Social Key Recovery akan tersedia apabila anda mempunyai sekurang-kurangnya 3 kenalan yang dipercayai (Maks:5).</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">Jemput rakan menjadi \n kenalan anda yang dipercayai</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">Jemput 3 hingga 5 rakan atau ahli keluarga menjadi kenalan yang dipercayai dan bantu memulihkan dompet anda.</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.-->
+    <string name="backup_invitation_hi">Hai %1$s,</string><!--Hi %1$s,-->
+    <string name="backup_invitation_sharing">Kongsi jemputan</string><!--Share invitation-->
+    <string name="backup_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">Tidak aktif</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">Aktif</string><!--Active-->
+    <string name="backup_invitation_message_first_part">Hai, \n\n saya telah menetapkan anda sebagai kenalan saya yang dipercayai untuk ciri Social Key Recovery dompet Zion. \n Sila ikut arahan di bawah untuk \n membantu saya menyandarkan data pemulihan saya.\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) Ketik pautan ini untuk memuat turun dan memasang Zion:\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) Apabila anda selesai, jangan lupa untuk \n meminta kod pengesahan daripada saya.\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">Terima Kasih!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">Masa terakhir diperiksa: %1$s</string><!--Last checked time: %1$s-->
+    <string name="backup_trust_item_sub2">Ketik di sini untuk menghasilkan kod.</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">Hantar semula</string><!--Resend-->
+    <string name="backup_bottom_request_show">Permintaan daripada rakan-rakan</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">Alih keluar kenalan yang dipercayai</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_delete">Alih keluar(%1$d)</string><!--Remove(%1$d)-->
+    <string name="backup_menu_remove_trust_title">Alih keluar kenalan yang dipercayai</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">Log keluar</string>
+    <string name="backup_pending_target_toolbar">Permintaan daripada rakan-rakan</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">Tiada permintaan buat masa ini.</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">Sandaran pada peranti yang sama tidak disokong.</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">Akaun ini telah digunakan dalam peranti lain</string><!--This account has been used in another device-->
+    <string name="db_security_concern">Atas sebab keselamatan, setiap akaun boleh digunakan untuk satu peranti sahaja.</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">Adakah anda masih mahu menggunakan akaun ini atau menggunakan akaun lain untuk memulakan Social Key Recovery?</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">Gunakan akaun ini</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">Senarai kenalan anda yang dipercayai sebelum ini akan hilang secara kekal.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">Gunakan akaun lain</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">Kekalkan data sebelumnya dan cipta data baharu.</string><!--Keep previous data and create a new one.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">Hai, \n\n Sebagai kenalan saya yang dipercayai, saya memerlukan bantuan anda untuk memulihkan dompet Zion saya.\nUntuk pemulihan, saya memerlukan anda melakukan perkara berikut.\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) Ketik pautan ini dan hasilkan kod pengesahan.\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) Hantarkan kod kepada saya.\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">Terima Kasih!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">Sila tunggu...</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">Mengelog masuk...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">Akaun ini telah tidak diaktifkan untuk Social Key Recovery</string>
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">Sila cuba akaun lain atau gunakan 12 perkataan frasa pemulihan untuk memulihkan dompet anda</string>
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">Sila tunggu...</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">Menghasilkan pautan...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">Daftar masuk ke akaun anda</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">Untuk memulihkan dompet anda dengan Social Key Recovery, pilih akaun Google yang sebelum ini anda simpan senarai kenalan anda yang dipercayai.</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">Gagal menghasilkan pautan kongsi</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">Sila cuba lagi kemudian.</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">Gagal untuk mengelog masuk</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">Sila cuba lagi kemudian.</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">Minta bantuan kenalan anda yang dipercayai</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. Hubungi tiga kenalan anda yang dipercayai dan kongsikan pautan ini dengan mereka.</string><!--1. Reach out three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. Setiap kenalan akan memberikan kod kepada anda. Masukkan setiap kod di bawah:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">Satu atau banyak kod tidak betul. Cuba lagi.</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">Masukkan kod</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">Batal</string><!--Cancel-->
+    <string name="social_restore_btn_next">Seterusnya</string><!--Next-->
+    <string name="social_restore_no_backup_on_device">Tiada sandaran untuk %1$s pada peranti anda.</string><!--There\'s no backup for %1$s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">Gagal memulih</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">Cuba gunakan akaun yang berbeza atau 12 perkataan frasa pemulihan anda untuk memulihkannya.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">Jemputan %1$s</string><!--%1$s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">Ketik untuk terima.</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">Permintaan sokongan pemulihan daripada %1$s</string><!--Recovery support request from %1$s-->
+    <string name="social_restore_backup_tap_to_generate_code">Ketik untuk menghasilkan kod.</string><!--Tap to generate code.-->
+    <string name="social_backup_update_backup_status">Kemas kini status sandaran</string><!--Update backup status-->
+    <string name="social_backup_not_now">Bukan sekarang</string><!--Not now-->
+    <string name="social_backup_oops_inactive">Op, beberapa kenalan anda yang dipercayai sudah tidak aktif.</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">Semak dengan kenalan anda yang dipercayai untuk melindungi sambungan.</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">Anda telah menggunakan akaun ini pada peranti lain</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">Semua data Social Key Recovery anda tidak boleh digunakan secara kekal. Anda perlu mengelog masuk akaun lain untuk terus menggunakan Social Key Recovery.</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Some trusted contacts need to be re-/connected</string>-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">For security concerns, you need to resend the trusted contact invitation to %1$s, %2$s again.</string>-->
+
+    <string name="Settings">Tetapan</string><!--Settings-->
+
+    <string name="socialkm_network_connection_title">Tidak dapat menyambung.</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">Anda memerlukan sambungan rangkaian untuk menggunakan apl ini. Sila hidupkan Data Mudah Alih atau Wi-Fi dalam Tetapan.</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">Batal</string><!--Cancel-->
+	<!--<string name="check">Check</string>-->
+
+    <string name="entry_ios_coming_soon">AKAN DATANG UNTUK IOS</string><!--COMING SOON FOR IOS-->
+
+	<!--<string name="socialkm_not_active_title">Social Key Recovery is not active</string>-->
+	<!--<string name="socialkm_not_active_message">You can try to contact your trusted contacts and check their backup status or find a new contact to help you.</string>-->
+
+</resources>

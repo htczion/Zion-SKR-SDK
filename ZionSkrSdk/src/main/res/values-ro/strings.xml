@@ -1,0 +1,172 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">Nu</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">OK</string><!--OK-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- general -->
+    <string name="gen_new_version">Versiune nouă disponibilă</string><!--New version available-->
+    <string name="gen_new_version_hint">Actualizați-vă aplicația cu cea mai nouă versiune, pentru o mai bună securitate și experiență de utilizare.</string><!--Please update app to newer version for enhanced security and user experience.-->
+    <string name="gen_update_now">ACTUALIZARE ACUM</string><!--UPDATE NOW-->
+<!-- end general -->
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">%1$s v-a adăugat ca și contact de încredere</string><!--%1$s added you as a trusted contact-->
+    <string name="ver_step1">Pasul 1. Introduceți numele dvs. și obțineți codul de verificare de la %1$s.</string><!--Step 1. Enter your name and get the verification code from %1$s.--> 
+    <string name="ver_step2">Pasul 2. Codul dvs. de verificare este generat pe telefonul contactului %1$s. Solicitați-i codul și introduceți-l.</string> 
+    <string name="ver_enter_name_hint">Introduceţi numele</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">Solicitare cod</string><!--Request code-->
+    <string name="ver_sharing_title">Partajează acest cod pe %1$s</string><!--Share this code to %1$s-->
+    <string name="ver_sharing_remind_route">M: %1$s\nprin %2$s</string><!--M: %1$s\nvia %1$s-->
+    <string name="ver_sharing_reject">RESPINGERE</string><!--REJECT-->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">Solicitare nouă de la %1$s</string><!--New request from %1$s--> 
+    <string name="ver_notification_request_content">Apăsați pentru a vizualiza codul de verificare și partajați-l cu %1$s.</string><!--Tap to see the verification code and share it with %1$s.-->
+    <string name="ver_notification_request_button">AFIȘAȚI CODUL DE VERIFICARE</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">Fără răspuns? Vei putea trimite o altă solicitare în %1$s</string>
+    <string name="ver_verify">Verificare</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">Acum sunteți un contact de încredere pentru %1$s.</string><!--You are now a trusted contact for %1$s.--> 
+    <string name="ver_ok_congratulation_msg">Acum îl puteți ajuta pe %1$s să își recupereze portofelul în cazul în care acesta este pierdut sau furat. Zion a criptat și salvat pe dispozitivul dvs. o parte din datele de recuperare a portofelului. Vă rugăm să nu ștergeți Zion și nici datele aplicației Zion, altfel aceste date de recuperare se vor pierde. Zion va contacta periodic pe %2$s pentru a se asigura că datele de recuperare sunt în continuare valabile.</string><!--You can now help %1$s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %1$s periodically to verify the recovery data is still valid.-->
+    <string name="ver_ok_done">Efectuat</string><!--Done-->
+    <string name="ver_pin_error_hint">Acest cod este nevalid, încercați din nou.</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_btn_ok">OK</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">Deja ești contactul de încredere al lui %1$s</string><!--You are already %1$s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">Mulțumesc pentru ajutorul oferit la realizarea copiei de rezervă pentru datele lui %1$s</string><!--Thanks for helping back up %1$s’s data-->
+    <string name="ver_dialog_verifying_title">Verificare trimisă</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">Se aşteaptă verificarea. La finalizarea verificării vei deveni contactul de încredere al lui %1$s.</string><!--Waiting for verifying. You will be %1$s’s trusted contact when verification is completed.-->
+    <string name="ver_unknown_phone_number">Necunoscut</string><!--Unknown-->
+    <string name="ver_unknown_name">Necunoscut</string><!--Unknown-->
+    <string name="ver_dialog_trusted_contact_full_title">Vă mulţumim pentru ajutor!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">%1$s a atins deja numărul maxim de 5 contacte de încredere.</string><!--%1$s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">Acest link a expirat; solicitați lui %1$s să vă trimită linkul actualizat.</string><!--This link is expired, please ask %1$s to send the updated link.-->
+    <string name="ver_request_timeout">Solicitarea a expirat; încercaţi din nou mai târziu.</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">Încercaţi din nou mai târziu</string><!--Please try again later-->
+    <string name="try_too_often_message">Încercați prea des; reveniți după %1$d minute de pauză.</string>
+
+    <!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Ce este Social Key Recovery\?</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">Social Key Recovery te poate ajuta să îți recuperezi cu ușurință portofelul de la rude sau prieteni de încredere.</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">Invită între 3 și 5 persoane ca să îți fie contacte de încredere, pentru a te putea ajuta să îți recuperezi portofelul.</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">Contactele tale de încredere pot trimite un cod pentru a te ajuta să îți recuperezi portofelul.</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">Configurare</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href="com.htc.wallet://">Nu acum</a></string>
+    <string name="backup_introduction_ok">OK</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">Faceți o copie de rezervă a listei cu contactele dvs. de încredere</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">Pentru a vă recupera portofelul cu Social Key Recovery, selectați un cont Google pentru a vă crea copii de rezervă pentru contactele de încredere. Lista cu contactele de încredere va fi stocată pe Google Drive.</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">Adăugare cont</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">Revocare</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">Continuare</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="backup_trusted_contact">Contact de încredere</string><!--Trusted contact-->
+    <string name="backup_null_contact">Încă nu ați adăugat niciun contact de încredere.</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">Social Key Recovery va fi disponibilă atunci când aveți cel puțin 3 contacte de încredere (Max: 5).</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">Invită-ți prieteni pentru a-ți fi \n contacte de încredere</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">Invită între 3 și 5 prieteni sau rude ca să îți fie contacte de încredere, pentru a te ajuta să îți recuperezi portofelul.</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.-->
+    <string name="backup_invitation_hi">Salut %1$s,</string><!--Hi %1$s,-->
+    <string name="backup_invitation_sharing">Invitație de partajare</string><!--Share invitation-->
+    <string name="backup_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">Inactiv</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">Activ</string><!--Active-->
+    <string name="backup_invitation_message_first_part">Salut, \n\n Te-am desemnat ca un contact de încredere pentru funcția Social Key Recovery a portofelului Zion. \n Urmează instrucțiunile de mai jos pentru \n a mă ajuta la copierea de rezervă a datelor mele de recuperare.\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) Apasă pe această legătură pentru a descărca și instala Zion:\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) Când ai terminat, nu uita să-mi \n soliciți codul de verificare.\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">Mulţumesc!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">Ultima verificare: %1$s</string><!--Last checked time: %1$s-->
+    <string name="backup_trust_item_sub2">Apăsați aici pentru generarea codului.</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">Retrimitere</string><!--Resend-->
+    <string name="backup_bottom_request_show">Solicitări de la prieteni</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">Eliminare contact de încredere</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_delete">Eliminare(%1$d)</string><!--Remove(%1$d)-->
+    <string name="backup_menu_remove_trust_title">Eliminare contact de încredere</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">Deconectare</string>
+    <string name="backup_pending_target_toolbar">Solicitări de la prieteni</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">Nu există solicitări în acest moment.</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">Copierea de rezervă pe același dispozitiv nu este acceptată.</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">Acest cont a fost utilizat într-un alt dispozitiv</string><!--This account has been used in another device-->
+    <string name="db_security_concern">Din motive de securitate, fiecare cont poate fi utilizat doar pentru un singur dispozitiv.</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">Dorești să utilizezi acest cont sau un altul pentru a iniția Social Key Recovery?</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">Utilizează acest cont</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">Lista anterioară cu contactele de încredere se va pierde definitiv.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">Utilizează un alt cont</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">Păstrează datele anterioare și creează unul nou.</string><!--Keep previous data and create a new one.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">Salut, \n\n Fiind contactul meu de încredere, am nevoie de ajutorul tău pentru a-mi recupera portofelul Zion.\nPentru restaurare, trebuie să faci următoarele.\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) Apăsați această legătură și generați un cod de verificare.\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) Trimiteți-mi codul.\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">Mulţumesc!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">Vă rugăm să așteptați...</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">Se conectează...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">Acest cont nu a fost activat pentru Social Key Recovery</string>
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">Pentru restabilirea portofelului dvs., încercați un alt cont sau folosiți fraza de recuperare formată din 12 cuvinte</string>
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">Vă rugăm să așteptați...</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">Se generează legătura...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">Conectare la contul dvs.</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">Pentru a vă recupera portofelul cu Social Key Recovery, selectați acel cont Google unde v-ați salvat anterior lista cu contactele de încredere.</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">Generarea legăturii de partajare a eșuat</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">Încercaţi din nou mai târziu.</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">Conectare eșuată</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">Încercaţi din nou mai târziu.</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">Solicitați ajutorul contactelor dvs. de încredere.</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. Partajați acest link cu trei dintre contactele dvs. de încredere.</string><!--1. Reach out three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. Fiecare contact vă va oferi un cod. Introduceți mai jos fiecare cod:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">Unul sau mai multe coduri sunt incorecte. Încercaţi din nou.</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">Introduceţi codul</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">Revocare</string><!--Cancel-->
+    <string name="social_restore_btn_next">Următorul</string><!--Next-->
+    <string name="social_restore_no_backup_on_device">Nu există nicio copie de rezervă pentru %1$s pe dispozitivul dvs.</string><!--There\'s no backup for %1$s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">Restabilire eșuată</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">Pentru restabilire, încercați să folosiți un alt cont sau fraza dvs. de recuperare formată din 12 cuvinte.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">Invitația lui %1$s</string><!--%1$s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">Apăsaţi pentru a accepta.</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">Solicitare de asistență recuperare de la %1$s</string><!--Recovery support request from %1$s-->
+    <string name="social_restore_backup_tap_to_generate_code">Apăsați pentru generarea codului.</string><!--Tap to generate code.-->
+    <string name="social_backup_update_backup_status">Actualizare stare copiere de rezervă</string><!--Update backup status-->
+    <string name="social_backup_not_now">Nu acum</string><!--Not now-->
+    <string name="social_backup_oops_inactive">Ups, unele dintre contactele dvs. de încredere sunt inactive.</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">Consultați-vă cu contactul dvs. de încredere, pentru a securiza conexiunile.</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">Ați utilizat acest cont într-un alt dispozitiv</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">Se va pierde definitiv posibilitatea de a utiliza datele dvs. pentru Social Key Recovery. Trebuie să vă conectați la un alt cont, pentru a continua să utilizați Social Key Recovery.</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Some trusted contacts need to be re-/connected</string>-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">For security concerns, you need to resend the trusted contact invitation to %1$s, %2$s again.</string>-->
+
+    <string name="Settings">Setări</string><!--Settings-->
+
+    <string name="socialkm_network_connection_title">Conectare imposibilă.</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">Aveţi nevoie de o conexiune la reţea pentru a utiliza această aplicaţie. Activați Date mobile sau Wi-Fi din Setări.</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">Revocare</string><!--Cancel-->
+	<!--<string name="check">Check</string>-->
+
+    <string name="entry_ios_coming_soon">ÎN CURÂND PE IOS</string><!--COMING SOON FOR IOS-->
+
+	<!--<string name="socialkm_not_active_title">Social Key Recovery is not active</string>-->
+	<!--<string name="socialkm_not_active_message">You can try to contact your trusted contacts and check their backup status or find a new contact to help you.</string>-->
+
+</resources>

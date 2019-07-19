@@ -1,0 +1,171 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">לא</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">אישור</string><!--OK-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+<!-- general -->
+    <string name="gen_new_version">יש גרסה חדשה</string><!--New version available-->
+    <string name="gen_new_version_hint">מומלץ לעדכן את האפליקציה לגרסה החדשה כדי לשפר את רמת האבטחה וליהנות מחוויה טובה יותר.</string><!--Please update app to newer version for enhanced security and user experience.-->
+    <string name="gen_update_now">עדכון עכשיו</string><!--UPDATE NOW-->
+<!-- end general -->
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">נוספת לרשימת אנשי הקשר לביטחון של %1$s</string><!--%1$s added you as a trusted contact-->
+    <string name="ver_step1">שלב 1. להזין את השם ולבקש את קוד האימות של s%.</string><!--Step 1. Enter your name and get the verification code from %1$s.--> 
+    <string name="ver_step2">שלב 2. קוד האימות נוצר בטלפון של s%. צריך לבקש את הקוד ולהזין אותו.</string> 
+    <string name="ver_enter_name_hint">איך קוראים לך?</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">בקשת קוד</string><!--Request code-->
+    <string name="ver_sharing_title">שיתוף הקוד עם s%</string><!--Share this code to %1$s-->
+    <string name="ver_sharing_remind_route">נייד: %2$s דרך %1$s\n</string><!--M: %1$s\nvia %1$s-->
+    <string name="ver_sharing_reject">דחייה</string><!--REJECT-->
+    <string name="ver_notification_channel_name">מפתח שחזור חברתי</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">בקשה חדשה של %1$s</string><!--New request from %1$s--> 
+    <string name="ver_notification_request_content">אפשר להקיש כדי להציג את קוד האימות ולשתף אותו עם s%.</string><!--Tap to see the verification code and share it with %1$s.-->
+    <string name="ver_notification_request_button">הצגת קוד האימות</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">אין תגובה? אפשר יהיה לשלוח בקשה נוספת בעוד s%</string>
+    <string name="ver_verify">אימות</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">צורפת לרשימת אנשי הקשר לביטחון של %1$s.</string><!--You are now a trusted contact for %1$s.--> 
+    <string name="ver_ok_congratulation_msg">מעכשיו יש לך אפשרות לעזור בשחזור הארנק של %2$s אם המכשיר יאבד או ייגנב. חלק מהנתונים של הארנק הזה הוצפנו על ידי Zion ונשמרו במכשיר שלך כדי שיהיה אפשר לשחזר אותו. חשוב לא למחוק את אפליקציית Zion או את הנתונים של Zion כדי שנתוני השחזור לא יימחקו. אפליקציית Zion תבדוק מול %1$s מדי פעם שנתוני הגיבוי עדיין בתוקף.</string><!--You can now help %1$s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %1$s periodically to verify the recovery data is still valid.-->
+    <string name="ver_ok_done">בוצע</string><!--Done-->
+    <string name="ver_pin_error_hint">הקוד הזה לא תקין. אפשר לנסות שוב.</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_btn_ok">אישור</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">כבר נוספת לרשימת אנשי הקשר לביטחון של %1$s</string><!--You are already %1$s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">תודה על העזרה בגיבוי המידע של %1$s</string><!--Thanks for helping back up %1$s’s data-->
+    <string name="ver_dialog_verifying_title">הודעת האימות נשלחה</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">בהמתנה לאימות. נוסיף אותך לרשימת אנשי הקשר לביטחון של s% אחרי האימות.</string><!--Waiting for verifying. You will be %1$s’s trusted contact when verification is completed.-->
+    <string name="ver_unknown_phone_number">לא ידוע</string><!--Unknown-->
+    <string name="ver_unknown_name">לא ידוע</string><!--Unknown-->
+    <string name="ver_dialog_trusted_contact_full_title">תודה על העזרה!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">ברשימה של %1$s כבר יש 5 אנשי קשר לביטחון, ולא יכולים להיות בה אנשים נוספים.</string><!--%1$s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">פג התוקף של הקישור הזה. צריך לבקש מהחבר/ה (%1$s) לשלוח את הקישור המעודכן.</string><!--This link is expired, please ask %1$s to send the updated link.-->
+    <string name="ver_request_timeout">פג תוקף הבקשה. אפשר לנסות שוב מאוחר יותר.</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">אפשר לנסות שוב מאוחר יותר</string><!--Please try again later-->
+    <string name="try_too_often_message">בוצעו יותר מדי ניסיונות ברציפות. אפשר לנסות שוב בעוד %1$d דקות</string>
+
+    <!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">מה זה Social Key Recovery?</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">באמצעות Social Key Recovery אפשר להיעזר בחברים או בקרובי משפחה כדי להיכנס מחדש לארנק בקלות במידת הצורך.</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">אפשר להזמין 3-5 אנשים כאנשי קשר לביטחון. האנשים האלה יוכלו לעזור לך להיכנס לחשבון בארנק במידת הצורך.</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">אנשי הקשר לביטחון יכולים לשלוח לך קוד כדי לעזור לך להיכנס לארנק.</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">הגדרה</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href="com.htc.wallet://">לא עכשיו</a></string>
+    <string name="backup_introduction_ok">אישור</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">גיבוי הרשימה של אנשי הקשר לביטחון</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">כדי לשחזר את הארנק באמצעות Social Key Recovery, צריך לבחור חשבון Google שבו יישמרו אנשי קשר לביטחון. הרשימה של אנשי הקשר לביטחון תישמר ב-Google Drive.</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">הוספת חשבון</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">ביטול</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">המשך</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="backup_trusted_contact">אנשי קשר לביטחון</string><!--Trusted contact-->
+    <string name="backup_null_contact">אין לך אף איש קשר לביטחון.</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">יהיה אפשר להיעזר ב-Social Key Recovery כשיהיו\nלפחות 3 אנשי קשר לביטחון (אפשר מקסימום 5).</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">הזמנת חברים\nכאנשי קשר לביטחון</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">אפשר להזמין 3-5 חברים כאנשי קשר לביטחון. החברים האלה יוכלו לעזור לך להיכנס לחשבון בארנק במידת הצורך.</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.-->
+    <string name="backup_invitation_hi">שלום %1$s,</string><!--Hi %1$s,-->
+    <string name="backup_invitation_sharing">שיתוף ההזמנה</string><!--Share invitation-->
+    <string name="backup_toolbar_title">מפתח שחזור חברתי</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">לא פעיל</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">פעיל</string><!--Active-->
+    <string name="backup_invitation_message_first_part">היי, \n\nהוספתי אותך לרשימת אנשי הקשר לביטחון שלי, כחלק מהתכונה Social Key Recovery בארנק שלי ב-Zion. \n כדי לעזור לי לגבות את הנתונים,\n צריך לבצע את הפעולות הבאות.\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) להקיש על הקישור הזה כדי להוריד ולהתקין את Zion:‏\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) בסיום, חשוב לזכור לבקש ממני\n את קוד האימות.\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">תודה!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">מועד בדיקה אחרונה: %1$s</string><!--Last checked time: %1$s-->
+    <string name="backup_trust_item_sub2">אפשר להקיש כאן כדי ליצור קוד.</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">שליחה מחדש</string><!--Resend-->
+    <string name="backup_bottom_request_show">בקשות מחברים</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">הסרה מאנשי הקשר לביטחון</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_delete">הסרה (%1$d)</string><!--Remove(%1$d)-->
+    <string name="backup_menu_remove_trust_title">הסרה מאנשי הקשר לביטחון</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">התנתקות</string>
+    <string name="backup_pending_target_toolbar">בקשות מחברים</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">אין לך אף בקשה כרגע.</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">אי אפשר לגבות באותו מכשיר.</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">החשבון הזה נמצא בשימוש במכשיר אחר</string><!--This account has been used in another device-->
+    <string name="db_security_concern">מטעמי בטיחות, אפשר להשתמש בכל חשבון רק במכשיר אחד.</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">רוצה להשתמש בחשבון הזה או בחשבון אחר, כדי להתחיל ליצור את Social Key Recovery?</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">שימוש בחשבון הזה</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">הרשימה של אנשי הקשר לביטחון שהגדרת תימחק לתמיד.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">שימוש בחשבון אחר</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">שמירת המידע הקודם ויצירת חשבון חדש.</string><!--Keep previous data and create a new one.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">היי, \n\nהוספתי אותך לרשימת אנשי הקשר לביטחון שלי, ואין לי אפשרות להיכנס לארנק ב-Zion בלי עזרתך.\nזה כל מה שצריך לעשות כדי לעזור לי:\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) להקיש על הקישור הזה וליצור את קוד האימות.\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) לשלוח לי את הקוד.\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">תודה!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">אנא המתן...</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">נכנס לחשבון...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">בחשבון הזה לא הופעל Social Key Recovery</string>
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">אפשר לנסות להשתמש בחשבון אחר או ב-12 המילים של משפט השחזור כדי לשחזר את הארנק</string>
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">אנא המתן...</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">הקישור מיד ייווצר...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">צריך להיכנס לחשבון</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">כדי לשחזר את הארנק באמצעות Social Key Recovery, צריך לבחור את אותו חשבון Google שבו שמרת את הרשימה של אנשי הקשר לביטחון.</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">יצירת הקישור לשיתוף נכשלה</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">אפשר לנסות שוב מאוחר יותר.</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">הכניסה לחשבון נכשלה</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">אפשר לנסות שוב מאוחר יותר.</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">צריך לבקש עזרה מאיש קשר לביטחון</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1.‏ צריך לשלוח את הקישור הזה לשלושה אנשים מרשימת אנשי הקשר לביטחון.</string><!--1. Reach out three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2.‏ כל אחד מאנשי הקשר ייתן לך קוד. צריך להזין את כל אחד מהקודים כאן:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">לפחות אחד מהקודים לא נכון. אפשר לנסות שוב.</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">הזנת מיקוד</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">ביטול</string><!--Cancel-->
+    <string name="social_restore_btn_next">הבא</string><!--Next-->
+    <string name="social_restore_no_backup_on_device">אין אף גיבוי של %1$s במכשיר שלך.</string><!--There\'s no backup for %1$s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">השחזור נכשל</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">אפשר לנסות להשתמש בחשבון אחר או ב-12 המילים של משפט השחזור.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">הזמנה של %1$s</string><!--%1$s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">אפשר להקיש כדי לאשר.</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">בקשת עזרה בשחזור החשבון של %1$s</string><!--Recovery support request from %1$s-->
+    <string name="social_restore_backup_tap_to_generate_code">אפשר להקיש כדי ליצור קוד.</string><!--Tap to generate code.-->
+    <string name="social_backup_update_backup_status">עדכון סטטוס הגיבוי</string><!--Update backup status-->
+    <string name="social_backup_not_now">לא עכשיו</string><!--Not now-->
+    <string name="social_backup_oops_inactive">אופס, חלק מאנשי הקשר לביטחון שהגדרת לא פעילים.</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">מומלץ לבדוק מה המצב מול אנשי הקשר לביטחון כדי לשמור על החשבון מאובטח.</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">השתמשת בחשבון הזה במכשיר אחר</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">אי אפשר יהיה להשתמש יותר בנתונים של Social Key Recovery. צריך להיכנס לחשבון אחר כדי להמשיך להשתמש ב-Social Key Recovery.</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Some trusted contacts need to be re-/connected</string>-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">For security concerns, you need to resend the trusted contact invitation to %1$s, %2$s again.</string>-->
+
+    <string name="Settings">הגדרות</string><!--Settings-->
+
+    <string name="socialkm_network_connection_title">לא ניתן להתחבר.</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">צריך חיבור לרשת כדי להשתמש באפליקציה הזו. הפעל את רשת הנתונים הסלולרית או את רשת ה-Wi-Fi בהגדרות.</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">ביטול</string><!--Cancel-->
+	<!--<string name="check">Check</string>-->
+
+    <string name="entry_ios_coming_soon">בקרוב גם ל-iOS</string><!--COMING SOON FOR IOS-->
+
+	<!--<string name="socialkm_not_active_title">Social Key Recovery is not active</string>-->
+	<!--<string name="socialkm_not_active_message">You can try to contact your trusted contacts and check their backup status or find a new contact to help you.</string>-->
+
+</resources>

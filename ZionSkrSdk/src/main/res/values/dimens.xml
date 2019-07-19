@@ -1,0 +1,148 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="transaction_item_margin">10dp</dimen>
+    <dimen name="pager_indicator_shadow_padding">2dp</dimen>
+    <dimen name="separator_height">1px</dimen>
+    <dimen name="text_size">18sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="pin_par_text_size">32sp</dimen>
+    <dimen name="big_button_height">80dp</dimen>
+    <dimen name="bread_margin">16dp</dimen>
+    <dimen name="faq_dimen">24dp</dimen>
+    <dimen name="close_dimen">24dp</dimen>
+    <dimen name="radius">4dp</dimen>
+    <dimen name="paragraph">14sp</dimen>
+    <dimen name="header">18sp</dimen>
+    <dimen name="sub_header">16sp</dimen>
+    <dimen name="animation_long">2000</dimen>
+    <dimen name="animation_medium">1000</dimen>
+    <dimen name="animation_short">500</dimen>
+    <dimen name="animation_very_short">300</dimen>
+    <dimen name="pin_dot_size">24dp</dimen>
+    <dimen name="manage_wallets_footer_padding_left">12dp</dimen>
+    <dimen name="large_button_height">72dp</dimen>
+    <dimen name="margin">10dp</dimen>
+
+    <dimen name="send_max_height">84px</dimen>
+    <dimen name="send_fee_height">100px</dimen>
+    <dimen name="send_payment_size">@dimen/text_size</dimen>
+    <dimen name="send_amount_size">120px</dimen>
+
+    <dimen name="M1">@dimen/margin_l</dimen>
+    <dimen name="M2">@dimen/margin_m</dimen>
+    <dimen name="M3">@dimen/margin_s</dimen>
+    <dimen name="M4">@dimen/margin_xs</dimen>
+    <dimen name="M5">@dimen/spacing</dimen>
+    <dimen name="M6">@dimen/leading</dimen>
+
+    <!--<dimen name="wallet_01">42px</dimen> &lt;!&ndash;Bold&ndash;&gt;-->
+    <!--<dimen name="wallet_02">170px</dimen>-->
+    <!--<dimen name="wallet_03">@dimen/list_secondary_xs</dimen>-->
+    <!--<dimen name="wallet_04">60px</dimen>-->
+    <!--<dimen name="wallet_05">@dimen/darklist_primary_xl</dimen>-->
+    <!--<dimen name="wallet_06">@dimen/notification_info_xs</dimen>-->
+    <!--<dimen name="wallet_07">@dimen/list_body_primary_m</dimen>-->
+    <!--<dimen name="wallet_08">@dimen/b_separator_primary_m</dimen>-->
+    <!--<dimen name="wallet_09">100px</dimen> &lt;!&ndash;Bold&ndash;&gt;-->
+    <!--<dimen name="wallet_10">@dimen/title_primary_xs</dimen>-->
+    <!--<dimen name="wallet_11">@dimen/list_primary_m</dimen>-->
+    <!--<dimen name="wallet_12">@dimen/list_primary_m</dimen>-->
+    <!--<dimen name="wallet_13">@dimen/list_secondary_xxs</dimen>-->
+    <!--<dimen name="wallet_14">120px</dimen>-->
+    <!--<dimen name="wallet_15">@dimen/separator_secondary_xs</dimen>-->
+    <!--<dimen name="wallet_16">@dimen/darklist_secondary_xxs</dimen>-->
+    <!--<dimen name="wallet_17">120px</dimen>-->
+    <!--<dimen name="wallet_18">@dimen/separator_primary_xl</dimen>-->
+    <!--<dimen name="wallet_19">100px</dimen>-->
+    <!--<dimen name="wallet_20">170px</dimen>-->
+    <!--<dimen name="wallet_21">100px</dimen>-->
+    <!--<dimen name="wallet_22">42px</dimen> &lt;!&ndash;Bold&ndash;&gt;-->
+    <!--<dimen name="wallet_23">@dimen/separator_secondary_xs</dimen>-->
+    <!--<dimen name="wallet_24">18sp</dimen>-->
+    <!--<dimen name="wallet_25">@dimen/label_on_m</dimen>-->
+    <!--<dimen name="wallet_26">100px</dimen>-->
+    <!--<dimen name="wallet_27">56px</dimen>-->
+    <!--<dimen name="wallet_28">@dimen/list_secondary_xxs</dimen>-->
+    <!--<dimen name="wallet_29">@dimen/list_primary_xs</dimen>-->
+    <!--<dimen name="wallet_30">@dimen/b_separator_primary_m</dimen> &lt;!&ndash;Italic&ndash;&gt;-->
+    <!--<dimen name="wallet_31">100px</dimen>-->
+    <!--<dimen name="wallet_32">@dimen/darklist_secondary_xxs</dimen>-->
+    <!--<dimen name="wallet_33">78px</dimen>-->
+    <!--<dimen name="wallet_34">@dimen/separator_secondary_xs</dimen>-->
+    <!--<dimen name="wallet_35">@dimen/separator_primary_m</dimen> &lt;!&ndash;Bold&ndash;&gt;-->
+    <!--<dimen name="wallet_36">@dimen/separator_secondary_xs</dimen>-->
+    <!--<dimen name="wallet_37">@dimen/separator_secondary_xs</dimen>-->
+    <!--<dimen name="wallet_38">@dimen/b_separator_primary_l</dimen>-->
+    <!--<dimen name="wallet_39">120px</dimen>-->
+    <!--<dimen name="wallet_40">@dimen/separator_primary_m</dimen> &lt;!&ndash;Bold&ndash;&gt;-->
+    <!--<dimen name="wallet_41">120px</dimen> &lt;!&ndash;Bold&ndash;&gt;-->
+    <!--<dimen name="wallet_42">60px</dimen>-->
+    <!--<dimen name="wallet_43">@dimen/list_primary_xs</dimen>-->
+    <!--<dimen name="wallet_44">@dimen/list_body_m</dimen>-->
+    <!--<dimen name="wallet_45">80px</dimen> &lt;!&ndash;Bold&ndash;&gt;-->
+    <!--<dimen name="wallet_46">52px</dimen>-->
+    <!--<dimen name="wallet_47">@dimen/list_body_primary_m</dimen>-->
+    <!--<dimen name="wallet_48">@dimen/list_secondary_xxs</dimen>-->
+    <!--<dimen name="wallet_49">170px</dimen>-->
+    <!--<dimen name="wallet_50">@dimen/list_body_primary_xl</dimen>-->
+    <!--<dimen name="wallet_51">@dimen/list_body_primary_xl</dimen>-->
+    <!--<dimen name="wallet_52">@dimen/input_default_xl</dimen>-->
+    <!--<dimen name="wallet_55">48px</dimen>-->
+    <!--<dimen name="wallet_56">@dimen/button_primary_xs</dimen>-->
+    <!--<dimen name="wallet_57">60px</dimen>-->
+    <!--<dimen name="wallet_58">@dimen/dark_source_label_m</dimen>-->
+    <!--<dimen name="wallet_59">@dimen/darklist_primary_xs</dimen>-->
+    <!--<dimen name="wallet_60">@dimen/list_secondary</dimen>-->
+    <!--<dimen name="wallet_61">@dimen/button_primary_xs</dimen>-->
+    <!--<dimen name="wallet_62">@dimen/separator_primary_m</dimen>-->
+    <!--<dimen name="wallet_63">@dimen/separator_secondary_xs</dimen>-->
+    <!--<dimen name="wallet_64">44px</dimen>-->
+    <!--<dimen name="wallet_65">@dimen/separator_secondary_xs</dimen>-->
+    <!--<dimen name="wallet_66">58px</dimen>-->
+    <!--<dimen name="wallet_67">66px</dimen>-->
+    <!--<dimen name="wallet_68">58px</dimen>-->
+    <!--<dimen name="wallet_69">62px</dimen>-->
+    <!--<dimen name="wallet_70">13px</dimen>-->
+    <!--<dimen name="wallet_xlm">9px</dimen>-->
+    <!--<dimen name="kyber_text">66px</dimen>-->
+
+
+
+    <dimen name="home_panel_radius">5dp</dimen>
+    <dimen name="button_corner_radius">20dp</dimen>
+    <dimen name="button_height">40dp</dimen>
+    <dimen name="card_shadow">1.5dp</dimen>
+    <dimen name="collectible_card_side_len">160dp</dimen>
+    <dimen name="collectible_icon_side">50dp</dimen>
+    <dimen name="collectible_send_icon_side">30dp</dimen>
+    <dimen name="no_collectible_icon_margin_top">201.75dp</dimen>
+    <dimen name="home_no_network_panel_height">50dp</dimen>
+    <dimen name="home_no_network_button_corner_radius">12.5dp</dimen>
+    <dimen name="home_no_network_button_height">25dp</dimen>
+    <dimen name="wallet_icon_side">35.5dp</dimen>
+    <dimen name="wallet_icon_side_s">21dp</dimen>
+    <dimen name="wallet_icon_side_l">50dp</dimen>
+    <dimen name="popupmenu_width">196dp</dimen>
+
+    <!--Social Key Recovery Start-->
+    <dimen name="socialkm_button_height">40dp</dimen>
+    <dimen name="verification_padding">16dp</dimen>
+    <dimen name="Wallet_31">25sp</dimen>
+    <dimen name="Wallet_42">15sp</dimen>
+    <dimen name="Wallet_43">15sp</dimen>
+
+    <dimen name="verification_code_num_key_button_width">100dp</dimen>
+    <dimen name="verification_code_num_key_button_text_size">30sp</dimen>
+
+    <dimen name="skr_warning_header_height_two_line">50dp</dimen>
+    <dimen name="skr_warning_header_height_three_line">64dp</dimen>
+
+    <dimen name="verification_sharing_code_ui_qr_code_margin">0dp</dimen>
+
+    <dimen name="warning_header_text_size">14sp</dimen>
+
+    <!--Social Key Recovery End-->
+</resources>

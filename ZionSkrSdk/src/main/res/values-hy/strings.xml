@@ -1,0 +1,170 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">Ոչ</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">Լավ</string><!--OK-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- general -->
+    <string name="gen_new_version">Հասանելի է նոր տարբերակը</string><!--New version available-->
+    <string name="gen_new_version_hint">Արդիացրեք գործադիրը նոր տարբերակի՝ ընդլայնված անվտանգության և օգտվողի ավելի լավ փորձառության համար:</string><!--Please update app to newer version for enhanced security and user experience.-->
+    <string name="gen_update_now">ԱՐԴԻԱՑՆԵԼ ՀԻՄԱ</string><!--UPDATE NOW-->
+<!-- end general -->
+
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">%1$s-ը ավելացրել է ձեզ որպես վստահելի կոնտակտ</string><!--%1$s added you as a trusted contact-->
+    <string name="ver_step1">Քայլ 1: Մուտքագրեք ձեր անունը և ստացեք ստուգման կոդ %1$s-ից:</string><!--Step 1. Enter your name and get the verification code from %1$s.-->
+    <string name="ver_step2">Քայլ 2: Ստուգման ձեր կոդը ստեղծվել է %1$s-ի հեռախոսում: Հարցրեք նրանց կոդի համար և մուտքագրեք այն:</string>
+    <string name="ver_enter_name_hint">Մուտքագրեք ձեր անունը</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">Կոդի հարցում</string><!--Request code-->
+    <string name="ver_sharing_title">Համօգտագործեք այս հղումը %1$s-ի հետ</string><!--Share this code to %1$s-->
+    <string name="ver_sharing_remind_route">M: %1$s\n, %2$s"-ի միջոցով</string><!--M: %1$s\nvia %1$s-->
+    <string name="ver_sharing_reject">ՄԵՐԺԵԼ</string><!--REJECT-->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">Նոր հարցում %1$s-ից</string><!--New request from %1$s-->
+    <string name="ver_notification_request_content">Հպեք՝ տեսնելու ստուգման կոդը և համօգտագործեք այն %1$s-ի հետ:</string><!--Tap to see the verification code and share it with %1$s.-->
+    <string name="ver_notification_request_button">ՑՈՒՑԱԴՐԵԼ ՀԱՍՏԱՏՄԱՆ ԿՈԴԸ</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">Պատասխան չկա՞ Կարող եք մեկ այլ հարցում կատարել %1$s-ում</string>
+    <string name="ver_verify">Հաստատել</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">Դուք այժմ վստահված կոնտակտ եք %1$s-ի համար:</string><!--You are now a trusted contact for %1$s.-->
+    <string name="ver_ok_congratulation_msg">Դուք այժմ կարող եք օգնել %1$s-ին վերականգնել իր դրամապանակը, եթե այն կորի կամ գողանան: Zion-ը գաղտնագրված է և պահել է իր դրամապանակի վերականգնման տվյալը ձեր սարքում: Համոզվեք, որ չեք ջնջել Zion-ը և Zion գործադիրի տվյալները, հակառակ դեպքում վերականգնման այս տվյալը կկորցնեք: Zion-ը պարբերաբար ստուգում կանի %2$s-ի հետ՝ համոզվելու համար, որ վերականգնման տվյալը դեռ վավեր է:</string><!--You can now help %1$s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %1$s periodically to verify the recovery data is still valid.-->
+    <string name="ver_ok_done">Պատրաստ է</string><!--Done-->
+    <string name="ver_pin_error_hint">Այս կոդը անվավեր է, կրկին փորձել:</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_btn_ok">Լավ</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">Դուք արդեն %1$s-ի վստահելի կոնտակտն եք</string><!--You are already %1$s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">Շնորհակալություն %1$s-ի տվյալը պահուստավորելուն օգնելու համար</string><!--Thanks for helping back up %1$s’s data-->
+    <string name="ver_dialog_verifying_title">Ստուգումն ուղարկվեց</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">Սպասում է ստուգման: Դուք կլինեք %1$s-ի վստահելի կոնտակտը, երբ ստուգումը ավարտվի:</string><!--Waiting for verifying. You will be %1$s’s trusted contact when verification is completed.-->
+    <string name="ver_unknown_phone_number">Անհայտ</string><!--Unknown-->
+    <string name="ver_unknown_name">Անհայտ</string><!--Unknown-->
+    <string name="ver_dialog_trusted_contact_full_title">Շնորհակալություն օգնության համար:</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">%1$s-ը արդեն արդեն հասել է առավելագույն 5 վստահված կոնտակների սահմանը:</string><!--%1$s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">Այս հղումը սպառված է, խնդրեք %1$s-ին ուղարկել արդիացված հղումը:</string><!--This link is expired, please ask %1$s to send the updated link.-->
+    <string name="ver_request_timeout">Հարցման ժամասպառում, ավելի ուշ փորձեք:</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">Ավելի ուշ կրկին փորձեք</string><!--Please try again later-->
+    <string name="try_too_often_message">Շատ հաճախակի եք փորձում, կրկին փորձեք %1$d րոպեից</string>
+
+    <!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Ին՞չ է Social Key Recovery-ին\:</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">Social Key Recovery-ին կարող է օգնել ձեզ հարմար վերականգնել ձեր դրամապանակը ձեր վստահելի ընկերներից կամ ընտանիքից:</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">Հրավիրեք 3-5 մարդ վստահելի կոնտակտներ, ով կարող է օգնել վերականգնել ձեր դրամապանակը:</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">Ձեր վստահելի կոնտակները կարող են ուղարկել կոդ՝ օգնելու համար Ձեզ վերականգնել ձեր դրամապանակը:</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">Տեղակայել</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href="com.htc.wallet://">Ոչ հիմա</a></string>
+    <string name="backup_introduction_ok">Լավ</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">Պահուստավորեք ձեր վստահված կոնտակտների ցանկը</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">Ձեր դրամապանակը Social Key Recovery-ով վերականգնելու համար ընտրեք Google հաշիվ՝ պահուստավորելու ձեր վստահված կոնտակտները: Ձեր վստահված կոնտակտների ցանկը կպահվի Google Drive-ում:</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">Հավելել հաշիվ</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">Չեղարկել</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">Շարունակել</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="backup_trusted_contact">Վստահված կոնտակտ</string><!--Trusted contact-->
+    <string name="backup_null_contact">Դեռ չեք ավելացրել որևէ վստահելի կոնտակտ:</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">Social Key Recovery-ին մատչելի կլինի, երբ ունեք առնվազն 3 վստահելի կոնտակտ (առվլ. 5):</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">Հրավիրեք ընկերների ձեր \n վստահելի կոնտակտներ</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">Հրավիրեք 3-5 ընկերներ կամ ընտանիքի անդամների դառնալ վստահելի կոնտակտներ և օգնեք վերականգնել ձեր դրամապանակը:</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.-->
+    <string name="backup_invitation_hi">Ողջույն, %1$s,</string><!--Hi %1$s,-->
+    <string name="backup_invitation_sharing">Համօգտագործել հրավեր</string><!--Share invitation-->
+    <string name="backup_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">Ակտիվ չէ</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">Ակտիվ</string><!--Active-->
+    <string name="backup_invitation_message_first_part">Բարև, \n\n Ես որակել եմ ձեզ որպես իմ վստահելի կոնտակտ Zion դրամապանակի Social Key Recovery յուրահատկության համար: \n Հետևեք ստորև ցուցումներին՝ \n ինձ օգնելու համար պահուստավորել վերականգնման իմ տվյալները:\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) Հպեք այս հղմանը՝ ներբեռնելու և տեղադրելու համար Zion-ը.\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) Երբ անեք, հիշել \n հարցնել ինձ հաստատման կոդը:\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">Շնորհակալություն:</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">Վերջին ստուգման ժամանակը. %1$s</string><!--Last checked time: %1$s-->
+    <string name="backup_trust_item_sub2">Հպեք այստեղ՝ կոդը ստեղծելու համար:</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">Կրկին ուղարկել</string><!--Resend-->
+    <string name="backup_bottom_request_show">Հարցումներ ընկերներից</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">Հեռացնել վստահելի կոնտակտը</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_delete">Հեռացնել(%1$d)</string><!--Remove(%1$d)-->
+    <string name="backup_menu_remove_trust_title">Հեռացնել վստահելի կոնտակտը</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">Դուրս գալ</string>
+    <string name="backup_pending_target_toolbar">Հարցումներ ընկերներից</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">Հարցուներ չկան այս անգամ:</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">Պահուստավորումը որոշ սարքերում չի աջակցվում:</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">Այս հաշիվն օգտագործվում է այլ սարքում</string><!--This account has been used in another device-->
+    <string name="db_security_concern">Անվտանգության մտահոգություններով, յուրաքանչյուր հաշիվ կարող է օգտագործվել միայն մեկ սարքում:</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">Դե՞ռ ցանկանում եք օգտագործել այս հաշիվը կամ այլ մեկը՝ մեկնարկելու համար Social Key Recovery-ին:</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">Օգտագործել այս հաշիվը</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">Ձեր նախորդ վստահված կոնտակտների ցանկը մեկընդմիշտ կկորցնեք:</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">Օգտագործել այլ հաշիվ</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">Պահեք նախորդ տվյալները և ստեղծեք նորը:</string><!--Keep previous data and create a new one.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">Բարև, \n\n Որպես իմ վստահելի կոնտակտ, ես ձեր օգնության կարիքը ունեմ՝ վերականգնելու իմ Zion դրամապանակը:\nՎերականգնելու համար ես պետք է անեմ հետևյալը:\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) Հպեք այս հղմանը և ստեղծեք հաստատման կոդ:\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) Ուղարկեք ինձ հղումը:\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">Շնորհակալություն:</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">Սպասեք...</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">Մուտք գործում...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">Այս հաշիվը ակտիվացվել է Social Key Recovery-ով</string>
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">Փորձեք այլ հաշիվ կամ ձեր 12 բառանոց վերականգնման արտահայտությունը՝ ձեր դրամապանակը վերականգնելու համար</string>
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">Սպասեք...</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">Ստեղծվում է հղում...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">Մուտք գործել ձեր հաշիվ</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">Ձեր դրամապանակը Social Key Recovery-ով վերականգնելու համար ընտրեք Google հաշիվ, որտեղ դուք նախկինում պահպանել եք ձեր վստահված կոնտակտների ցանկը:</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">Հնարավոր չեղավ ստեղծել համօգտագործելու հղմումը</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">Ավելի ուշ կրկին փորձեք:</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">Հնարավոր չեղավ մուտք գործել</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">Ավելի ուշ կրկին փորձեք:</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">Հարցրեք ձեր վստահելի կոնտակտներին՝ օգնության համար</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. Կապնվեք ձեր վստահելի կոնտակներից երեք իհետ և համօգտագործեք այս հղումը նրանց հետ:</string><!--1. Reach out three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. Յուրքանչյուր կոնտակտը ձեզ կտա կոդ: Մուտքագրեք յուրաքանչյուր կոդը ստորև.</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">Մեկ կամ մի քանի կոդեր անվավեր են: Կրկին փորձեք:Կրկին փորձեք:</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">Մուտքագրեք կոդը</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">Չեղարկել</string><!--Cancel-->
+    <string name="social_restore_btn_next">Հաջորդը</string><!--Next-->
+    <string name="social_restore_no_backup_on_device">Չկա պահուստավորում %1$s-ի համար ձեր սարքում:</string><!--There\'s no backup for %1$s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">Վերականգնումը ձախողվեց</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">Փորձեք օգտագործել այլ հաշիվ կամ ձեր 12 բառանոց վերականգնման արտահայտությունը՝ վերականգնելու համար:</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">%1$s-ի հրավեր</string><!--%1$s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">Հպեք` ընդունելու համար:</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">Վերականգնելու աջակցման հարցում %1$s-ից</string><!--Recovery support request from %1$s-->
+    <string name="social_restore_backup_tap_to_generate_code">Հպեք՝ կոդ ստեղծելու համար:</string><!--Tap to generate code.-->
+    <string name="social_backup_update_backup_status">Պահուստավորման վիճակի արդիացում</string><!--Update backup status-->
+    <string name="social_backup_not_now">Ոչ հիմա</string><!--Not now-->
+    <string name="social_backup_oops_inactive">Վա՜յ, ձեր վստահելի որոշ կոնտակներ ակտիվ չեն:</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">Ստուգեք ձեր վստահելի կոնտակների հետ՝ անվտանգ դարձնելու համար կապակցումները:</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">Դուք օգտագործել եք այս հաշիվը այլ սարքում</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">Ձեր բոլոր Social Key Recovery տվյալները հնարավոր չէ օգտագործել մշտապես: Դուք պետք է մուտք գործեք այլ հաշիվ՝ շարունակելու համար օգտագործել Social Key Recovery-ին:</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Some trusted contacts need to be re-/connected</string>-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">For security concerns, you need to resend the trusted contact invitation to %1$s, %2$s again.</string>-->
+    <string name="Settings">Կարգավորումներ</string><!--Settings-->
+
+    <string name="socialkm_network_connection_title">Անհնար է կապակցվել:</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">Ձեզ անհրաժեշտ է ցանցային կապակցում՝ գործադիրը օգտագործելու համար: Միացրեք Բջջային տվյալը կամ Wi-Fi-ը՝ Կարգավորումներում:</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">Չեղարկել</string><!--Cancel-->
+    <string name="entry_ios_coming_soon">ՇՈՒՏՈՎ IOS-ի ՀԱՄԱՐ</string><!--COMING SOON FOR IOS-->
+
+	<!--<string name="socialkm_not_active_title">Social Key Recovery is not active</string>-->
+	<!--<string name="socialkm_not_active_message">You can try to contact your trusted contacts and check their backup status or find a new contact to help you.</string>-->
+
+</resources>

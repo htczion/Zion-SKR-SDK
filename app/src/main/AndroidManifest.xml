@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.htc.wallet.skrsdk.demoapp">
+
+    <uses-sdk
+        tools:overrideLibrary="com.microsoft.identity.msal"/>
+
+    <application
+        android:name=".DemoApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon_launcher_zion"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_launcher_zion"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.microsoft.identity.client.BrowserTabActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data
+                    android:host="auth"
+                    android:scheme="@string/msalPrefix"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".AppLinkReceiverActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data
+                    android:host="market.android.com"
+                    android:scheme="https"
+                    android:sspPrefix="/details?id=com.htc.wallet"/>
+                <data
+                    android:host="market.android.com"
+                    android:scheme="http"
+                    android:sspPrefix="/details?id=com.htc.wallet"/>
+                <data
+                    android:host="@string/applink_domain"
+                    android:scheme="https"/>
+                <data
+                    android:host="@string/applink_domain"
+                    android:scheme="http"/>
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="https://login.microsoftonline.com/common"
+            android:value="authority string"/>
+        <meta-data
+            android:name="com.microsoft.identity.client.ClientId"
+            android:value="@string/client_Id"/>
+
+    </application>
+
+</manifest>

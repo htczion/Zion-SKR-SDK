@@ -1,0 +1,189 @@
+<resources>
+    <!-- Do not translate app_name-->
+    <string name="app_name">Zion</string>
+
+    <!-- No button -->
+    <string name="Button.no">No</string>
+    <!-- OK button label -->
+    <string name="Button.ok">OK</string>
+
+    <!-- Buy and Sell -->
+    <string name="exchange_safety_net_null_token_title">Warning</string>
+    <string name="exchange_safety_net_null_token">We’ve detected a potentially insecure connection. To ensure account security, some functions have been disabled.</string>
+    <!-- End Buy and Sell -->
+
+    <!-- general -->
+    <string name="gen_new_version">New version available</string>
+    <string name="gen_new_version_hint">Please update app to newer version for enhanced security and user experience.</string> <!-- Edited by EAS -->
+    <string name="gen_update_now">Update now</string><!-- Edited by EAS 2nd round -->
+
+    <!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!-- Keep "Social Key Recovery" in English except for Chinese -->
+    <string name="ver_content_title">%1$s added you as a trusted contact</string>
+    <string name="ver_step1">Step 1. Enter your name and get the verification code from %1$s.</string> <!-- Edited by EAS -->
+    <string name="ver_step2">Step 2. Ask %1$s for your verification code and enter it here.</string> <!-- Edited by EAS -->
+    <string name="ver_enter_name_hint">Enter your name</string> <!-- Edited by EAS -->
+    <string name="ver_request_btn_text">Request code</string> <!-- Edited by EAS -->
+    <string name="ver_sharing_title">Share this code with\n%1$s</string>
+    <string name="ver_sharing_recovery_remind_name">Recovery request from</string>
+    <string name="ver_sharing_remind_route">M: %1$s\nvia %2$s</string>
+    <string name="ver_sharing_reject">Reject</string><!-- Edited by EAS 2nd round -->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!-- Keep "Social Key Recovery" in English except for Chinese -->
+    <string name="ver_notification_request_title">New request from %1$s</string> <!-- Edited by EAS -->
+    <string name="ver_notification_request_content">Tap to see the verification code and share it with %1$s.</string>
+    <string name="ver_notification_request_button">Show verification code</string> <!-- Edited round 2 -->
+    <string name="ver_no_response_hint">No reply? Request again in %1$s.</string>
+    <string name="ver_verify">Verify</string>
+    <string name="ver_ok_congratulation_title">You are now a trusted contact for %1$s.</string> <!-- Edited by EAS -->
+    <string name="ver_ok_congratulation_msg">You can now help %1$s recover their Zion Vault if it is lost or stolen. Zion has encrypted and saved part of their Zion Vault recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %2$s periodically to verify the recovery data is still valid.</string> <!-- Edited by EAS -->
+    <string name="ver_ok_done">Done</string>
+    <string name="ver_pin_error_hint">This code is invalid, please try again.</string>
+    <string name="ver_dialog_btn_ok">OK</string>
+    <string name="ver_dialog_backup_done_title">You are already %1$s’s trusted contact</string>
+    <string name="ver_dialog_backup_done_msg">Thanks for helping back up %1$s’s data</string>
+    <string name="ver_dialog_verifying_title">Verification sent</string>
+    <string name="ver_dialog_verifying">Waiting for verification. Once verification is completed, you will be %1$s’s trusted contact.</string>
+    <string name="ver_unknown_phone_number">Unknown</string>
+    <string name="ver_unknown_name">Unknown</string>
+    <string name="ver_dialog_trusted_contact_full_title">Thank you for helping out!</string>
+    <string name="ver_dialog_trusted_contact_full_content">%1$s has already reached the maximum of 5 trusted contacts.</string>
+    <string name="ver_expired_link">This link is expired, please ask %1$s for an updated link.</string> <!-- Edited round 2 -->
+    <string name="ver_request_timeout">Request timeout, please try again later.</string>
+    <!--Verification UI End-->
+
+    <string name="try_too_often_title">Please try again later</string>
+    <string name="try_too_often_message">Too many attempts, please try again after %1$d minutes.</string> <!-- Edited round 2 -->
+    <!-- Social Key Recovery introduction -->
+    <!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">What is Social Key Recovery\?</string><!-- Keep "Social Key Recovery" in English except for Chinese -->
+    <string name="backup_introduction_sub_title">Social Key Recovery can help you conveniently recover your Zion Vault from your trusted friends or family.</string><!-- Keep "Social Key Recovery" in English except for Chinese -->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">Invite 3 to 5 people to be trusted contacts who can help recover your Zion Vault.</string> <!-- Edited by EAS -->
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">Your trusted contacts can send a code to help you recover your Zion Vault.</string><!-- Edited round 2 -->
+    <string name="backup_introduction_setup">Set up</string>
+    <string name="backup_introduction_exit"><a href="com.htc.wallet://">Not now</a></string>
+    <string name="backup_introduction_ok">OK</string>
+    <!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">Back up your trusted contact data</string>
+    <string name="backup_choose_google_drive_sub_title">To find and restore your trusted contact data from %1$s, select your account and allow Zion Vault to access your files.</string>
+    <string name="backup_choose_google_drive_add_account">Add account</string>
+    <string name="backup_choose_google_drive_bottom_cancel_btn">Cancel</string>
+    <string name="backup_choose_google_drive_bottom_continue_btn">Continue</string>
+
+    <!--Social Key Recovery -->
+    <string name="backup_trusted_contact">Trusted contact</string> <!-- Edited by EAS -->
+    <string name="backup_null_contact">You have\'t added any trusted contacts yet.</string>
+    <string name="backup_warning_title">Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).</string><!-- Keep "Social Key Recovery" in English except for Chinese -->
+    <string name="backup_invitation_title">Invite friends to be your \n trusted contact</string>
+    <string name="backup_invitation_content">Invite 3 to 5 friends or family to be trusted contacts and help recover your Zion Vault.</string> <!-- Edited by EAS -->
+    <string name="backup_invitation_hi">Hi %1$s,</string>
+    <string name="backup_invitation_sharing">Share invitation</string>
+    <string name="backup_toolbar_title">Social Key Recovery</string><!-- Keep "Social Key Recovery" in English except for Chinese -->
+    <string name="backup_toolbar_sub_title_no_active_status">Not active</string>
+    <string name="backup_toolbar_sub_title_active_status">Active</string>
+    <string name="backup_invitation_message_first_part">Hi, \n\n I\'ve designated you as my trusted contact for the Zion Vault\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n</string><!-- Keep "Social Key Recovery" in English except for Chinese -->
+    <string name="backup_invitation_message_second_part">1) Tap this link to download and install Zion:\n</string>
+    <string name="backup_invitation_message_third_part">2) When you\'re done, remember to \n ask me for the verification code.\n\n</string>
+    <string name="backup_invitation_message_fourth_part">Thanks!</string>
+    <string name="backup_trust_item_sub">Last checked time: %1$s</string>
+    <string name="backup_trust_item_sub2">Tap here to generate code.</string>
+    <string name="backup_resend_button_title">Resend</string>
+    <string name="backup_bottom_request_show">Requests from friends</string>
+    <string name="backup_remove_toolbar_title">Remove trusted contact</string>
+    <string name="backup_remove_button_delete">Remove(%1$d)</string>
+    <string name="backup_menu_remove_trust_title">Remove trusted contact</string>
+    <string name="backup_menu_log_out_title">Sign out</string>
+    <string name="backup_pending_target_toolbar">Requests from friends</string> <!-- Edited by EAS -->
+    <string name="backup_pending_target_null">No requests at this time.</string> <!-- Edited by EAS -->
+    <string name="backup_backup_on_same_device">Back up on same device is not supported.</string>
+
+    <!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">This account has been used on another device</string> <!-- Edited 2nd round -->
+    <string name="db_security_concern">For security reasons, each account can be used for one device at a time.</string> <!-- Edited 2nd round -->
+    <string name="db_still_want_to_use_account">Do you still want to use this account for Social Key Recovery?</string><!-- Keep "Social Key Recovery" in English except for Chinese --> <!-- Edited 2nd round -->
+    <string name="db_use_this_account">Use this account</string>
+    <string name="db_account_cant_be_restore">Your previous trusted contact list will be permanently lost.</string><!-- Keep "Social Key Recovery" in English except for Chinese -->
+    <string name="db_use_another_account">Use another account</string>
+    <string name="db_keep_previous_and_create_new">Keep previous data and create a new one.</string>
+
+    <!-- Social Key Recovery Service selection Dialog -->
+    <string name="service_selection_dialog_title_backup">Choose a service to back up your trusted contact list</string>
+    <string name="service_selection_dialog_title_recover">Choose a service to recover your trusted contact list</string>
+    <string name="service_item_google_drive">Google Drive</string>
+    <string name="service_item_one_drive">Microsoft OneDrive</string><!-- Do not translate "OneDrive" -->
+
+    <!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">Hi, \n\n As my trusted contact, I need your help to recover my Zion Vault.\nFor recovery, I need you to do the following.\n\n</string><!-- Edited 2nd round -->
+    <string name="restore_invitation_message_second_part">1) Tap this link and generate a verification code.\n</string>
+    <string name="restore_invitation_message_third_part">2) Send me the code.\n\n</string>
+    <string name="restore_invitation_message_fourth_part">Thanks!</string>
+
+    <!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">Please wait...</string>
+    <string name="backup_choose_google_drive_dialog_content">Logging in...</string>
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">No Social Key Recovery data found</string><!-- Keep "Social Key Recovery" in English except for Chinese -->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">Please try another account or use your 12-word recovery phrase to recover your Zion Vault.</string><!-- Edited 2nd round -->
+
+    <!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">Please wait...</string>
+    <string name="backup_choose_applink_dialog_content">Generating link...</string>
+
+    <string name="backup_choose_google_drive_title_for_restore">Sign in to your account</string>
+    <string name="backup_choose_google_drive_sub_title_for_restore">To recover your Zion Vault with Social Key Recovery, select your account from %1$s where you previously saved your trusted contact list.</string><!-- Keep "Social Key Recovery" in English except for Chinese -->
+
+    <!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">Failed to generate share link</string> <!-- Edited 2nd round -->
+    <string name="backup_restore_applink_timeout_dialog_content">Please try again later.</string>
+    <string name="backup_restore_login_timeout_dialog_title">Failed to log in</string><!-- Edited 2nd round -->
+    <string name="backup_restore_login_timeout_dialog_content">Please try again later.</string>
+
+    <!-- Social Restore -->
+    <string name="social_restore_title">Ask your trusted contacts for help</string>
+    <string name="social_restore_first_content">1. Reach out to three of your trusted contacts and share this link with them.</string>
+    <string name="social_restore_second_content">2. Each contact will give you a code. Enter each code below:</string>
+    <string name="social_restore_valid_error_text">One or more codes incorrect. Try again.</string>
+    <string name="social_restore_input_hint">Enter code</string>
+    <string name="social_restore_btn_cancel">Cancel</string>
+    <string name="social_restore_btn_next">Next</string>
+    <string name="social_restore_no_backup_on_device">There\'s no backup for %1$s on your device.</string>
+    <string name="social_restore_dialog_failed_to_restore_title">Recovery failed.</string><!-- Edited 2nd round -->
+    <string name="social_restore_dialog_failed_to_restore_content">Try using a different account or your 12-word recovery phrase to recover.</string><!-- Edited 2nd round -->
+
+    <!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">%1$s\'s invitation</string>
+    <string name="social_restore_backup_tap_to_enter_code">Tap to accept.</string>
+    <string name="social_restore_backup_recovery_support_request_from">Recovery support request from %1$s</string>
+    <string name="social_restore_backup_tap_to_generate_code">Tap to generate code.</string>
+    <string name="social_backup_update_backup_status">Update backup status</string>
+    <string name="social_backup_not_now">Not now</string>
+    <string name="social_backup_oops_inactive">Oops, some of your trusted contacts are inactive.</string>
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">Check with your trusted contact to secure the connections.</string>
+    <string name="social_backup_used_another_device_title">You have used this account on another device</string><!-- Edited 2nd round -->
+    <string name="social_backup_used_another_device_content">All your Social Key Recovery data will be erased. You need to log in another account to continue to use Social Key Recovery.</string> <!-- Edited 2nd round -->
+    <string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">One or more trusted contacts need to be re-added</string><!-- Edited 2nd round -->
+    <string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">For security reasons, you need to send a new trusted contact invitation to:\n%1$s\n%2$s </string> <!-- Edited 2nd round -->
+    <string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content_one">For security concerns, you need to resend the trusted contact invitation to %1$s again.</string>
+
+    <!-- Security protection -->
+    <string name="security_protection_dialog_title">Social Key Recovery Feature Notice</string>
+    <string name="security_protection_dialog_content">Your Zion Vault has been updated for security protection. To use the Social Key Recovery feature, it is required to delete your existing Social Key Recovery data. By clicking “Continue”, you agree to delete your existing social backup data. Please set up a new Social Key Recovery with your trusted contacts.</string>
+    <string name="security_protection_dialog_positive">Continue</string>
+    <string name="security_protection_dialog_negative">Remind me next time</string>
+    <string name="security_protection_notification_message">Your Zion Vault has been updated for security protection. This update requires deletion of your existing Social Key Recovery data. Please complete the process.</string>
+    <string name="security_protection_header">Your Zion Vault has been updated for security protection. Please complete the process.</string>
+
+    <!-- Wallet detail Menu -->
+    <string name="Settings">Settings</string>
+
+    <string name="socialkm_network_connection_title">Unable to connect</string> <!-- Edited by EAS -->
+    <string name="socialkm_network_connection_message">You need a network connection to use this app. Please turn on mobile data or Wi-Fi in Settings.</string><!-- Edited 2nd round -->
+    <string name="cancel">Cancel</string>
+
+    <string name="entry_ios_coming_soon">Coming soon for iOS</string><!-- Edited 2nd round -->
+
+    <!-- iOS strings -->
+    <string name="ios_security_protection_notification_bar">Your friend %1$s has requested to delete his/her Social Key Recovery data. Please help him/her to complete.</string>
+
+    <string name="db_btn_confirm">Confirm</string>
+</resources>

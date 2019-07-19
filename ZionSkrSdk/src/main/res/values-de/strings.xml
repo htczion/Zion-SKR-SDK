@@ -1,0 +1,174 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">Nein</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">OK</string><!--OK-->
+
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- general -->
+    <string name="gen_new_version">Neue Version steht zur Verfügung</string><!--New version available-->
+    <string name="gen_new_version_hint">Bitte aktualisieren Sie die App auf die neuere Version für mehr Sicherheit und Benutzererfahrung.</string><!--Please update app to newer version for enhanced security and user experience.-->
+    <string name="gen_update_now">JETZT AKTUALISIEREN</string><!--UPDATE NOW-->
+<!-- end general -->
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">%1$s hat Sie als zuverlässigen Kontakt hinzugefügt</string><!--%1$s added you as a trusted contact-->
+    <string name="ver_step1">Schritt 1. Geben Sie Ihren Namen ein und fragen Sie %1$s nach dem Bestätigungscode.</string><!--Step 1. Enter your name and get the verification code from %1$s.-->
+    <string name="ver_step2">Schritt 2. Ihr Bestätigungscode wird auf dem Telefon von %1$s generiert. Fragen Sie sie nach dem Code und geben Sie ihn ein.</string>
+    <string name="ver_enter_name_hint">Geben Sie Ihren Namen ein</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">Code anfragen</string><!--Request code-->
+    <string name="ver_sharing_title">Diesen Code mit %1$s teilen</string><!--Share this code to %1$s-->
+    <string name="ver_sharing_remind_route">M: %1$s\nüber %2$s</string><!--M: %1$s\nvia %1$s-->
+    <string name="ver_sharing_reject">ABLEHNEN</string><!--REJECT-->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">Neue Anfrage von %1$s</string><!--New request from %1$s-->
+    <string name="ver_notification_request_content">Tippen Sie hier, um den Bestätigungscode zu sehen und ihn mit %1$s zu teilen.</string><!--Tap to see the verification code and share it with %1$s.-->
+    <string name="ver_notification_request_button">BESTÄTIGUNGSCODE ANZEIGEN</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">Keine Antwort? Sie können eine weitere Anfrage in %1$s stellen</string>
+    <string name="ver_verify">Bestätigen</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">Sie sind jetzt ein vertrauenswürdiger Kontakt für %1$s.</string><!--You are now a trusted contact for %1$s.-->
+    <string name="ver_ok_congratulation_msg">Sie können %1$s jetzt bei der Wiederherstellung der Wallet helfen, wenn sie verloren geht oder gestohlen wird. Zion hat einen Teil seiner Wallet Wiederherstellungsdaten verschlüsselt und auf Ihrem Gerät gespeichert. Achten Sie darauf, dass Sie keine Zion oder Zion App Daten löschen, da diese sonst verloren gehen. Zion prüft regelmäßig bei %2$s, um sicherzustellen, dass die Wiederherstellungsdaten weiterhin gültig sind.</string><!--You can now help %1$s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %1$s periodically to verify the recovery data is still valid.-->
+    <string name="ver_ok_done">Fertig</string><!--Done-->
+    <string name="ver_pin_error_hint">Dieser Code ist ungültig, bitte versuchen Sie es erneut.</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_btn_ok">OK</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">Sie sind bereits der vertrauenswürdige Kontakt von %1$s</string><!--You are already %1$s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">Vielen Dank für Ihre Hilfe bei der Sicherung der Daten von %1$s</string><!--Thanks for helping back up %1$s’s data-->
+    <string name="ver_dialog_verifying_title">Verifizierung gesendet</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">Warten auf die Verifizierung. Sie werden der vertrauenswürdige Kontakt von %1$s sein, wenn die Verifizierung abgeschlossen ist.</string><!--Waiting for verifying. You will be %1$s’s trusted contact when verification is completed.-->
+    <string name="ver_unknown_phone_number">Unbekannt</string><!--Unknown-->
+    <string name="ver_unknown_name">Unbekannt</string><!--Unknown-->
+    <string name="ver_dialog_trusted_contact_full_title">Vielen Dank für deine Hilfe!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">%1$s hat bereits das Maximum von 5 vertrauenswürdigen Kontakten erreicht.</string><!--%1$s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">Dieser Link ist abgelaufen, bitte Sie %1$s, den aktualisierten Link zu senden.</string><!--This link is expired, please ask %1$s to send the updated link.-->
+    <string name="ver_request_timeout">Zeitüberschreitung der Anfrage, bitte versuchen Sie es später noch einmal.</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">Versuchen Sie es später noch einmal</string><!--Please try again later-->
+    <string name="try_too_often_message">Zu viele Versuche, bitte nach %1$d Minuten erneut versuchen</string>
+
+
+    <!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Was ist Social Key Recovery\?</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">Social Key Recovery kann Ihnen helfen, Ihre Wallet bequem von Ihren vertrauten Freunden oder Ihrer Familie wiederherzustellen.</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">Laden Sie 3 bis 5 Personen ein, um vertrauenswürdige Kontakte zu sein, die Ihnen helfen können, Ihre Wallet wiederherzustellen.</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">Ihre vertrauenswürdigen Kontakte können einen Code senden, um Ihnen zu helfen, Ihre Wallet wiederherzustellen.</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">Einrichten</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href="com.htc.wallet://">Nicht jetzt</a></string>
+    <string name="backup_introduction_ok">OK</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">Sicherung Ihrer Liste vertrauenswürdiger Kontakte</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">Um Ihre Wallet mit Social Key Recovery wiederherzustellen, wählen Sie ein Google-Konto aus, um Ihre vertrauenswürdigen Kontakte zu sichern. Die Liste Ihrer vertrauenswürdigen Kontakte wird in Google Drive gespeichert.</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">Konto hinzufügen</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">Abbrechen</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">Fortfahren</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="backup_trusted_contact">Vertrauenswürdiger Kontakt</string><!--Trusted contact-->
+    <string name="backup_null_contact">Sie haben noch keine vertrauenswürdigen Kontakte hinzugefügt.</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">Social Key Recovery ist verfügbar, wenn Sie mindestens 3 vertrauenswürdige Kontakte haben (Max:5).</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">Laden Sie Freunde ein, um Ihr \n vertrauenswürdiger Kontakt zu sein</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">Laden Sie 3 bis 5 Freunde oder Verwandte ein, um vertrauenswürdige Kontakte zu sein und helfen Sie, Ihre Wallet wiederherzustellen.</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.-->
+    <string name="backup_invitation_hi">Hallo %1$s,</string><!--Hi %1$s,-->
+    <string name="backup_invitation_sharing">Einladung teilen</string><!--Share invitation-->
+    <string name="backup_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">Nicht aktiv</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">Aktiv</string><!--Active-->
+    <string name="backup_invitation_message_first_part">Hallo, \n\n Ich habe dich als meinen vertrauenswürdigen Kontakt für die Social Key Recovery Funktion der Zion Wallet bestimmt. \n Bitte folge den unten stehenden Anweisungen, \n um mir bei der Sicherung meiner Wiederherstellungsdaten zu helfen.\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) Tippe auf diesen Link, um Zion herunterzuladen und zu installieren:\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) Wenn du fertig bist, denk daran,\n mich nach dem Bestätigungscode zu fragen.\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">Vielen Dank!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">Zeit der letzten Prüfung: %1$s</string><!--Last checked time: %1$s-->
+    <string name="backup_trust_item_sub2">Tippe hier, um den Code zu generieren.</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">Erneut senden</string><!--Resend-->
+    <string name="backup_bottom_request_show">Anfragen von Freunden</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">Vertrauenswürdigen Kontakt entfernen</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_delete">(%1$d) entfernen</string><!--Remove(%1$d)-->
+    <string name="backup_menu_remove_trust_title">Vertrauenswürdigen Kontakt entfernen</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">Abmelden</string>
+    <string name="backup_pending_target_toolbar">Anfragen von Freunden</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">Zur Zeit keine Anfragen.</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">Die Sicherung auf demselben Gerät wird nicht unterstützt.</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">Dieses Konto wird von einem anderen Gerät verwendet</string><!--This account has been used in another device-->
+    <string name="db_security_concern">Aus Sicherheitsgründen kann jedes Konto nur für ein Gerät verwendet werden.</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">Möchten Sie dieses Konto trotzdem nutzen oder ein anderes verwenden, um Social Key Recovery zu starten?</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">Dieses Konto verwenden</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">Die Liste Ihrer bisherigen vertrauenswürdigen Kontakte wird dauerhaft verloren sein.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">Anderes Konto verwenden</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">Behalten Sie frühere Daten und erstellen Sie ein neues.</string><!--Keep previous data and create a new one.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">Hallo, \n\n Als mein vertrauenswürdiger Kontakt brauche ich deine Hilfe, um meine Zion-Wallet wiederherzustellen.\nFür die Wiederherstellung musst du folgendes tun.\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) Tippen Sie auf diesen Link und erzeugen Sie einen Verifizierungscode.\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) Senden Sie mir den Code.\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">Vielen Dank!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">Bitte warten...</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">Anmelden...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">Dieses Konto wurde nicht für Social Key Recovery aktiviert</string>
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">Bitte versuchen Sie es mit einem anderen Konto oder verwenden Sie den 12-Wort Wiederherstellungssatz, um Ihre Wallet wiederherzustellen</string>
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">Bitte warten...</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">Erzeuge Link...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">Melden Sie sich bei Ihrem Konto an</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">Um Ihre Wallet mit Social Key Recovery wiederherzustellen, wählen Sie das Google-Konto, in dem Sie zuvor Ihre Liste vertrauenswürdiger Kontakte gespeichert haben.</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">Der Freigabelink konnte nicht generiert werden</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">Bitte versuchen Sie es später noch einmal.</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">Anmeldung fehlgeschlagen</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">Bitte versuchen Sie es später noch einmal.</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">Bitten Sie Ihre vertrauenswürdigen Kontakte um Hilfe</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. Kontaktieren Sie drei Ihrer vertrauenswürdigen Kontakte und teilen Sie diesen Link mit ihnen.</string><!--1. Reach out three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. Jeder Kontakt gibt Ihnen einen Code. Geben Sie den jeweiligen Code unten ein:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">Ein oder mehrere Codes sind falsch. Versuchen Sie es erneut.</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">Code eingeben</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">Abbrechen</string><!--Cancel-->
+    <string name="social_restore_btn_next">Weiter</string><!--Next-->
+    <string name="social_restore_no_backup_on_device">Es gibt kein Backup für %1$s auf Ihrem Gerät.</string><!--There\'s no backup for %1$s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">Wiederherstellung fehlgeschlagen</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">Versuchen Sie, ein anderes Konto oder Ihren 12-Wort Wiederherstellungssatz zur Wiederherstellung zu verwenden.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">%1$ss Einladung</string><!--%1$s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">Zum Annehmen antippen.</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">Support Anfrage für Wiederherstellung von %1$s</string><!--Recovery support request from %1$s-->
+    <string name="social_restore_backup_tap_to_generate_code">Antippen, um den Code zu generieren.</string><!--Tap to generate code.-->
+    <string name="social_backup_update_backup_status">Backup-Status aktualisieren</string><!--Update backup status-->
+    <string name="social_backup_not_now">Nicht jetzt</string><!--Not now-->
+    <string name="social_backup_oops_inactive">Hoppla, einige Ihrer vertrauenswürdigen Kontakte sind inaktiv.</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">Erkundigen Sie sich bei Ihrem vertrauenswürdigen Kontakt, um die Verbindungen zu sichern.</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">Sie haben dieses Konto auf einem anderen Gerät verwendet</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">All Ihre Social Key Recovery Daten können nicht dauerhaft verwendet werden. Sie müssen sich bei einem anderen Konto anmelden, um Social Key Recovery weiter verwenden zu können.</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Some trusted contacts need to be re-/connected</string>-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">For security concerns, you need to resend the trusted contact invitation to %1$s, %2$s again.</string>-->
+
+    <string name="Settings">Einstellungen</string><!--Settings-->
+
+    <string name="socialkm_network_connection_title">Keine Verbindung möglich.</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">Sie benötigen eine Netzwerkverbindung, um diese App nutzen zu können. Aktivieren Sie mobile Daten oder WLAN in den Einstellungen.</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">Abbrechen</string><!--Cancel-->
+	<!--<string name="check">Check</string>-->
+
+    <string name="entry_ios_coming_soon">IN KÜRZE FÜR IOS</string><!--COMING SOON FOR IOS-->
+
+	<!--<string name="socialkm_not_active_title">Social Key Recovery is not active</string>-->
+	<!--<string name="socialkm_not_active_message">You can try to contact your trusted contacts and check their backup status or find a new contact to help you.</string>-->
+
+</resources>

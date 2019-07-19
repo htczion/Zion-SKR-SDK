@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/sv_ver_code"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/verify_num_key"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_pin"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:cursorVisible="false"
+                android:inputType="number"/>
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_ver_code_title"
+                    style="@style/verification_verify_code_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="@dimen/M5"
+                    android:layout_marginEnd="30dp"
+                    android:includeFontPadding="false"
+                    android:text="@string/ver_content_title"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+                <TextView
+                    android:id="@+id/tv_step2"
+                    style="@style/verification_verify_code_step"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_ver_code_title"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="@dimen/M1"
+                    android:layout_marginEnd="30dp"
+                    android:includeFontPadding="false"
+                    android:text="@string/ver_step2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_ver_code_title"/>
+
+                <LinearLayout
+                    android:id="@+id/ll_pin_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="@dimen/M1"
+                    android:layout_marginEnd="30dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_step2">
+
+                    <TextView
+                        android:id="@+id/tv_pin1"
+                        style="@style/verification_pin_off_frame"
+                        android:layout_weight="1"
+                        android:background="@drawable/verification_pin_code_off_view"/>
+
+                    <TextView
+                        android:id="@+id/tv_pin2"
+                        style="@style/verification_pin_off_frame"
+                        android:layout_weight="1"
+                        android:background="@drawable/verification_pin_code_off_view"/>
+
+                    <TextView
+                        android:id="@+id/tv_pin3"
+                        style="@style/verification_pin_off_frame"
+                        android:layout_weight="1"
+                        android:background="@drawable/verification_pin_code_off_view"/>
+
+                    <TextView
+                        android:id="@+id/tv_pin4"
+                        style="@style/verification_pin_off_frame"
+                        android:layout_weight="1"
+                        android:background="@drawable/verification_pin_code_off_view"/>
+
+                    <TextView
+                        android:id="@+id/tv_pin5"
+                        style="@style/verification_pin_off_frame"
+                        android:layout_weight="1"
+                        android:background="@drawable/verification_pin_code_off_view"/>
+
+
+                    <TextView
+                        android:id="@+id/tv_pin6"
+                        style="@style/verification_pin_off_frame"
+                        android:layout_weight="1"
+                        android:background="@drawable/verification_pin_code_off_view"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_error_hint"
+                    style="@style/verification_pin_error_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ll_pin_code"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="@dimen/M4"
+                    android:layout_marginEnd="30dp"
+                    android:includeFontPadding="false"
+                    android:text="@string/ver_pin_error_hint"
+                    android:visibility="invisible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ll_pin_code"/>
+
+                <TextView
+                    android:id="@+id/tv_no_response"
+                    style="@style/verification_code_no_response"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_error_hint"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="@dimen/M2"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginBottom="@dimen/M1"
+                    android:includeFontPadding="false"
+                    android:text="@string/ver_no_response_hint"
+                    app:layout_constraintBottom_toTopOf="@+id/bt_verify"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_error_hint"/>
+
+                <Button
+                    android:id="@+id/bt_verify"
+                    style="@style/verification_verify_code_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/socialkm_button_height"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginBottom="@dimen/M1"
+                    android:text="@string/ver_verify"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+            </android.support.constraint.ConstraintLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <com.htc.wallet.skrsdk.verification.VerificationCodeNumberKeyboardView
+        android:id="@+id/verify_num_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"/>
+</RelativeLayout>

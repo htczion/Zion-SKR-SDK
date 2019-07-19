@@ -1,0 +1,18 @@
+<resources>
+    <!-- Verification UI -->
+    <string name="ver_notification_channel_id">SocialKeyRecovery</string>
+    <!--Social Backup-->
+    <string name="applink_domain" translatable="false">htc.page.link</string>
+    <string name="branch_applink_domain" translatable="false">htczion.app.link</string>
+    <string name="applink_google_play_link" translatable="false">http://market.android.com/details?id=com.htc.wallet</string>
+    <string name="applink_app_store_link">"https://itunes.apple.com/app/id1442810459?mt=8"</string>
+    <string name="applink_android_package_name" translatable="false">com.htc.wallet</string>
+    <string name="applink_ios_bundle_id" translatable="false">com.htc.ZionWallet</string>
+    <string name="applink_appstore_id" translatable="false">1442810459</string>
+    <string name="backup_bottom_request_show_num">%1$s</string>
+    <!-- For UI text family -->
+    <string name="font_family_light">sans-serif-light</string>
+    <string name="font_family_medium">sans-serif-medium</string>
+    <string name="font_family_regular">sans-serif</string>
+
+</resources>

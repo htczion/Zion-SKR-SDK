@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_restore_share_invitation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_restore_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tb_restore_toolbar"
+        android:gravity="center_horizontal"
+        android:text="@string/social_restore_title"
+        android:textColor="@color/dark_primaryfont_color"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/tv_restore_first_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_restore_title"
+        android:layout_marginTop="15dp"
+        android:text="@string/social_restore_first_content"
+        android:textColor="@color/dark_primaryfont_color"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tv_restore_trust_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_restore_first_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@string/font_family_medium"
+        android:gravity="center_horizontal"
+        android:textColor="@color/dark_primaryfont_color"
+        android:textSize="19sp"/>
+
+    <Button
+        android:id="@+id/btn_restore_share_invitation"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/socialkm_button_height"
+        android:layout_below="@id/tv_restore_trust_contacts"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape_social_restore_sharing_button"
+        android:foreground="@drawable/shape_social_restore_sharing_button_overlay"
+        android:text="@string/backup_invitation_sharing"
+        android:textAllCaps="false"
+        android:textColor="#f7b66a"
+        android:textSize="14.5sp"/>
+
+</RelativeLayout>

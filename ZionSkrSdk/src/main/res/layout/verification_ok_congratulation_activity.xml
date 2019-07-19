@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/wallet_background"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    tools:context=".verification.VerificationOkCongratulationActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:fitsSystemWindows="true">
+        </android.support.v7.widget.Toolbar>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar">
+
+            <TextView
+                android:id="@+id/tv_ok_congratulation_title"
+                style="@style/verification_congratulation_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ver_ok_congratulation_title"/>
+
+            <TextView
+                android:id="@+id/tv_ok_congratulation_msg"
+                style="@style/verification_congratulation_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_ok_congratulation_title"
+                android:layout_gravity="center"
+                android:text="@string/ver_ok_congratulation_msg"/>
+
+            <ImageView
+                android:id="@+id/iv_congratulation"
+                style="@style/verification_code_congratulation_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_ok_congratulation_msg"
+                android:src="@drawable/wallet_oobe_trust_contact"/>
+
+            <Button
+                android:id="@+id/btn_done"
+                style="@style/verification_congratulation_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/socialkm_button_height"
+                android:layout_below="@+id/iv_congratulation"
+                android:text="@string/ver_ok_done"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

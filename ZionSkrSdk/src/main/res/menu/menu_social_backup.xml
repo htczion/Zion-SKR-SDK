@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".backup.SocialBackupActivity">
+
+    <item
+        android:id="@+id/action_social_toolbar_backup_info"
+        app:actionLayout="@layout/view_menu_info_icon"
+        android:orderInCategory="60"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_more_info"
+        app:actionLayout="@layout/view_menu_menu_icon"
+        android:orderInCategory="70"
+        app:showAsAction="always"/>
+</menu>

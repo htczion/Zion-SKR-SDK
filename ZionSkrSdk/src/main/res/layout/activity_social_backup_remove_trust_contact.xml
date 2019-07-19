@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".backup.RemoveTrustContactActivity">
+
+    <include
+        android:id="@+id/app_layout_social_backup_remove_toolbar"
+        layout="@layout/socail_backup_remove_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_remove"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/rl_bottom_parts"
+        android:layout_below="@+id/app_layout_social_backup_remove_toolbar"
+        android:layout_marginTop="20dp"/>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_bottom_parts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="4.5dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+        <Button
+            android:id="@+id/btn_remove_cancel"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="145dp"
+            android:layout_height="@dimen/socialkm_button_height"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape_social_backup_remove_button"
+            android:fontFamily="@string/font_family_regular"
+            android:foreground="@drawable/shape_social_backup_remove_button_overlay"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:text="@string/backup_choose_google_drive_bottom_cancel_btn"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:id="@+id/btn_remove"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="145dp"
+            android:layout_height="@dimen/socialkm_button_height"
+            android:layout_toRightOf="@id/btn_remove_cancel"
+            android:background="@drawable/shape_social_backup_remove_button"
+            android:fontFamily="@string/font_family_regular"
+            android:foreground="@drawable/shape_social_backup_remove_button_overlay"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:text="@string/backup_choose_google_drive_bottom_continue_btn"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+
+</RelativeLayout>

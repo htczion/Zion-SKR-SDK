@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallet_background"
+    android:splitMotionEvents="false"
+    tools:context="com.htc.wallet.skrsdk.restore.SocialRestoreActivity">
+
+    <include
+        android:id="@+id/tb_restore_toolbar"
+        layout="@layout/social_restore_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_button_and_keyboard"
+        android:layout_below="@id/tb_restore_toolbar"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <include
+                android:id="@+id/rl_restore_share_invitation"
+                layout="@layout/social_restore_share_invitation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+
+            <include
+                android:id="@+id/rl_restore_verification"
+                layout="@layout/social_restore_verification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rl_restore_share_invitation"/>
+        </RelativeLayout>
+    </ScrollView>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/ll_button_and_keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="@dimen/M1"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="@dimen/M2">
+
+        <Button
+            android:id="@+id/social_restore_btn_cancel"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="145dp"
+            android:layout_height="@dimen/socialkm_button_height"
+            android:layout_marginEnd="@dimen/M2"
+            android:background="@drawable/shape_social_restore_next_button"
+            android:fontFamily="@string/font_family_regular"
+            android:foreground="@drawable/shape_social_restore_sharing_button_overlay"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/social_restore_btn_cancel"
+            android:textAllCaps="false"
+            android:textColor="#f7b66a"
+            app:layout_constraintEnd_toStartOf="@+id/social_restore_btn_next"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/social_restore_btn_next"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="145dp"
+            android:layout_height="@dimen/socialkm_button_height"
+            android:background="@drawable/shape_social_restore_next_button"
+            android:fontFamily="@string/font_family_regular"
+            android:foreground="@drawable/shape_social_restore_sharing_button_overlay"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/social_restore_btn_next"
+            android:textAllCaps="false"
+            android:textColor="#f7b66a"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+    </android.support.constraint.ConstraintLayout>
+
+    <com.htc.wallet.skrsdk.verification.VerificationCodeNumberKeyboardView
+        android:id="@+id/verify_num_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+</RelativeLayout>

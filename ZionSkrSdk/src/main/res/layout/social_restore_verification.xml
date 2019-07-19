@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_social_restore">
+
+    <TextView
+        android:id="@+id/tv_restore_second_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/social_restore_second_content"
+        android:textSize="15sp"
+        android:textColor="@color/dark_primaryfont_color"/>
+
+    <com.htc.wallet.skrsdk.restore.RestoreVerificationCodeView
+        android:id="@+id/restore_verification_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/M1"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/tv_restore_second_content"/>
+</RelativeLayout>

@@ -1,0 +1,172 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">Nem</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">OK</string><!--OK-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- general -->
+    <string name="gen_new_version">Új verzió vált elérhetővé</string><!--New version available-->
+    <string name="gen_new_version_hint">A magasabb fokú biztonság és a jobb használhatóság érdekében frissítse az alkalmazást az újabb verzióra.</string><!--Please update app to newer version for enhanced security and user experience.-->
+    <string name="gen_update_now">FRISSÍTÉS MOST</string><!--UPDATE NOW-->
+<!-- end general -->
+
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">%1$s felvette Önt megbízható partnerként</string><!--%1$s added you as a trusted contact-->
+    <string name="ver_step1">1. lépés Adja meg a nevét, valamint kérje el az ellenőrző kódot (forrás: %1$s).</string><!--Step 1. Enter your name and get the verification code from %1$s.-->
+    <string name="ver_step2">2. lépés %1$s telefonján előáll az Ön ellenőrző kódja. Kérje el tőle a kódot, majd írja be.</string>
+    <string name="ver_enter_name_hint">Adja meg a nevét</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">Kód kérése</string><!--Request code-->
+    <string name="ver_sharing_title">Kód megosztása a következővel: %1$s</string><!--Share this code to %1$s-->
+    <string name="ver_sharing_remind_route">M: %1$s\na következőn csatornán: %2$s</string><!--M: %1$s\nvia %1$s-->
+    <string name="ver_sharing_reject">VISSZAUTASÍTÁS</string><!--REJECT-->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">Új kérés a következőtől: %1$s</string><!--New request from %1$s-->
+    <string name="ver_notification_request_content">Érintse meg az ellenőrző kód megjelenítéséhez és megosztásához (a megosztás címzettje: %1$s).</string><!--Tap to see the verification code and share it with %1$s.-->
+    <string name="ver_notification_request_button">ELLENŐRZŐ KÓD MEGJELENÍTÉSE</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">Nincs válasz? %1$s múlva újabb kérést is indíthat</string>
+    <string name="ver_verify">Ellenőrzés</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">Ön %1$s megbízható partnerévé vált.</string><!--You are now a trusted contact for %1$s.-->
+    <string name="ver_ok_congratulation_msg">Készen áll arra, hogy %1$s segítségére legyen a tárca visszaállításában, ha elveszíti vagy ellopják azt. A Zion (titkosítva) mentette a tárcájuk visszaállításához szükséges adatok egy részét az Ön készülékére. Ügyeljen arra, hogy ne törölje a Zion alkalmazást vagy a hozzá tartozó adatokat, mert ebben az esetben a visszaállítási adatok elvesznek. A Zion rendszeres időközönként ellenőrizni fogja, hogy %2$s visszaállítási adatai továbbra is érvényesek-e.</string><!--You can now help %1$s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %1$s periodically to verify the recovery data is still valid.-->
+    <string name="ver_ok_done">Kész</string><!--Done-->
+    <string name="ver_pin_error_hint">A kód érvénytelen, próbálja meg újra.</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_btn_ok">OK</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">Már szerepel %1$s megbízható partnerei között</string><!--You are already %1$s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">Köszönjük a segítségét %1$s adatainak biztonsági mentésében</string><!--Thanks for helping back up %1$s’s data-->
+    <string name="ver_dialog_verifying_title">Megerősítés elküldve</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">Várakozás a megerősítésre. A megerősítést követően Ön %1$s megbízható partnere lesz.</string><!--Waiting for verifying. You will be %1$s’s trusted contact when verification is completed.-->
+    <string name="ver_unknown_phone_number">Ismeretlen</string><!--Unknown-->
+    <string name="ver_unknown_name">Ismeretlen</string><!--Unknown-->
+    <string name="ver_dialog_trusted_contact_full_title">Köszönöm a segítséget!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">%1$s már elérte a megbízható partnerek számát (5).</string><!--%1$s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">A hivatkozás lejárt; kérje meg a feladót (%1$s), hogy küldjön egy frissített hivatkozást.</string><!--This link is expired, please ask %1$s to send the updated link.-->
+    <string name="ver_request_timeout">Időtúllépés történt a kérés során, próbálja meg újra később.</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">Kérjük, próbálja újra később</string><!--Please try again later-->
+    <string name="try_too_often_message">Túl gyakran próbálkozik; %1$d perc múlva próbálja meg újra</string>
+
+    <!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Mi a Social Key Recovery\?</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">A Social Key Recovery segítségével kényelmesen visszaállíthatja a tárcáját a megbízható partnereinek és a családtagjainak segítségével.</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">Hívja meg 3-5 ismerősét megbízható partnernek; ők segíthetnek visszaállítani a tárcáját.</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">A megbízható partnerek egy kód elküldésével segíthetnek a tárca visszaállításában.</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">Beállítás</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href="com.htc.wallet://">Most nem</a></string>
+    <string name="backup_introduction_ok">OK</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">Megbízható partnerek listájának biztonsági mentése</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">Ha vissza szeretné állítani a tárcát a Social Key Recovery funkcióval, akkor válassza ki azt a Google fiókot, amelybe menteni kívánja a megbízható partnereket. A megbízható partnerek listája a Google Drive-on fog tárolódni.</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">Fiók hozzáadása</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">Mégse</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">Folytatás</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="backup_trusted_contact">Megbízható partner</string><!--Trusted contact-->
+    <string name="backup_null_contact">Még egyetlen megbízható partnert sem vett fel.</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">A Social Key Recovery használatához szükség van legalább 3 megbízható partnerre (max. számuk 5).</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">Ismerősök meghívása \n megbízható partnernek</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">Hívja meg 3-5 barátját vagy családtagját megbízható partnernek; ők segíthetnek visszaállítani a tárcáját.</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.-->
+    <string name="backup_invitation_hi">Üdv, %1$s!</string><!--Hi %1$s,-->
+    <string name="backup_invitation_sharing">Meghívó megosztása</string><!--Share invitation-->
+    <string name="backup_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">Nem aktív</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">Aktív</string><!--Active-->
+    <string name="backup_invitation_message_first_part">Szia! \n\n Megjelöltelek megbízható partneremként a Zion tárcám Social Key Recovery funkciójában. \n Kérlek, az alábbi útmutatást követve segíts \n biztonsági mentést készíteni a visszaállítási adataimról.\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) A hivatkozást megérintve töltsd le és telepítsd a Zion alkalmazást:\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) Amikor végeztél, kérd el tőlem \n az ellenőrző kódot.\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">Köszönöm!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">Utolsó ellenőrzés időpontja: %1$s</string><!--Last checked time: %1$s-->
+    <string name="backup_trust_item_sub2">Érintse meg itt a kód előállításához.</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">Újraküldés</string><!--Resend-->
+    <string name="backup_bottom_request_show">Ismerősöktől érkezett kérések</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">Megbízható partner eltávolítása</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_delete">Eltávolítás (%1$d)</string><!--Remove(%1$d)-->
+    <string name="backup_menu_remove_trust_title">Megbízható partner eltávolítása</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">Kijelentkezés</string>
+    <string name="backup_pending_target_toolbar">Ismerősöktől érkezett kérések</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">Jelenleg nincs kérés.</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">Azonos készülékre nem készíthető biztonsági mentés.</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">Ezt a fiókot már használták egy másik eszközön</string><!--This account has been used in another device-->
+    <string name="db_security_concern">Biztonsági okból minden fiókot csak egy eszközön lehet használni.</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">Továbbra is ezt a fiókot szeretné használni, vagy másikat választ a Social Key Recovery funkció konfigurálására?</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">Ennek a fióknak a használata</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">A korábbi megbízható partnerek listája véglegesen el fog veszni.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">Másik fiók használata</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">Korábbi adatok megtartása és új létrehozása.</string><!--Keep previous data and create a new one.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">Szia! \n\n Mint megbízható partneremet, megkérlek, hogy segíts visszaállítani a Zion tárcámat.\nA visszaállításhoz a következőket kell végrehajtanod.\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) Érintsd meg ezt a hivatkozást, és állítsd elő az ellenőrző kódot.\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) Küldd el nekem a kódot.\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">Köszönöm!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">Kérjük, várjon...</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">Bejelentkezés...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">Ehhez a fiókhoz nem lett aktiválva a Social Key Recovery</string>
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">Próbálkozzon másik fiókkal, illetve használja a 12 szóból álló visszaállító kulcsot a tárca visszaállítására</string>
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">Kérjük, várjon...</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">Hivatkozás előállítása...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">Jelentkezzen be a fiókjába</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">Ha vissza szeretné állítani a tárcát a Social Key Recovery funkcióval, akkor válassza ki azt a Google fiókot, amelybe korábban mentette a megbízható partnerek listáját.</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">Nem sikerült előállítani a megosztási hivatkozást</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">Próbálja újra később.</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">Nem sikerült bejelentkezni</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">Próbálja újra később.</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">Kérjen segítséget a megbízható partnereitől</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. Keresse meg három megbízható partnerét, és küldje el nekik ezt a hivatkozást.</string><!--1. Reach out three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. Mindegyik partner egy-egy kódot fog küldeni Önnek. Adja meg ezeket alább:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">Legalább egy kód hibás. Próbálja újra.</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">Adja meg a kódot</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">Mégse</string><!--Cancel-->
+    <string name="social_restore_btn_next">Következő</string><!--Next-->
+    <string name="social_restore_no_backup_on_device">%1$s adatairól nincs biztonsági mentés az Ön készülékén.</string><!--There\'s no backup for %1$s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">Nem sikerült a visszaállítás</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">A visszaállításhoz próbáljon másik fiókot használni, illetve adja meg a 12 szóból álló visszaállító kulcsot.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">%1$s meghívása</string><!--%1$s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">Érintse meg az elfogadáshoz.</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">Visszaállítási segítségkérés a következőtől: %1$s</string><!--Recovery support request from %1$s-->
+    <string name="social_restore_backup_tap_to_generate_code">Érintse meg a kód előállításához.</string><!--Tap to generate code.-->
+    <string name="social_backup_update_backup_status">Biztonsági mentés állapotának frissítése</string><!--Update backup status-->
+    <string name="social_backup_not_now">Most nem</string><!--Not now-->
+    <string name="social_backup_oops_inactive">A megbízható partnereinek egy része inaktív.</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">A kapcsolatok biztonsága érdekében ellenőrizze a megbízható partnereit.</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">Ezt a fiókot már használta egy másik eszközön</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">A Social Key Recovery adatok nem használhatók véglegesen. A Social Key Recovery további használatához másik fiókkal kell bejelentkeznie.</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Some trusted contacts need to be re-/connected</string>-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">For security concerns, you need to resend the trusted contact invitation to %1$s, %2$s again.</string>-->
+
+    <string name="Settings">Beállítások</string><!--Settings-->
+
+    <string name="socialkm_network_connection_title">Nem lehet csatlakozni.</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">Az alkalmazás használatához hálózati kapcsolat szükséges. Kapcsolja be a mobil adatkapcsolatot vagy a Wi-Fi-t a Beállítások között.</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">Mégse</string><!--Cancel-->
+
+    <string name="entry_ios_coming_soon">HAMAROSAN IOS-EN IS ELÉRHETŐ</string><!--COMING SOON FOR IOS-->
+
+	<!--<string name="socialkm_not_active_title">Social Key Recovery is not active</string>-->
+	<!--<string name="socialkm_not_active_message">You can try to contact your trusted contacts and check their backup status or find a new contact to help you.</string>-->
+
+</resources>

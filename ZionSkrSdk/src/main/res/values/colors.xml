@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="common_colorPrimary">#f8f9fa</color>
+
+    <item name="gray" type="color">#ff787878</item>
+
+    <!--Social Backup Begin-->
+    <item name="social_backup_toolbar_background_color" type="color">#00b3e3</item>
+    <item name="social_backup_toolbar_no_active_status_icon" type="color">#ffa076</item>
+    <item name="social_backup_toolbar_active_status_icon" type="color">#08b000</item>
+    <item name="social_backup_item_background_color" type="color">#fbf9fa</item>
+    <item name="social_backup_toolbar_background" type="color">#fbf9fa</item>
+    <item name="social_backup_remove_checked_box" type="color">#e6341c</item>
+    <!--Social Backup End-->
+
+    <!--Verification Begin-->
+    <item name="ver_toolbar_title" type="color">#FFFDFDFD</item>
+    <item name="ver_request_title" type="color">#FFFDFDFD</item>
+    <item name="ver_request_content" type="color">#FFFDFDFD</item>
+    <item name="ver_request_edittext" type="color">#FFFAE8D8</item>
+    <item name="ver_verification_code_on" type="color">#FFFFFFFF</item>
+    <item name="ver_verification_code_off" type="color">#99FFFFFF</item>
+    <item name="ver_verification_code_error" type="color">#FFFF1515</item>
+    <item name="ver_button" type="color">#FFFDFDFD</item>
+    <item name="ver_button_text_color" type="color">#f7b66a</item>
+    <item name="ver_no_response_hint" type="color">#FF0166CB</item>
+    <!--Verification End-->
+
+    <!---Social Restore Begin-->
+    <item name="social_restore_error_pincode_color" type="color">#ff1515</item>
+    <!---Social Restore End-->
+
+
+    <color name="light_primaryfont_color">#464c53</color>
+    <color name="light_primaryfont_disable_color">#68464c53</color>
+    <color name="dark_primaryfont_disable_color">#99ffffff</color>
+    <color name="dark_primaryfont_color">#ffffff</color>
+    <color name="light_secondaryfont_color">#959cab</color>
+
+    <color name="red_header_background">#e6341c</color>
+
+</resources>

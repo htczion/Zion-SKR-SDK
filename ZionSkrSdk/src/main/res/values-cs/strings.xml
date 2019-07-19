@@ -1,0 +1,171 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">Ne</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">OK</string><!--OK-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+<!-- general -->
+    <string name="gen_new_version">K dispozici je nová verze</string><!--New version available-->
+    <string name="gen_new_version_hint">Zaktualizujte aplikaci na novou verzi pro zvýšené zabezpečení a spokojenost.</string><!--Please update app to newer version for enhanced security and user experience.-->
+    <string name="gen_update_now">AKTUALIZOVAT NYNÍ</string><!--UPDATE NOW-->
+<!-- end general -->
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">%1$s vás přidal/a jako důvěryhodný kontakt</string><!--%1$s added you as a trusted contact-->
+    <string name="ver_step1">Krok 1. Zadejte své jméno a získejte ověřovací kód od %1$s.</string><!--Step 1. Enter your name and get the verification code from %1$s.-->
+    <string name="ver_step2">Krok 2. Váš ověřovací kód je vygenerován v telefonu %1$s. Požádejte jej o kód a zadejte.</string>
+    <string name="ver_enter_name_hint">Zadejte své jméno</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">Vyžádat kód</string><!--Request code-->
+    <string name="ver_sharing_title">Sdílet tento kód s %1$s</string><!--Share this code to %1$s-->
+    <string name="ver_sharing_remind_route">M: %1$s přes %2$s\n</string><!--M: %1$s\nvia %1$s-->
+    <string name="ver_sharing_reject">ZAMÍTNOUT</string><!--REJECT-->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">Nový požadavek od %1$s</string><!--New request from %1$s-->
+    <string name="ver_notification_request_content">Klepnutím zobrazte ověřovací kód a sdílejte jej s %1$s.</string><!--Tap to see the verification code and share it with %1$s.-->
+    <string name="ver_notification_request_button">ZOBRAZIT OVĚŘOVACÍ KÓD</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">Žádná odpověď? Můžete vznést další požadavek za %1$s</string>
+    <string name="ver_verify">Ověřit</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">Nyní jste důvěryhodným kontaktem pro %1$s.</string><!--You are now a trusted contact for %1$s.-->
+    <string name="ver_ok_congratulation_msg">Nyní můžete pomoci %1$s obnovit jeho/její peněženku v případě ztráty nebo krádeže. Aplikace Zion zašifrovala a uložila část dat pro obnovu jeho/její peněženky do vašeho zařízení. Neodstraňujte aplikaci Zion ani její data, jinak budou tato data pro obnovu ztracena. Aplikace Zion bude pravidelně ověřovat u %2$s, zda jsou data pro obnovu dosud platná.</string><!--You can now help %1$s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %1$s periodically to verify the recovery data is still valid.-->
+    <string name="ver_ok_done">Hotovo</string><!--Done-->
+    <string name="ver_pin_error_hint">Tento kód je neplatný, zkuste to prosím znovu.</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_btn_ok">OK</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">Již jste důvěryhodný kontakt %1$s</string><!--You are already %1$s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">Díky za pomoc se zálohováním %1$s dat</string><!--Thanks for helping back up %1$s’s data-->
+    <string name="ver_dialog_verifying_title">Ověření odesláno</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">Čekání na ověření. Po dokončení ověření budete důvěryhodný kontakt %1$s.</string><!--Waiting for verifying. You will be %1$s’s trusted contact when verification is completed.-->
+    <string name="ver_unknown_phone_number">Neznámé</string><!--Unknown-->
+    <string name="ver_unknown_name">Neznámé</string><!--Unknown-->
+    <string name="ver_dialog_trusted_contact_full_title">Děkuji za pomoc!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">%1$s již dosáhl maxima 5 důvěryhodných kontaktů.</string><!--%1$s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">Doba platnosti odkazu vypršela, požádejte prosím %1$s o odeslání aktualizovaného odkazu.</string><!--This link is expired, please ask %1$s to send the updated link.-->
+    <string name="ver_request_timeout">Doba platnosti požadavku vypršela, zkuste to prosím znovu později.</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">Opakujte akci později</string><!--Please try again later-->
+    <string name="try_too_often_message">Zkoušíte to příliš často, zkuste to znovu za %1$d minut</string>
+
+    <!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Co je Social Key Recovery?</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">Social Key Recovery vám může pomoci pohodlně obnovit vaši peněženku od vašich důvěryhodných známých nebo rodinných příslušníků.</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">Pozvěte 3 až 5 osob, aby se staly důvěryhodnými kontakty, kteří mohou pomoci obnovit vaši peněženku.</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">Vaše důvěryhodné kontakty mohou odeslat kód, který vám pomůže obnovit vaši peněženku.</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">Nastavit</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href="com.htc.wallet://">Nyní ne</a></string>
+    <string name="backup_introduction_ok">OK</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">Zálohujte svůj seznam důvěryhodných kontaktů</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">Pro obnovení vaší peněženky pomocí Social Key Recovery zvolte účet Google pro zálohování vašich důvěryhodných kontaktů. Váš seznam důvěryhodných kontaktů bude uložen na Google Drive.</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">Přidat účet</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">Storno</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">Pokračovat</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="backup_trusted_contact">Důvěryhodný kontakt</string><!--Trusted contact-->
+    <string name="backup_null_contact">Dosud jste nepřidali žádný důvěryhodný kontakt.</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">Social Key Recovery bude dostupná, když máte alespoň 3 důvěryhodné kontakty (max.: 5).</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">Pozvěte známé, aby se stali vaším \n důvěryhodným kontaktem</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">Pozvěte 3 až 5 známých nebo rodinných příslušníků, aby se stali důvěryhodnými kontakty a pomohli obnovit vaši peněženku.</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.-->
+    <string name="backup_invitation_hi">Dobrý den %1$s,</string><!--Hi %1$s,-->
+    <string name="backup_invitation_sharing">Sdílet pozvání</string><!--Share invitation-->
+    <string name="backup_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">Neaktivní</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">Aktivovat</string><!--Active-->
+    <string name="backup_invitation_message_first_part">Dobrý den, \n\n stanovil/a jsem vás jako svůj důvěryhodný kontakt pro funkci Social Key Recovery peněženky Zion. \n Řiďte se prosím pokyny níže \n pro zálohování dat pro obnovení.\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) Klepnutím na tento odkaz stáhněte a nainstalujte Zion:\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) Po dokončení mě nezapomeňte \n požádat o ověřovací kód.\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">Děkujeme!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">Naposledy zaznamenaný čas: %1$s</string><!--Last checked time: %1$s-->
+    <string name="backup_trust_item_sub2">Klepněte sem pro generování kódu.</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">Odeslat znovu</string><!--Resend-->
+    <string name="backup_bottom_request_show">Žádosti od známých</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">Odstranit důvěryhodný kontakt</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_delete">Odstranit(%1$d)</string><!--Remove(%1$d)-->
+    <string name="backup_menu_remove_trust_title">Odstranit důvěryhodný kontakt</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">Odhlásit se</string>
+    <string name="backup_pending_target_toolbar">Žádosti od známých</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">V tomto okamžiku nejsou žádné požadavky.</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">Zálohování na stejném zařízení není podporováno.</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">Tento účet je používán v jiném zařízení</string><!--This account has been used in another device-->
+    <string name="db_security_concern">Z bezpečnostních důvodů lze každý účet použít pouze pro jedno zařízení.</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">Chcete přesto použít tento účet nebo chcete použít jiný k zahájení Social Key Recovery?</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">Použít tento účet</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">Váš starý seznam důvěryhodných kontaktů bude trvale odstraněn.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">Použít jiný účet</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">Zachovat předchozí data a vytvořit nový.</string><!--Keep previous data and create a new one.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">Dobrý den, \n\n Potřebuji vaši pomoc jako mého důvěryhodného kontaktu při obnově mé peněženky Zion.\nPro tuto obnovu potřebuji, aby jste učinili následující.\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) Klepněte na tento odkaz a vygenerujte ověřovací kód.\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) Odešlete mi kód.\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">Děkujeme!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">Prosím čekejte...</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">Přihlašování...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">Tento účet nebyl aktivován pro Social Key Recovery</string>
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">Zkuste použít jiný účet nebo obnovte svoji peněženku pomocí své obnovovací věty o 12 slovech</string>
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">Prosím čekejte...</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">Probíhá generování odkazu...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">Přihlaste se k účtu</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">Pro obnovení vaší peněženky pomocí Social Key Recovery zvolte účet Google, kam jste předtím uložili svůj seznam důvěryhodných kontaktů.</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">Vygenerování sdíleného odkazu se nezdařilo</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">Opakujte akci později.</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">Přihlášení se nezdařilo</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">Opakujte akci později.</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">Požádejte své důvěryhodné kontakty o pomoc</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. Kontaktujte tři ze svých důvěryhodných kontaktů a sdílejte s nimi tento odkaz.</string><!--1. Reach out three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. Každý kontakt vám dá kód. Jednotlivé kódy zadejte níže:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">Nesprávný jeden nebo více kódů. Zkuste to znovu.</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">Zadejte kód</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">Storno</string><!--Cancel-->
+    <string name="social_restore_btn_next">Další</string><!--Next-->
+    <string name="social_restore_no_backup_on_device">Na vašem zařízení neexistuje žádná záloha pro %1$s.</string><!--There\'s no backup for %1$s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">Obnovení se nezdařilo</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">Zkuste použít jiný účet nebo obnovte pomocí své obnovovací věty o 12 slovech.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">Pozvání od %1$s</string><!--%1$s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">Klepnutím přijměte.</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">Požadavek na podporu při obnově od %1$s</string><!--Recovery support request from %1$s-->
+    <string name="social_restore_backup_tap_to_generate_code">Klepnutím vygenerujte kód.</string><!--Tap to generate code.-->
+    <string name="social_backup_update_backup_status">Stav aktualizace zálohy</string><!--Update backup status-->
+    <string name="social_backup_not_now">Nyní ne</string><!--Not now-->
+    <string name="social_backup_oops_inactive">Jejda, některé vaše důvěryhodné kontakty jsou neaktivní.</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">Ověřte váš důvěryhodný kontakt pro zabezpečení spojení.</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">Tento účet jste použili na jiném zařízení</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">Veškerá vaše data o Social Key Recovery nelze trvale použít. Chcete-li použít Social Key Recovery, musíte se přihlásit do jiného účtu.</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Some trusted contacts need to be re-/connected</string>-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">For security concerns, you need to resend the trusted contact invitation to %1$s, %2$s again.</string>-->
+
+    <string name="Settings">Nastavení</string><!--Settings-->
+
+    <string name="socialkm_network_connection_title">Nelze se připojit.</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">Pro používání této aplikace potřebujete síťové připojení. V Nastaveních zapněte mobilní data nebo Wi-Fi.</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">Storno</string><!--Cancel-->
+	<!--<string name="check">Check</string>-->
+
+    <string name="entry_ios_coming_soon">JIŽ BRZY PRO IOS</string><!--COMING SOON FOR IOS-->
+
+	<!--<string name="socialkm_not_active_title">Social Key Recovery is not active</string>-->
+	<!--<string name="socialkm_not_active_message">You can try to contact your trusted contacts and check their backup status or find a new contact to help you.</string>-->
+
+</resources>

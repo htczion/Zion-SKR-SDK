@@ -1,0 +1,180 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+def canSignKey() {
+    if (!file('private/demo.jks').exists()) {
+        println 'key "private/demo.jks" not exist'
+        return false
+    }
+
+    Properties properties = new Properties()
+    if (!project.rootProject.file('secrets.properties').exists()) {
+        println 'file "signing.properties" not exist'
+        return false
+    }
+
+    properties.load(project.rootProject.file('secrets.properties').newDataInputStream())
+    def STORE_PASSWORD = properties.getProperty('STORE_PASSWORD')
+    def KEY_ALIAS = properties.getProperty('KEY_ALIAS')
+    def KEY_PASSWORD = properties.getProperty('KEY_PASSWORD')
+    return STORE_PASSWORD && KEY_ALIAS && KEY_PASSWORD
+}
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.htc.wallet.skrsdk.demoapp"
+        minSdkVersion 26
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+        demo {
+            Properties properties = new Properties()
+            if (project.rootProject.file('secrets.properties').exists()) {
+                properties.load(project.rootProject.file('secrets.properties').newDataInputStream())
+            }
+            def STORE_PASSWORD = properties.getProperty('STORE_PASSWORD')
+            def KEY_ALIAS = properties.getProperty('KEY_ALIAS')
+            def KEY_PASSWORD = properties.getProperty('KEY_PASSWORD')
+
+            storeFile file('private/demo.jks')
+            storePassword STORE_PASSWORD
+            keyAlias KEY_ALIAS
+            keyPassword KEY_PASSWORD
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    buildTypes {
+        debug {
+            if (canSignKey()) {
+                signingConfig signingConfigs.demo
+            }
+            minifyEnabled false
+            useProguard false
+        }
+        release {
+            if (canSignKey()) {
+                signingConfig signingConfigs.demo
+            }
+            minifyEnabled true
+            useProguard true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    buildTypes.each {
+        // secrets.properties
+        Properties properties = new Properties()
+        if (project.rootProject.file('secrets.properties').exists()) {
+            properties.load(project.rootProject.file('secrets.properties').newDataInputStream())
+        }
+
+        def EMPTY_STRING = '""'
+        def GOOGLE_API_KEY = properties.getProperty('GOOGLE_API_KEY', EMPTY_STRING)
+        def GOOGLE_CLIENT_ID = properties.getProperty('GOOGLE_CLIENT_ID', EMPTY_STRING)
+        def GOOGLE_CLIENT_SECRET = properties.getProperty('GOOGLE_CLIENT_SECRET', EMPTY_STRING)
+        def TZ_API_KEY_STAGE = properties.getProperty('TZ_API_KEY_STAGE', EMPTY_STRING)
+        def TZ_API_KEY_PRODUCTION = properties.getProperty('TZ_API_KEY_PRODUCTION', EMPTY_STRING)
+        def AES_KEY_STRING = properties.getProperty('AES_KEY_STRING', EMPTY_STRING)
+        def SAFETY_NET_API_KEY = properties.getProperty('SAFETY_NET_API_KEY', EMPTY_STRING)
+
+        it.buildConfigField "String", "GOOGLE_API_KEY", GOOGLE_API_KEY
+        it.buildConfigField "String", "GOOGLE_CLIENT_ID", GOOGLE_CLIENT_ID
+        it.buildConfigField "String", "GOOGLE_CLIENT_SECRET", GOOGLE_CLIENT_SECRET
+        it.buildConfigField "String", "TZ_API_KEY_STAGE", TZ_API_KEY_STAGE
+        it.buildConfigField "String", "TZ_API_KEY_PRODUCTION", TZ_API_KEY_PRODUCTION
+        it.buildConfigField "String", "AES_KEY_STRING", AES_KEY_STRING
+        it.buildConfigField "String", "SAFETY_NET_API_KEY", SAFETY_NET_API_KEY
+    }
+
+    flavorDimensions "mode"
+
+    productFlavors {
+        htc {
+            dimension "mode"
+        }
+        partner {
+            dimension "mode"
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:customtabs:28.0.0'
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    // android.support.design.widget.AppBarLayout
+    implementation 'com.android.support:design:28.0.0'
+
+    implementation project(":ZionSkrSdk")
+
+    // Stetho (Debug tool), https://github.com/facebook/stetho
+    implementation 'com.facebook.stetho:stetho:1.5.0'
+
+    // WorkManager (Android architecture components),
+    // https://developer.android.com/reference/androidx/work/WorkManager
+    implementation('android.arch.work:work-runtime:1.0.1') {
+        // com.google.guava is already added in Google Drive API dependencies
+        // and we test fine in this version (guava-jdk5)
+        exclude group: 'com.google.guava', module: 'listenablefuture'
+    }
+
+    // Apache Commons IO, https://github.com/apache/commons-io
+    implementation 'commons-io:commons-io:2.4'
+
+    // Gson, https://github.com/google/gson
+    implementation 'com.google.code.gson:gson:2.8.5'
+
+    // Room (Android architecture components),
+    // https://developer.android.com/training/data-storage/room/index.html
+    implementation 'android.arch.persistence.room:runtime:1.1.1'
+    annotationProcessor 'android.arch.persistence.room:compiler:1.1.1'
+    testImplementation 'android.arch.persistence.room:testing:1.1.1'
+
+    // Google Sign-In, https://developers.google.com/identity/
+    implementation 'com.google.android.gms:play-services-auth:16.0.0'
+
+    // Google FCM, https://firebase.google.com/
+    implementation 'com.google.firebase:firebase-core:16.0.9'
+    implementation 'com.google.firebase:firebase-dynamic-links:17.0.0'
+    implementation 'com.google.firebase:firebase-messaging:18.0.0'
+    implementation 'com.google.firebase:firebase-database:17.0.0'
+
+    // Retrofit, https://github.com/square/retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.5.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.11.0'
+
+    // SafetyNet, https://developer.android.com/training/safetynet
+    implementation 'com.google.android.gms:play-services-safetynet:16.0.0'
+
+    // RootBeer, https://github.com/scottyab/rootbeer
+    implementation 'com.scottyab:rootbeer-lib:0.0.7'
+
+    // HTC Wallet SDK, https://github.com/htczion/ZKMA
+    implementation(name: 'ZKMA-release', ext: 'aar')
+
+    // Google Drive API, https://developers.google.com/drive/
+    implementation 'com.google.apis:google-api-services-drive:v3-rev71-1.22.0'
+    implementation 'com.google.http-client:google-http-client-gson:1.22.0'
+    implementation 'com.google.api-client:google-api-client-android:1.23.0'
+
+    // Microsoft Graph SDK, https://github.com/microsoftgraph/msgraph-sdk-android
+    implementation 'com.microsoft.graph:msgraph-sdk-android:1.3.2'
+    implementation 'com.microsoft.identity.client:msal:0.1.3'
+}

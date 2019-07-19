@@ -1,0 +1,173 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">否</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">確定</string><!--OK-->
+
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- general -->
+    <string name="gen_new_version">已有新版本</string><!--New version available-->
+    <string name="gen_new_version_hint">請將應用程式更新到新版本以強化安全性及使用者體驗。</string><!--Please update app to newer version for enhanced security and user experience.-->
+    <string name="gen_update_now">立即更新</string><!--UPDATE NOW-->
+<!-- end general -->
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">社交密鑰還原</string><!--Social Key Recovery-->
+    <string name="ver_content_title">%1$s 已將您新增為信任的聯絡人</string><!--%1$s added you as a trusted contact-->
+    <string name="ver_step1">步驟 1. 輸入姓名並從 %1$s 取得驗證碼。</string><!--Step 1. Enter your name and get the verification code from %1$s.--> 
+    <string name="ver_step2">步驟 2. 您的驗證碼已在 %1$s 的手機上產生。請向其索取代碼並輸入。</string> 
+    <string name="ver_enter_name_hint">輸入姓名</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">要求代碼</string><!--Request code-->
+    <string name="ver_sharing_title">將此代碼分享給 %1$s</string><!--Share this code to %1$s-->
+    <string name="ver_sharing_remind_route">行：%1$s 透過 %2$s\n</string><!--M: %1$s\nvia %1$s-->
+    <string name="ver_sharing_reject">拒絕</string><!--REJECT-->
+    <string name="ver_notification_channel_name">社交密鑰還原</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">來自 %1$s 的新要求</string><!--New request from %1$s--> 
+    <string name="ver_notification_request_content">點選以查看驗證碼並與 %1$s 分享。</string><!--Tap to see the verification code and share it with %1$s.-->
+    <string name="ver_notification_request_button">顯示驗證碼</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">無回應？ 您可以在 %1$s 後再次要求</string>
+    <string name="ver_verify">驗證</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">您已成為 %1$s 的信任聯絡人。</string><!--You are now a trusted contact for %1$s.--> 
+    <string name="ver_ok_congratulation_msg">如果 %1$s 的錢包遺失或遭竊，您現在可以幫助其還原錢包。Zion 已加密並儲存了部分的錢包還原資料到你的裝置。請勿刪除 Zion 或 Zion 應用程式資料，否則此還原資料將消失。Zion 會定期向 %2$s 確認以檢查還原資料是否仍然有效。</string><!--You can now help %1$s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %1$s periodically to verify the recovery data is still valid.-->
+    <string name="ver_ok_done">完成</string><!--Done-->
+    <string name="ver_pin_error_hint">此代碼無效，請再試一次。</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_btn_ok">確定</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">您已成為 %1$s 信任的聯絡人</string><!--You are already %1$s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">感謝您協助備份 %1$s 的資料</string><!--Thanks for helping back up %1$s’s data-->
+    <string name="ver_dialog_verifying_title">驗證已傳送</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">正在等待驗證。驗證完成後，您將成為 %1$s 信任的聯絡人。</string><!--Waiting for verifying. You will be %1$s’s trusted contact when verification is completed.-->
+    <string name="ver_unknown_phone_number">未知</string><!--Unknown-->
+    <string name="ver_unknown_name">未知</string><!--Unknown-->
+    <string name="ver_dialog_trusted_contact_full_title">感謝您的協助！</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">%1$s 已達最多 5 個信任的聯絡人。</string><!--%1$s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">此連結已過期，請要求 %1$s 傳送更新後的連結。</string><!--This link is expired, please ask %1$s to send the updated link.-->
+    <string name="ver_request_timeout">要求逾時，請再試一次。</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">請稍後再試一次</string><!--Please try again later-->
+    <string name="try_too_often_message">您的嘗試次數過多，請在 %1$d 分鐘後再試一次</string>
+
+    <!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">社交密鑰還原是什麼？</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">社交密鑰還原可幫助您透過您信任的朋友或家人快速還原錢包。</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">邀請 3 到 5 人成為信任的聯絡人，他們可以協助您還原錢包。</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">信任的聯絡人可以傳送代碼以協助您還原錢包。</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">設定</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href="com.htc.wallet://">現在不要</a></string>
+    <string name="backup_introduction_ok">確定</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">備份信任聯絡人清單</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">若要透過社交密鑰還原來還原錢包，請選擇 Google 帳戶以備份信任聯絡人。信任聯絡人清單將儲存於 Google 雲端硬碟。</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">新增帳戶</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">取消</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">繼續</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="backup_trusted_contact">信任的聯絡人</string><!--Trusted contact-->
+    <string name="backup_null_contact">您尚未新增任何信任的聯絡人。</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">當您擁有至少 3 個信任的聯絡人 (最多 5 個)，即可使用社交密鑰還原。</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">邀請朋友成為\n您信任的聯絡人</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">邀請 3 到 5 個朋友或家人成為信任的聯絡人並協助您還原錢包。</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.-->
+    <string name="backup_invitation_hi">您好，%1$s，</string><!--Hi %1$s,-->
+    <string name="backup_invitation_sharing">分享邀請</string><!--Share invitation-->
+    <string name="backup_toolbar_title">社交密鑰還原</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">尚未啟用</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">已啟用</string><!--Active-->
+    <string name="backup_invitation_message_first_part">您好，\n\n我已將您指定為 Zion 錢包「社交密鑰還原」功能的信任聯絡人。\n請依照下述指示\n協助我備份我的還原資料。\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) 點選此連結下載並安裝 Zion：\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) 完成後，請記得向我詢問驗證碼。\n\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">謝謝！</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">上次檢查時間：%1$s</string><!--Last checked time: %1$s-->
+    <string name="backup_trust_item_sub2">點選此處以產生代碼。</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">重新發送</string><!--Resend-->
+    <string name="backup_bottom_request_show">來自朋友的要求</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">移除信任的聯絡人</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_delete">移除(%1$d)</string><!--Remove(%1$d)-->
+    <string name="backup_menu_remove_trust_title">移除信任的聯絡人</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">登出</string>
+    <string name="backup_pending_target_toolbar">來自朋友的要求</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">目前沒有要求。</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">不支援在同一裝置上備份。</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">此帳戶已用於其他裝置</string><!--This account has been used in another device-->
+    <string name="db_security_concern">基於安全考量，每個帳戶只能用於一部裝置。</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">是否仍要使用此帳戶或使用其他帳戶啟動社交密鑰還原？</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">使用此帳戶</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">您之前的信任聯絡人名單將永久消失。</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">使用其他帳戶</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">保留之前的資料並建立新的資料。</string><!--Keep previous data and create a new one.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">您好，\n\n由於您是我信任的聯絡人，我需要您的協助來還原我的 Zion 錢包。\n為了還原，我需要您進行以下操作。\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) 點選此連結並產生驗證碼。\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) 將代碼傳送給我。\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">謝謝！</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">請稍候…</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">正在登入...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">此帳戶尚未啟用社交密鑰還原</string>
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">請試著使用其他帳戶或 12 組助記詞組來還原錢包</string>
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">請稍候…</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">正在產生連結…</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">登入您的帳號</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">若要透過社交密鑰還原來還原錢包，請選擇您之前用來儲存信任聯絡人清單的 Google 帳戶。</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">無法產生分享連結</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">請稍後再試一次。</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">無法登入</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">請稍後再試一次。</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">請您信任的聯絡人協助</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. 聯繫三個您信任的聯絡人並與他們分享此連結。</string><!--1. Reach out three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. 每個聯絡人都會提供一組代碼。請在下方輸入代碼：</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">一或多個代碼不正確。請再試一次。</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">輸入代碼</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">取消</string><!--Cancel-->
+    <string name="social_restore_btn_next">下一步</string><!--Next-->
+    <string name="social_restore_no_backup_on_device">您的裝置上沒有 %1$s 的備份。</string><!--There\'s no backup for %1$s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">無法還原</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">請試著使用其他帳戶或 12 組助記詞組來還原。</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">%1$s 的邀請</string><!--%1$s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">點選以接受。</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">來自 %1$s 的協助還原要求</string><!--Recovery support request from %1$s-->
+    <string name="social_restore_backup_tap_to_generate_code">點選以產生代碼。</string><!--Tap to generate code.-->
+    <string name="social_backup_update_backup_status">更新備份狀態</string><!--Update backup status-->
+    <string name="social_backup_not_now">現在不要</string><!--Not now-->
+    <string name="social_backup_oops_inactive">很抱歉，某些您信任的聯絡人處於無法聯繫狀態。</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">請與您信任的聯絡人確認您與其之間的聯繫狀況。</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">您已在另一部裝置上使用此帳戶</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">您所有的社交密鑰還原資料皆永久無法使用。您必須登入另一個帳戶才能繼續使用社交密鑰還原。</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Some trusted contacts need to be re-/connected</string>-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">For security concerns, you need to resend the trusted contact invitation to %1$s, %2$s again.</string>-->
+
+    <string name="Settings">設定</string><!--Settings-->
+
+    <string name="socialkm_network_connection_title">無法連線。</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">您必須要有網路連線，才能使用本應用程式。請從設定中開啟行動數據或 Wi-Fi。</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">取消</string><!--Cancel-->
+	<!--<string name="check">Check</string>-->
+
+    <string name="entry_ios_coming_soon">iOS 即將推出</string><!--COMING SOON FOR IOS-->
+
+	<!--<string name="socialkm_not_active_title">Social Key Recovery is not active</string>-->
+	<!--<string name="socialkm_not_active_message">You can try to contact your trusted contacts and check their backup status or find a new contact to help you.</string>-->
+
+</resources>

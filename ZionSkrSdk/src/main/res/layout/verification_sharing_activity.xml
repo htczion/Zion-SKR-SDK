@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallet_background"
+    android:fitsSystemWindows="true"
+    tools:context=".verification.VerificationSharingActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:fitsSystemWindows="true">
+
+        <ImageButton
+            android:id="@+id/ib_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icon_btn_cancel_dark"
+            android:foreground="@drawable/social_backup_toolbar_overlay"/>
+
+        <TextView
+            android:id="@+id/tv_toolbar_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/ib_close"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/ver_toolbar_title"
+            android:textColor="@color/ver_toolbar_title"
+            android:textSize="18sp"/>
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+
+        <RelativeLayout
+            android:id="@+id/layout_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/M5">
+
+            <TextView
+                android:id="@+id/tv_share_qr_title"
+                style="@style/verification_share_qr_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:id="@+id/pincode_layout"
+                style="@style/verification_share_qr_pincode_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_share_qr_title"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_pin_digit1"
+                    style="@style/verification_share_qr_pincode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_pin_digit2"
+                    style="@style/verification_share_qr_pincode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_pin_digit3"
+                    style="@style/verification_share_qr_pincode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_pin_digit4"
+                    style="@style/verification_share_qr_pincode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_pin_digit5"
+                    style="@style/verification_share_qr_pincode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_pin_digit6"
+                    style="@style/verification_share_qr_pincode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_recovery_from"
+                style="@style/verification_recovery_from"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pincode_layout"
+                android:text="@string/ver_sharing_recovery_remind_name"/>
+
+            <TextView
+                android:id="@+id/tv_remind_name"
+                style="@style/verification_share_qr_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_recovery_from"/>
+
+            <TextView
+                android:id="@+id/tv_remind_route"
+                style="@style/verification_share_qr_route"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_remind_name"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/tv_reject"
+                style="@style/verification_share_qr_reject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_remind_route"
+                android:layout_marginBottom="@dimen/M1"
+                android:text="@string/ver_sharing_reject"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,172 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">Ei</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">OK</string><!--OK-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- general -->
+    <string name="gen_new_version">Uusi versio käytettävissä</string><!--New version available-->
+    <string name="gen_new_version_hint">Päivitä sovellus uudempaan versioon suojauksen ja käyttäjäkokemuksen parantamiseksi.</string><!--Please update app to newer version for enhanced security and user experience.-->
+    <string name="gen_update_now">PÄIVITÄ</string><!--UPDATE NOW-->
+<!-- end general -->
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">%1$s lisäsi sinut luotetuksi yhteyshenkilöksi</string><!--%1$s added you as a trusted contact-->
+    <string name="ver_step1">Vaihe 1. Syötä nimesi ja hae tarkistuskoodisi kohteelta %1$s.</string><!--Step 1. Enter your name and get the verification code from %1$s.-->
+    <string name="ver_step2">Vaihe 2. Tarkistuskoodisi on luotu kohteen %1$s puhelimessa. Pyydä heiltä koodi ja syötä se.</string>
+    <string name="ver_enter_name_hint">Syötä nimesi</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">Pyydä koodi</string><!--Request code-->
+    <string name="ver_sharing_title">Jaa tämä koodi kohteen %1$s kanssa</string><!--Share this code to %1$s-->
+    <string name="ver_sharing_remind_route">Mat: %1$s %2$s:n välityksellä\n</string><!--M: %1$s\nvia %1$s-->
+    <string name="ver_sharing_reject">HYLKÄÄ</string><!--REJECT-->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">Uusi pyyntö kohteelta %1$s</string><!--New request from %1$s-->
+    <string name="ver_notification_request_content">Napauta nähdäksesi tarkistuskoodin ja jakaaksesi sen kohteen %1$s kanssa.</string><!--Tap to see the verification code and share it with %1$s.-->
+    <string name="ver_notification_request_button">NÄYTÄ TARKISTUSKOODI</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">Ei vastausta? Voit tehdä toisen pyynnön kohteelle %1$s</string>
+    <string name="ver_verify">Vahvista</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">Sinä olet nyt luotettu yhteystieto kohteelle %1$s.</string><!--You are now a trusted contact for %1$s.-->
+    <string name="ver_ok_congratulation_msg">Voit nyt auttaa kohteen %1$s lompakon palauttamisessa, jos se on kadonnut tai varastettu. Zion on salannut ja tallentanut osan heidän lompakkonsa palautustiedoistaan laitteeseesi. Varmista, ettet poista Zionia tai Zion-sovelluksen tietoja, muuten palautustiedot menetetään. Zion tarkistaa kohteen %2$s säännöllisesti varmistaakseen, että palautustiedot ovat edelleen kelvollisia.</string><!--You can now help %1$s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %1$s periodically to verify the recovery data is still valid.-->
+    <string name="ver_ok_done">Valmis</string><!--Done-->
+    <string name="ver_pin_error_hint">Tämä koodi ei kelpaa. Yritä uudelleen.</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_btn_ok">OK</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">Olet jo kohteen %1$s luotettu yhteystieto</string><!--You are already %1$s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">Kiitos, kun autoit kohteen %1$s tietojen varmuuskopioinnissa</string><!--Thanks for helping back up %1$s’s data-->
+    <string name="ver_dialog_verifying_title">Tarkistus lähetetty</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">Odotetaan tarkistusta. Sinusta tulee kohteen %1$s luotettu yhteystieto, kun tarkistus on suoritettu loppuun.</string><!--Waiting for verifying. You will be %1$s’s trusted contact when verification is completed.-->
+    <string name="ver_unknown_phone_number">Tuntematon</string><!--Unknown-->
+    <string name="ver_unknown_name">Tuntematon</string><!--Unknown-->
+    <string name="ver_dialog_trusted_contact_full_title">Kiitos avustasi!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">%1$s on jo saavuttanut 5 luotetun yhteystiedon enimmäismäärän.</string><!--%1$s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">Tämä linkki on vanhentunut. Pyydä kohdetta %1$s lähettämään päivitetty linkki.</string><!--This link is expired, please ask %1$s to send the updated link.-->
+    <string name="ver_request_timeout">Pyynnön aikakatkaisu. Yritä myöhemmin uudelleen.</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">Yritä myöhemmin uudelleen</string><!--Please try again later-->
+    <string name="try_too_often_message">Yrität liian usein. Yritä uudelleen %1$d minuutin kuluttua</string>
+
+    <!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Mikä on Social Key Recovery\?</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">Social Key Recovery auttaa sinua palauttamaan lompakkosi helposti luotetuilta ystäviltäsi tai perheenjäseniltä.</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">Kutsu 3–5 henkilöä luotetuiksi yhteystiedoiksi, jotka voivat auttaa sinua palauttamaan lompakkosi.</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">Luotetut yhteystietosi voivat lähettää koodin auttamaan sinua palauttamaan lompakkosi.</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">Määritä asetukset</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href="com.htc.wallet://">Ei nyt</a></string>
+    <string name="backup_introduction_ok">OK</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">Varmuuskopioi luotettujen yhteystietojesi luettelo</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">Palauttaaksesi lompakkosi Social Key Recovery -toiminnolla, valitse Google-tili varmuuskopioidaksesi luotetut yhteystietosi. Luotettujen yhteystietojen luettelosi tallennetaan Google Driveen.</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">Lisää tili</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">Peruuta</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">Jatka</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="backup_trusted_contact">Luotettu yhteystieto</string><!--Trusted contact-->
+    <string name="backup_null_contact">Et ole lisännyt vielä yhtään luotettua yhteystietoa.</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">Social Key Recovery on käytettävissä vasta, kun sinulla on vähintään 3 luotettua yhteystietoa (Maks: 5).</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">Kutsu ystäviäsi\nluotetuiksi yhteystiedoiksi</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">Kutsu 3–5 ystäviäsi tai perheenjäseniä luotetuiksi yhteystiedoiksi auttamaan sinua palauttamaan lompakkosi.</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.-->
+    <string name="backup_invitation_hi">Hei %1$s,</string><!--Hi %1$s,-->
+    <string name="backup_invitation_sharing">Jaa kutsu</string><!--Share invitation-->
+    <string name="backup_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">Ei aktiivinen</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">Aktiivinen</string><!--Active-->
+    <string name="backup_invitation_message_first_part">Hei, \n\nolen nimittänyt sinut luotetuksi yhteystiedoksi Zion-lompakon Social Key Recovery -ominaisuudelle. \n Toimi alla olevien ohjeiden mukaisesti \n auttaaksesi minua varmuuskopioimaan palautustietoni.\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) Napauta tätä linkkiä ladataksesi ja asettaaksesi Zionin:\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) Kun olet valmis, muista \npyytää minulta tarkistuskoodi.\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">Kiitos!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">Viimeinen tarkistettu aika: %1$s</string><!--Last checked time: %1$s-->
+    <string name="backup_trust_item_sub2">Napauta tässä luodaksesi koodin.</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">Lähetä uudelleen</string><!--Resend-->
+    <string name="backup_bottom_request_show">Pyynnöt ystäviltä</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">Poista luotettu yhteyshenkilö</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_delete">Poista (%1$d)</string><!--Remove(%1$d)-->
+    <string name="backup_menu_remove_trust_title">Poista luotettu yhteyshenkilö</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">Kirjaudu ulos</string>
+    <string name="backup_pending_target_toolbar">Pyynnöt ystäviltä</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">Ei pyyntöjä juuri nyt.</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">Varmuuskopiointi samaan laitteeseen ei ole tuettu.</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">Tätä tiliä on käytetty toisessa laitteessa</string><!--This account has been used in another device-->
+    <string name="db_security_concern">Turvallisuussyistä kutakin tiliä voi käyttää vain yhdellä laitteella.</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">Haluatko edelleen käyttää tätä tiliä vai käyttää toista aloittaaksesi Social Key Recovery -palautuksen?</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">Käytä tätä tiliä</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">Aiempi luotettujen yhteystietojesi luettelo menetetään pysyvästi.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">Käytä toista tiliä</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">Säilytä aiemmat tiedot ja luo uusi.</string><!--Keep previous data and create a new one.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">Hei, \n\n luotettuna yhteystietonani tarvitsen apuasi Zion-lompakkoni palauttamisessa.\nPalautusta varten pyytäisin sinua tekemään seuraavaa.\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) Napauta tätä linkkiä ja luo tarkistuskoodi.\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) Lähetä minulle koodi.\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">Kiitos!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">Odota…</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">Kirjautuu ulos...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">Tätä tiliä ei ole aktivoitu Social Key Recovery -toimintoa varten</string>
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">Kokeile toista tiliä tai käytä 12 sanan palautuslausetta palauttaaksesi lompakkosi</string>
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">Odota…</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">Luodaan linkkiä...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">Kirjautuminen tilillesi</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">Palauttaaksesi lompakkosi Social Key Recovery -toiminnolla, valitse Google-tili, jossa aiemmin tallensit luotettujen yhteystietojen luettelon.</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">Jakolinkin luominen epäonnistui</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">Yritä myöhemmin uudelleen.</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">Sisään kirjautuminen epäonnistui</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">Yritä myöhemmin uudelleen.</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">Pyydä apua luotetuilta yhteystiedoiltasi</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. Ota yhteyttä kolmeen luotettuun yhteystietoosi ja jaa tämä linkki heidän kanssaan.</string><!--1. Reach out three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. Kukin yhteystieto antaa sinulle koodin. Syötä kukin koodi alle:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">Yksi tai usea koodi on väärä. Yritä uudelleen.</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">Syötä koodi</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">Peruuta</string><!--Cancel-->
+    <string name="social_restore_btn_next">Seuraava</string><!--Next-->
+    <string name="social_restore_no_backup_on_device">Kohteelle %1$s ei ole varmuuskopiota laitteessasi.</string><!--There\'s no backup for %1$s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">Palautus epäonnistui</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">Kokeile käyttämällä eri tiliä tai 12 sanan palautuslausettasi palauttamisen tekemiseksi.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">%1$s:n kutsu</string><!--%1$s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">Napauta hyväksyäksesi.</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">Palautustukipyyntö kohteelta %1$s</string><!--Recovery support request from %1$s-->
+    <string name="social_restore_backup_tap_to_generate_code">Napauta luodaksesi koodin.</string><!--Tap to generate code.-->
+    <string name="social_backup_update_backup_status">Päivitä varmuuskopiotila</string><!--Update backup status-->
+    <string name="social_backup_not_now">Ei nyt</string><!--Not now-->
+    <string name="social_backup_oops_inactive">Jotkut luotetuista yhteystiedostasi eivät ole aktiivisia.</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">Tarkista luotetut yhteystietosi yhteyksien varmistamiseksi.</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">Olet käyttänyt tätä tiliä toisessa laitteessa</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">Kaikkia Social Key Recovery -tietoja ei voi käyttää pysyvästi. Sinun on kirjauduttava toiselle tilille jatkaaksesi Social Key Recovery -palautuksen käyttöä.</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Some trusted contacts need to be re-/connected</string>-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">For security concerns, you need to resend the trusted contact invitation to %1$s, %2$s again.</string>-->
+
+    <string name="Settings">Asetukset</string><!--Settings-->
+
+    <string name="socialkm_network_connection_title">Yhdistäminen ei onnistu.</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">Tarvitset verkkoyhteyden tämän sovelluksen käyttämiseksi. Kytke mobiilidata tai Wi-Fi päälle Asetuksissa.</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">Peruuta</string><!--Cancel-->
+	<!--<string name="check">Check</string>-->
+
+    <string name="entry_ios_coming_soon">TULOSSA PIAN IOS-KÄYTTÖJÄRJESTELMÄLLE</string><!--COMING SOON FOR IOS-->
+
+	<!--<string name="socialkm_not_active_title">Social Key Recovery is not active</string>-->
+	<!--<string name="socialkm_not_active_message">You can try to contact your trusted contacts and check their backup status or find a new contact to help you.</string>-->
+
+</resources>

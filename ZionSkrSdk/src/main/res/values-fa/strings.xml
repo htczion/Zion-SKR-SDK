@@ -1,0 +1,172 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">خیر</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">تأیید</string><!--OK-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- general -->
+    <string name="gen_new_version">نسخه جدید موجود است</string><!--New version available-->
+    <string name="gen_new_version_hint">برای در اختیار داشتن ایمنی و تجربه کاربری بهتر، برنامه را به نسخه جدیدتر به روز رسانی کنید.</string><!--Please update app to newer version for enhanced security and user experience.-->
+<!-- end general -->
+
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">%1$s شما را به عنوان مخاطب مورد اعتماد اضافه کرد</string><!--%1$s added you as a trusted contact-->
+    <string name="ver_step1">مرحله 1. نامتان را وارد کنید و کد تأیید اعتبار را از %1$s دریافت کنید.</string><!--Step 1. Enter your name and get the verification code from %1$s.--> 
+    <string name="ver_step2">مرحله 2. کد تأیید اعتبار در تلفن %1$s ایجاد شد. از آنها کد را درخواست کنید و آن را وارد کنید.</string> 
+    <string name="ver_enter_name_hint">نامتان را وارد کنید</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">درخواست کد</string><!--Request code-->
+    <string name="ver_sharing_title">اشتراک گذاری این کد با %1$s</string><!--Share this code to %1$s-->
+    <string name="ver_sharing_remind_route">M: %1$s\nاز طریق %2$s</string><!--M: %1$s\nvia %1$s-->
+    <string name="ver_sharing_reject">رد کردن</string><!--REJECT-->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">درخواست جدید از %1$s</string><!--New request from %1$s--> 
+    <string name="ver_notification_request_content">برای مشاهده کد تأیید اعتبار ضربه بزنید و آن را به %1$s به اشتراک بگذارید.</string><!--Tap to see the verification code and share it with %1$s.-->
+    <string name="ver_notification_request_button">نمایش کد تأیید اعتبار</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">پاسخی دریافت نشد؟ می توانید بعد از %1$s یک درخواست دیگر ارائه کنید</string>
+    <string name="ver_verify">تایید صحت</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">شما اکنون مخاطب مورد اعتماد %1$s هستید.</string><!--You are now a trusted contact for %1$s.--> 
+    <string name="ver_ok_congratulation_msg">اکنون می توانید به %1$s کمک کنید در صورت گم شدن یا دزدیده شدن کیف پولش آن را بازیابی کند. Zion بخشی از داده بازیابی کیف پول را در دستگاهتان رمزگذاری و ذخیره کرده است. حتماً Zion و داده های برنامه Zion را حذف کنید در غیر اینصورت داده های بازیابی از بین می روند. Zion به صورت دوره ای با %2$s بررسی می کند تا مطمئن شود اطلاعات بازیابی همچنان معتبر هستند.</string><!--You can now help %1$s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %1$s periodically to verify the recovery data is still valid.-->
+    <string name="ver_ok_done">انجام شد</string><!--Done-->
+    <string name="ver_pin_error_hint">کد نامعتبر است، لطفا دوباره امتحان کنید.</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_btn_ok">تأیید</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">شما از قبل یک مخاطب مورد اعتماد %1$s هستید</string><!--You are already %1$s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">از اینکه کمک کردید داده های %1$s را پشتیبان گیری کنیم متشکرم</string><!--Thanks for helping back up %1$s’s data-->
+    <string name="ver_dialog_verifying_title">تأیید اعتبار ارسال شد</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">در انتظار تأیید اعتبار. بعد از پایان مراحل تأیید اعتبار، شما مخاطب مورد اعتماد %1$s خواهید بود.</string><!--Waiting for verifying. You will be %1$s’s trusted contact when verification is completed.-->
+    <string name="ver_unknown_phone_number">ناشناس</string><!--Unknown-->
+    <string name="ver_unknown_name">ناشناس</string><!--Unknown-->
+    <string name="ver_dialog_trusted_contact_full_title">از کمکتان متشکریم!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">%1$s قبلاً به حداکثر تعداد 5 مخاطب مورد اعتماد رسیده است.</string><!--%1$s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">این پیوند منقضی شده است، لطفاً از %1$s درخواست کنید پیوند به روز رسانی شده را ارسال کند.</string><!--This link is expired, please ask %1$s to send the updated link.-->
+    <string name="ver_request_timeout">فرصت زمانی درخواست تمام شد، لطفاً بعداً دوباره امتحان کنید.</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">لطفاً بعداً دوباره تلاش کنید</string><!--Please try again later-->
+    <string name="try_too_often_message">به تعداد دفعات زیادی امتحان کردید، لطفاً دوباره بعد از %1$d دقیقه امتحان کنید</string>
+
+    <!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Social Key Recovery چیست؟</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">Social Key Recovery به شما کمک می کند به راحتی کیف پولتان را از دوستان مورد اعتماد یا خانواده تان بازیابی کنید.</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">از 3 تا 5 نفر دعوت کنید تا مخاطب مورد اعتمادتان باشند تا در بازیابی کیف پول به شما کمک کنند.</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">مخاطبین مورد اعتمادتان می توانند کدی را ارسال کنند تا بتوانید کیف پولتان را بازیابی کنید.</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">راه‌اندازی</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href="com.htc.wallet://">حالا نه</a></string>
+    <string name="backup_introduction_ok">تأیید</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">از لیست تماس مخاطبین مورد اعتمادتان نسخه پشتیبان تهیه کنید</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">برای بازیابی کیف پول با Social Key Recovery، یک حساب Google انتخاب کنید تا از مخاطبین مورد اعتمادتان نسخه پشتیبان تهیه کنید. فهرست مخاطبین مورد اعتمادتان در Google Drive ذخیره خواهند شد.</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">افزودن حساب</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">لغو</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">ادامه</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="backup_trusted_contact">مخاطب مورد اعتماد</string><!--Trusted contact-->
+    <string name="backup_null_contact">هنوز هیچ مخاطب مورد اعتمادی اضافه نکرده اید.</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">Social Key Recovery زمانی قابل دسترسی است \n که حداقل 3 مخاطب مورد اعتماد (حداکثر 5 نفر) داشته باشید.</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">از دوستانتان به عنوان مخاطب مورد\nاعتماد دعوت کنید</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">از 3 تا 5 دوست یا خانواده تان دعوت کنید تا مخاطب مورد اعتمادتان باشند و به بازیابی کیف پول نیز کمک شود.</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.-->
+    <string name="backup_invitation_hi">سلام %1$s،</string><!--Hi %1$s,-->
+    <string name="backup_invitation_sharing">اشتراک گذاری دعوت</string><!--Share invitation-->
+    <string name="backup_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">غیر فعال</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">فعال</string><!--Active-->
+    <string name="backup_invitation_message_first_part">سلام، \n\n من شما را به عنوان مخاطب مورد اعتماد کیف پول Zion در ویژگی Social Key Recovery تعیین کرده ام. \n لطفاً دستورالعمل های زیر را \n برای کمک به من در بازیابی داده هایم دنبال کنید.\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) روی لینک ضربه بزنید تا Zion دانلود و نصب شود:\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) بعد از پایان کار، حتماٌ از \n من کد تأیید درخواست کنید.\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">متشکریم!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">آخرین زمان بررسی: %1$s</string><!--Last checked time: %1$s-->
+    <string name="backup_trust_item_sub2">برای ایجاد کد روی این قسمت ضربه بزنید.</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">ارسال مجدد</string><!--Resend-->
+    <string name="backup_bottom_request_show">درخواست دوستان</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">حذف مخاطب مورد اعتماد</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_delete">حذف (%1$d)</string><!--Remove(%1$d)-->
+    <string name="backup_menu_remove_trust_title">حذف مخاطب مورد اعتماد</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">خروج از سیستم</string>
+    <string name="backup_pending_target_toolbar">درخواست دوستان</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">این بار درخواستی وجود ندارد.</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">پشتیبان گیری در بعضی از دستگاه ها امکان پذیر نیست.</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">این حساب در دستگاهی دیگر استفاده شده است</string><!--This account has been used in another device-->
+    <string name="db_security_concern">به دلایل امنیتی، از هر حساب فقط می توانید برای یک دستگاه استفاده کنید.</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">آیا همچنان می خواهید از این حساب استفاده کنید یا می خواهید از حسابی دیگر برای شروع Social Key Recovery استفاده کنید؟</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">از این حساب استفاده شود</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">لیست مخاطب مورد اعتماد قبلیتان به صورت دائمی از بین می رود.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">از حسابی دیگر استفاده کنید</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">داده های قبلی حفظ شود و یک داده جدید ایجاد کنید.</string><!--Keep previous data and create a new one.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">سلام، \n\n شما یک مخاطب مورد اعتماد من هستید و برای بازیابی کیف پول Zion به کمک شما نیاز دارم.\nبرای بازیابی، لازم است کارهای زیر را انجام دهید.\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) روی این لینک ضربه بزنید و کد تأیید را ایجاد کنید.\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) کد را برای من ارسال کنید.\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">متشکریم!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">لطفاً صبر کنید...</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">درحال ورود...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">این حساب برای Social Key Recovery فعال نشده است</string>
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">لطفاً از حساب یا کلید بازیابی 12 کلمه ای دیگری برای بازیابی کیف پول استفاده کنید</string>
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">لطفاً صبر کنید...</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">درحال ایجاد پیوند...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">به حسابتان وارد سیستم شوید</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">برای بازیابی کیف پول با Social Key Recovery، حساب Google را انتخاب کنید که قبلاً فهرست مخاطبین مورد اعتمادتان را در آنجا ذخیره کرده اید.</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">لینک اشتراک گذاری ایجاد نشد</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">لطفاً بعداً دوباره امتحان کنید.</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">وارد سیستم نشدید</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">لطفاً بعداً دوباره امتحان کنید.</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">از مخاطبین مورد اعتمادتان برای راهنمایی درخواست کنید</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. به سه مخاطب مورد اعتمادتان تماس بگیرید و این لینک را با آنها به اشتراک بگذارید.</string><!--1. Reach out three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. هر مخاطب یک کد به شما می دهد. هرکدام از کدها را در زیر وارد کنید:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">یک یا تعداد بیشتری از کدها اشتباه هستند. دوباره امتحان کنید.</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">کد را وارد کنید</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">لغو</string><!--Cancel-->
+    <string name="social_restore_btn_next">بعدی</string><!--Next-->
+    <string name="social_restore_no_backup_on_device">هیچ نسخه پشتیبانی برای %1$s در دستگاهتان وجود ندارد.</string><!--There\'s no backup for %1$s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">بازیابی نشد</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">از حسابی دیگر یا کلید بازیابی 12 کلمه ای برای بازیابی استفاده کنید.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">دعوت %1$s</string><!--%1$s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">برای پذیرش ضربه بزنید.</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">درخواست پشتیبانی بازیابی از %1$s</string><!--Recovery support request from %1$s-->
+    <string name="social_restore_backup_tap_to_generate_code">برای ایجاد کد ضربه بزنید.</string><!--Tap to generate code.-->
+    <string name="social_backup_update_backup_status">به روز رسانی وضعیت پشتیبان</string><!--Update backup status-->
+    <string name="social_backup_not_now">حالا نه</string><!--Not now-->
+    <string name="social_backup_oops_inactive">بعضی از مخاطبین مورد اعتماد شما غیرفعال هستند.</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">با مخاطب مورد اعتمادتان بررسی کنید و ارتباطات را ایمن کنید.</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">در دستگاهی دیگر از این حساب استفاده کرده اید</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">هیچکدام داده های Social Key Recovery به صورت دائمی قابل استفاده نیستند. برای ادامه استفاده از Social Key Recovery باید به حساب دیگری وارد شوید.</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Some trusted contacts need to be re-/connected</string>-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">For security concerns, you need to resend the trusted contact invitation to %1$s, %2$s again.</string>-->
+
+    <string name="Settings">تنظیمات</string><!--Settings-->
+
+    <string name="socialkm_network_connection_title">امكان اتصال وجود ندارد.</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">براي استفاده از اين برنامه به يک اتصال شبكه نياز داريد. لطفاً داده های تلفن همراه یا Wi-Fi را در قسمت تنظیمات روشن کنید.</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">لغو</string><!--Cancel-->
+	<!--<string name="check">Check</string>-->
+
+    <string name="entry_ios_coming_soon">به زودی برای IOS ارائه می شود</string><!--COMING SOON FOR IOS-->
+
+	<!--<string name="socialkm_not_active_title">Social Key Recovery is not active</string>-->
+	<!--<string name="socialkm_not_active_message">You can try to contact your trusted contacts and check their backup status or find a new contact to help you.</string>-->
+
+</resources>

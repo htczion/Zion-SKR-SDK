@@ -1,0 +1,46 @@
+<!DOCTYPE resources [
+    <!ENTITY clientId "">
+    ]>
+
+<resources>
+    <string name="app_name">ZionSkrSdk</string>
+
+    <!-- OneDrive -->
+    <string name="client_Id">&clientId;</string>
+    <string name="msalPrefix">msal&clientId;</string>
+
+    <!-- Firebase AppLink -->
+    <string name="applink_domain">zionsdkdemo.page.link</string>
+    <string name="applink_android_package_name">com.htc.wallet.skrsdk.demoapp</string>
+    <string name="applink_ios_bundle_id">com.htc.ZionSDKDemo</string>
+    <string name="applink_google_play_link">http://market.android.com/details?id=com.htc.wallet.skrsdk.demoapp</string>
+    <string name="applink_app_store_link">"https://itunes.apple.com/app/id1442810459?mt=8"</string>
+    <string name="applink_appstore_id">1442810459</string>
+
+    <!-- SKR Backup Invitation Message-->
+    <string name="backup_invitation_message_first_part">Hi, \n\n I\'ve designated you as my trusted contact for the Demo App\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n</string><!-- Keep "Social Key Recovery" in English except for Chinese -->
+    <string name="backup_invitation_message_second_part">1) Tap this link to download and install Demo App:\n</string>
+    <string name="backup_invitation_message_third_part">2) When you\'re done, remember to \n ask me for the verification code.\n\n</string>
+    <string name="backup_invitation_message_fourth_part">Thanks!</string>
+
+    <!-- SKR Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">Hi, \n\n As my trusted contact, I need your help to recover my Demo App.\nFor recovery, I need you to do the following.\n\n</string><!-- Edited 2nd round -->
+    <string name="restore_invitation_message_second_part">1) Tap this link and generate a verification code.\n</string>
+    <string name="restore_invitation_message_third_part">2) Send me the code.\n\n</string>
+    <string name="restore_invitation_message_fourth_part">Thanks!</string>
+
+    <!-- SKR Backup Choose Drive message -->
+    <string name="backup_choose_google_drive_sub_title">To find and restore your trusted contact data from %1$s, select your account and allow Demo App to access your files.</string>
+
+    <!-- SKR Restore Choose Drive message -->
+    <string name="backup_choose_google_drive_sub_title_for_restore">To recover your Demo App with Social Key Recovery, select your account from %1$s where you previously saved your trusted contact list.</string><!-- Keep "Social Key Recovery" in English except for Chinese -->
+
+    <!-- SKR Introduction page -->
+    <string name="backup_introduction_title">What is Social Key Recovery\?</string><!-- Keep "Social Key Recovery" in English except for Chinese -->
+    <string name="backup_introduction_sub_title">Social Key Recovery can help you conveniently recover your Demo App from your trusted friends or family.</string><!-- Keep "Social Key Recovery" in English except for Chinese -->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">Invite 3 to 5 people to be trusted contacts who can help recover your Demo App.</string> <!-- Edited by EAS -->
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">Your trusted contacts can send a code to help you recover your Demo App.</string><!-- Edited round 2 -->
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="@drawable/shape_social_backup_item_overlay"
+    android:paddingStart="30dp"
+    android:paddingEnd="30dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <ImageView
+        android:id="@+id/iv_status_icon"
+        android:layout_marginTop="@dimen/M2"
+        android:layout_width="8dp"
+        android:layout_height="8dp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/iv_status_icon"
+        android:layout_marginLeft="@dimen/M2">
+
+        <TextView
+            android:id="@+id/tv_contact_name"
+            android:textSize="17sp"
+            android:textColor="@color/light_primaryfont_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_last_check"
+            android:textSize="13sp"
+            android:textColor="#959cab"
+            android:layout_marginTop="@dimen/M5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_resend"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/shape_social_backup_resend_button"
+        android:layout_marginLeft="@dimen/M2"
+        android:layout_toRightOf="@+id/ll_contacts"
+        android:visibility="invisible"
+        android:layout_marginTop="@dimen/M2"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:text="@string/backup_resend_button_title"
+        android:textSize="10.5sp"
+        android:textColor="#f7b66a" />
+
+</RelativeLayout>

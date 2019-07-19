@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/social_backup_toolbar_no_active_status_icon" />
+
+    <margin
+        android:top="5dp"
+        android:right="5dp"
+        android:bottom="5dp"
+        android:left="5dp"/>
+    <size
+        android:width="8dp"
+        android:height="8dp" />
+</shape>

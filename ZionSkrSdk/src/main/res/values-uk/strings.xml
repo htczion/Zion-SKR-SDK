@@ -1,0 +1,172 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">Ні</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">ОК</string><!--OK-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- general -->
+    <string name="gen_new_version">Доступна нова версія</string><!--New version available-->
+    <string name="gen_new_version_hint">Оновіть додаток до нової версії, щоб покращити безпеку та можливості для користувача.</string><!--Please update app to newer version for enhanced security and user experience.-->
+    <string name="gen_update_now">ОНОВИТИ ЗАРАЗ</string><!--UPDATE NOW-->
+<!-- end general -->
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">%1$s додав вас в якості довіреного контакта</string><!--%1$s added you as a trusted contact-->
+    <string name="ver_step1">Крок 1. Введіть своє ім\'я та отримайте код підтвердження від %1$s.</string><!--Step 1. Enter your name and get the verification code from %1$s.--> 
+    <string name="ver_step2">Крок 2. Ваш код перевірки згенеровано на телефоні %1$s. Попросіть у них код та введіть його.</string> 
+    <string name="ver_enter_name_hint">Введіть своє ім`я</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">Запитати код</string><!--Request code-->
+    <string name="ver_sharing_title">Надішліть цей код %1$s</string><!--Share this code to %1$s-->
+    <string name="ver_sharing_remind_route">М: %1$s\nчерез %2$s</string><!--M: %1$s\nvia %1$s-->
+    <string name="ver_sharing_reject">ВІДХИЛИТИ</string><!--REJECT-->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">Новий запит від %1$s</string><!--New request from %1$s--> 
+    <string name="ver_notification_request_content">Натисніть, щоб переглянути код перевірки та поділитися ним із %1$s.</string><!--Tap to see the verification code and share it with %1$s.-->
+    <string name="ver_notification_request_button">ПОКАЗАТИ КОД ПЕРЕВІРКИ</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">Немає відповіді? Ви можете зробити ще один запит у %1$s</string>
+    <string name="ver_verify">Перевірити</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">Тепер ви довірений контакт для %1$s.</string><!--You are now a trusted contact for %1$s.--> 
+    <string name="ver_ok_congratulation_msg">Тепер ви можете допомогти %1$s відновити свій гаманець, якщо він загубився чи його вкрали. Zion зашифрував і зберіг частину даних відновлення гаманця на ваш пристрій. Не слід видаляти Zion або дані додатка Zion, інакше ці дані відновлення буде втрачено. Zion періодично перевірятиме з %2$s, щоб підтвердити, що дані відновлення залишаються дійсними.</string><!--You can now help %1$s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %1$s periodically to verify the recovery data is still valid.-->
+    <string name="ver_ok_done">Готово</string><!--Done-->
+    <string name="ver_pin_error_hint">Цей код неправильний. Спробуйте ще раз.</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_btn_ok">ОК</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">Ви вже довірений контакт %1$s</string><!--You are already %1$s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">Дякую за допомогу у резервному копіюванні даних %1$s</string><!--Thanks for helping back up %1$s’s data-->
+    <string name="ver_dialog_verifying_title">Верифікація надіслана</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">Чекаю на підтвердження. Ви будете довіреним контактом %1$s після завершення верифікації.</string><!--Waiting for verifying. You will be %1$s’s trusted contact when verification is completed.-->
+    <string name="ver_unknown_phone_number">Невідомо</string><!--Unknown-->
+    <string name="ver_unknown_name">Невідомо</string><!--Unknown-->
+    <string name="ver_dialog_trusted_contact_full_title">Дякуємо за допомогу!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">%1$s вже досяг максимум 5 довірених контактів.</string><!--%1$s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">Термін дії цього посилання закінчився, попросіть %1$s надіслати оновлене посилання.</string><!--This link is expired, please ask %1$s to send the updated link.-->
+    <string name="ver_request_timeout">Перевищено час очікування запиту, спробуйте пізніше.</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">Спробуйте пізніше</string><!--Please try again later-->
+    <string name="try_too_often_message">Ви намагаєтеся занадто часто. Будь ласка, спробуйте ще раз після %1$d хвилин</string>
+
+    <!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Що таке Social Key Recovery\?</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">Social Key Recovery допоможе вам легко відновити ваш гаманець за допомогою довірених друзів або родичів.</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">Запросіть від 3 до 5 людей стати довіреними контактами, які можуть допомогти відновити ваш гаманець.</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">Ваші довірені контакти можуть надіслати код, щоб допомогти вам відновити гаманець.</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">Налаштування</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href="com.htc.wallet://">Не зараз</a></string>
+    <string name="backup_introduction_ok">ОК</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">Створіть резервну копію списка ваших довірених контактів</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">Щоб відновити свій гаманець за допомогою Social Key Recovery, виберіть обліковий запис Google для створення резервної копії довірених контактів. Ваш надійний список контактів буде збережений на Google Диску.</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">Додати акаунт</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">Скасувати</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">Продовжити</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="backup_trusted_contact">Довірений контакт</string><!--Trusted contact-->
+    <string name="backup_null_contact">Ви ще не додали жодного довіреного контакта.</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">Social Key Recovery буде доступним, якщо у вас є принаймні 3 довірених контакта (Макс: 5).</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">Запросіть друзів стати вашим \n довіреним контактом</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">Запросіть від 3 до 5 друзів або родичів бути довіреними контактами та допомогати у відновленні свого гаманця.</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.-->
+    <string name="backup_invitation_hi">Привіт %1$s,</string><!--Hi %1$s,-->
+    <string name="backup_invitation_sharing">Поділитися запрошенням</string><!--Share invitation-->
+    <string name="backup_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">Не активний</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">Активний</string><!--Active-->
+    <string name="backup_invitation_message_first_part">Привіт, \n\n Я призначив тебе моїм довіреним контактом у функції Social Key Recovery для гаманця Zion. \n Будь ласка, дотримуйся інструкцій нижче, щоб \n допомогти мені виконати резервне даних відновлення.\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) Натисніть на це посилання, щоб завантажити та встановити Zion:\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) Після завершення не забудьте \n запитати у мене код підтвердження.\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">Дякую!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">Час останньої перевірки: %1$s</string><!--Last checked time: %1$s-->
+    <string name="backup_trust_item_sub2">Торкніться тут, щоб генерувати код.</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">Повторно надіслати</string><!--Resend-->
+    <string name="backup_bottom_request_show">Запити від друзів</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">Видалити довірений контакт</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_delete">Видалити(%1$d)</string><!--Remove(%1$d)-->
+    <string name="backup_menu_remove_trust_title">Видалити довірений контакт</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">Вийти</string>
+    <string name="backup_pending_target_toolbar">Запити від друзів</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">Наразі немає запитів.</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">Резервне копіювання на одному пристрої не підтримується.</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">Цей обліковий запис використовувався на іншому пристрої</string><!--This account has been used in another device-->
+    <string name="db_security_concern">З міркувань безпеки, кожен обліковий запис може використовуватися лише для одного пристрою.</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">Ви все ще хочете використовувати цей обліковий запис або скористатись іншим, щоб запустити Social Key Recovery?</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">Використовувати цей обліковий запис</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">Список ваших попередніх довірених контактів буде остаточно втрачений.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">Використовуйте інший обліковий запис</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">Зберігайте попередні дані та створіть новий.</string><!--Keep previous data and create a new one.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">Привіт, \n\nОскільки ти мій довірений контакт, мені потрібна твоя допомога для відновлення мого гаманця Zion.\nДля відновлення необхідно, щоб ти зробив наступні дії.\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) Торкніться цього посилання та створить код підтвердження.\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) Відправте мені код.\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">Дякую!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">Зачекайте...</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">Здійснюється вхід...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">Цей обліковий запис не активовано для Social Key Recovery</string>
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">Спробуйте інший обліковий запис або скористайтеся фразою відновлення з 12 слів, щоб відновити гаманець</string>
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">Зачекайте...</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">Створення посилання...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">Увійдіть у свій обліковий запис</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">Щоб відновити свій гаманець за допомогою Social Key Recovery, виберіть той обліковий запис Google, у якому ви раніше зберегли свій список довірених контактів.</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">Неможливо створити посилання на спільний доступ</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">Спробуйте ще раз пізніше.</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">Не вдається увійти</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">Спробуйте ще раз пізніше.</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">Попросіть своїх довірених контактів по допомогу</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. Знайдіть три з ваших довірених контактів та поділіться цим посиланням з ними.</string><!--1. Reach out three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. Кожен контакт надасть вам код. Введіть кожен код нижче:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">Один або більше кодів неправильні. Повторіть спробу.</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">Введіть код</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">Скасувати</string><!--Cancel-->
+    <string name="social_restore_btn_next">Далі</string><!--Next-->
+    <string name="social_restore_no_backup_on_device">На вашому пристрої немає резервної копії для %1$s.</string><!--There\'s no backup for %1$s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">Не вдалося відновити</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">Для відновлення спробуйте скористатись іншим обліковим записом або фразою відновлення з 12 слів.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">Запрошення від %1$s</string><!--%1$s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">Натисніть, щоб прийняти.</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">Запит підтримки для відновлення від %1$s</string><!--Recovery support request from %1$s-->
+    <string name="social_restore_backup_tap_to_generate_code">Натисніть, щоб генерувати код.</string><!--Tap to generate code.-->
+    <string name="social_backup_update_backup_status">Оновити стан резервної копії</string><!--Update backup status-->
+    <string name="social_backup_not_now">Не зараз</string><!--Not now-->
+    <string name="social_backup_oops_inactive">На жаль, деякі з ваших довірених контактів неактивні.</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">Перевірте свій довірений контакт, щоб гарантувати безпеку з\'єднання.</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">Ви використовували цей обліковий запис на іншому пристрої</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">Усі дані Social Key Recovery не можна використовувати постійно. Для продовження використання Social Key Recovery потрібно увійти в інший обліковий запис.</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Some trusted contacts need to be re-/connected</string>-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">For security concerns, you need to resend the trusted contact invitation to %1$s, %2$s again.</string>-->
+
+    <string name="Settings">Налаштування</string><!--Settings-->
+
+    <string name="socialkm_network_connection_title">Не вдалося з\'єднатися.</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">Для використання цієї програми потрібне мережеве з\'єднання. Увімкніть Мобільне передавання даних або Wi-Fi у Налаштуваннях.</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">Скасувати</string><!--Cancel-->
+	<!--<string name="check">Check</string>-->
+
+    <string name="entry_ios_coming_soon">НЕЗАБАРОМ ДЛЯ IOS</string><!--COMING SOON FOR IOS-->
+
+	<!--<string name="socialkm_not_active_title">Social Key Recovery is not active</string>-->
+	<!--<string name="socialkm_not_active_message">You can try to contact your trusted contacts and check their backup status or find a new contact to help you.</string>-->
+
+</resources>

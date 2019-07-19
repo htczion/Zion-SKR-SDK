@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:animateLayoutChanges="true"
+                android:clipToPadding="false"
+                android:descendantFocusability="beforeDescendants"
+                android:filterTouchesWhenObscured="true"
+                android:fitsSystemWindows="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical"
+                android:background="#f7b66a"
+                tools:context=".backup.SocialBackupActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:foreground="@drawable/shape_social_backup_item_overlay"
+        android:id="@+id/rl_request_show">
+        <TextView
+            android:id="@+id/tv_backup_target_request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="16.5sp"
+            android:layout_marginLeft="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/backup_bottom_request_show"/>
+
+        <TextView
+            android:id="@+id/tv_backup_target_request_num"
+            style="@style/notification_info_xs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/M4"
+            android:layout_marginRight="30dp"
+            android:layout_toRightOf="@+id/tv_backup_target_request"
+            android:background="@drawable/shape_social_backup_request_friends_icon"
+            android:gravity="center"
+            android:text="@string/backup_bottom_request_show_num"
+            android:textColor="#f7b66a"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

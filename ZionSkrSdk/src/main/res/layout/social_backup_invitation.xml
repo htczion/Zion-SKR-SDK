@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_invitation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/rl_social_backup_warning"
+    android:background="@drawable/shape_social_backup_invitation_content"
+    android:paddingLeft="15dp"
+    android:paddingTop="10dp"
+    android:paddingRight="15dp"
+    android:paddingBottom="15dp">
+
+    <TextView
+        android:id="@+id/tv_invitation_owner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:ellipsize="end"
+        android:fontFamily="@string/font_family_regular"
+        android:lines="1"
+        android:maxLines="1"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_invitation_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_invitation_owner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:ellipsize="end"
+        android:fontFamily="@string/font_family_regular"
+        android:gravity="center_horizontal"
+        android:minLines="2"
+        android:maxLines="3"
+        android:text="@string/backup_invitation_title"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="16.5sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_invitation_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_invitation_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:ellipsize="end"
+        android:fontFamily="@string/font_family_regular"
+        android:lines="3"
+        android:maxLines="3"
+        android:text="@string/backup_invitation_content"
+        android:textColor="#ffffff"
+        android:textSize="14.5sp"/>
+
+
+    <Button
+        android:id="@+id/btn_invitation_sharing"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/socialkm_button_height"
+        android:layout_below="@id/tv_invitation_description"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape_social_backup_sharing_button"
+        android:foreground="@drawable/shape_social_backup_sharing_button_overlay"
+        android:gravity="center_vertical|center_horizontal"
+        android:enabled="false"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:text="@string/backup_invitation_sharing"
+        android:textAllCaps="false"
+        android:textColor="#f7b66a"
+        android:textSize="14.5sp"/>
+</RelativeLayout>

@@ -1,0 +1,172 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">いいえ</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">OK</string><!--OK-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- general -->
+    <string name="gen_new_version">新しいバージョンを利用できます</string><!--New version available-->
+    <string name="gen_new_version_hint">セキュリティとユーザー体験が向上したより新しいバージョンに、アプリを更新してください。</string><!--Please update app to newer version for enhanced security and user experience.-->
+    <string name="gen_update_now">今すぐ更新</string><!--UPDATE NOW-->
+<!-- end general -->
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">%1$s があなたを信頼できる連絡先に追加しました</string><!--%1$s added you as a trusted contact-->
+    <string name="ver_step1">ステップ 1.名前を入力し、%1$s から認証コードを受け取ってください。</string><!--Step 1. Enter your name and get the verification code from %1$s.-->
+    <string name="ver_step2">ステップ 2.あなたの認証コードが %1$s の携帯電話に生成されました。コードを受け取り入力してください。</string>
+    <string name="ver_enter_name_hint">名前を入力</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">コードをリクエストする</string><!--Request code-->
+    <string name="ver_sharing_title">このコードを %1$s に共有する</string><!--Share this code to %1$s-->
+    <string name="ver_sharing_remind_route">M: %1$s（%2$s 経由）\n</string><!--M: %1$s\nvia %1$s-->
+    <string name="ver_sharing_reject">拒否</string><!--REJECT-->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">%1$s からの新しいリクエスト</string><!--New request from %1$s-->
+    <string name="ver_notification_request_content">タップして認証コードを表示し、%1$s と共有します。</string><!--Tap to see the verification code and share it with %1$s.-->
+    <string name="ver_notification_request_button">認証コードを表示</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">返信がありませんか？ %1$s から別のリクエストを作成できます</string>
+    <string name="ver_verify">確認</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">%1$s の信頼できる連絡先になりました。</string><!--You are now a trusted contact for %1$s.-->
+    <string name="ver_ok_congratulation_msg">%1$s がウォレットを紛失したり盗難された場合に、ウォレットを回復するサポートができるようになりました。Zion がウォレット回復データの一部を暗号化し、あなたのデバイスに保存しました。Zion または Zion アプリのデータは削除しないようにしてください。この回復データが失われます。回復データがまだ有効かどうかについて、Zion は %2$s で定期的に確認します。</string><!--You can now help %1$s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %1$s periodically to verify the recovery data is still valid.-->
+    <string name="ver_ok_done">完了</string><!--Done-->
+    <string name="ver_pin_error_hint">このコードは無効です。もう一度お試しください。</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_btn_ok">OK</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">既に %1$s の信頼できる連絡先に登録されています</string><!--You are already %1$s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">%1$s のデータのバックアップにご協力いただきありがとうござます</string><!--Thanks for helping back up %1$s’s data-->
+    <string name="ver_dialog_verifying_title">認証を送信済み</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">確認中です。確認が完了した時に、%1$s の信頼できる連絡先になります。</string><!--Waiting for verifying. You will be %1$s’s trusted contact when verification is completed.-->
+    <string name="ver_unknown_phone_number">不明</string><!--Unknown-->
+    <string name="ver_unknown_name">不明</string><!--Unknown-->
+    <string name="ver_dialog_trusted_contact_full_title">ご協力ありがとうございます！</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">既に %1$s は信頼できる連絡先の最大人数5名に達しています。</string><!--%1$s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">このリンクの有効期限が切れています。%1$s に新しいリンクの送信を依頼してください。</string><!--This link is expired, please ask %1$s to send the updated link.-->
+    <string name="ver_request_timeout">リクエストがタイムアウトしました。後でもう一度やり直してください。</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">後でもう一度やり直してください。</string><!--Please try again later-->
+    <string name="try_too_often_message">試行が頻繁すぎます。%1$d 分後にもう一度お試しください。</string>
+
+    <!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Social Key Recovery は何ですか？</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">Social Key Recovery を使うと、信頼できる友人または家族から簡単にウォレットを回復できます。</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">ウォレットの復元に協力できる信頼できる連絡先に、3～5名の連絡先を招待してください。</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">信頼できる連絡先は、コードを送信することでウォレットの復元に協力することができます。</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">設定</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href="com.htc.wallet://">後で行う</a></string>
+    <string name="backup_introduction_ok">OK</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">信頼できる連絡先リストをバックアップする</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">Social Key Recovery でウォレットを回復するには、信頼できる連絡先をバックアップする Google アカウントを選択してください。信頼できる連絡先が Google ドライブに保存されます。</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">アカウントを追加</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">キャンセル</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">続行</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="backup_trusted_contact">信頼できる連絡先</string><!--Trusted contact-->
+    <string name="backup_null_contact">まだ信頼できる連絡先が追加されていません。</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">少なくとも3名の信頼できる連絡先があれば Social Key Recovery を利用できます（最大5名）。</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">信頼できる連絡先に\n友達を招待する</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">3～5名の友人または家族を信頼できる連絡先に招待し、ウォレットの復元に協力してもらってください。</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.-->
+    <string name="backup_invitation_hi">こんにちは %1$s、</string><!--Hi %1$s,-->
+    <string name="backup_invitation_sharing">共有招待</string><!--Share invitation-->
+    <string name="backup_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">アクティブなサービスはありません</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">アクティブ</string><!--Active-->
+    <string name="backup_invitation_message_first_part">こんにちは。\n\n Zion ウォレットの Social Key Recovery 機能の信頼できる連絡先にあなたを指名しました。\n以下の手順に従って、\n私の回復データのバックアップに協力してください。\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) このリンクをタップして Zion をダウンロードしインストールしてください：\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) 完了したら、認証コードを\n要求してください。\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">ありがとうございました!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">前回の確認時間：%1$s</string><!--Last checked time: %1$s-->
+    <string name="backup_trust_item_sub2">ここをタップするとコードを生成します。</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">再送信</string><!--Resend-->
+    <string name="backup_bottom_request_show">友人からのリクエスト</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">信頼できる連絡先を削除する</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_delete">削除 (%1$d)</string><!--Remove(%1$d)-->
+    <string name="backup_menu_remove_trust_title">信頼できる連絡先を削除する</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">ログアウト</string>
+    <string name="backup_pending_target_toolbar">友人からのリクエスト</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">現在リクエストはありません。</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">同一デバイスへのバックアップはサポートされていません。</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">このアカウントは別のデバイスで使用されています</string><!--This account has been used in another device-->
+    <string name="db_security_concern">セキュリティ上の理由から、各アカウントは1台のデバイスにのみ使用できます。</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">Social Key Recovery を開始するのに、このアカウントを使いますか？それとも別のアカウントにしますか？</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">このアカウントを使用する</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">以前に登録した信頼できる連絡先リストは、永久に失われます。</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">他のアカウントを使用する</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">以前のデータを保存し、新しいデータを作成します。</string><!--Keep previous data and create a new one.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">こんにちは。\n\n 私の Zion ウォレットを復元するにあたり、信頼できる連絡先であるあなたの協力が必要です。\n復元するにあたり、あなたに以下をしてもらう必要があります。\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) このリンクをタップして認証コードを生成してください。\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) コードを送信する。\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">ありがとうございました!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">お待ちください…</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">ログイン中...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">このアカウントでは Social Key Recovery が有効になっていません</string>
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">別のアカウントで試すか、12文字の回復フレーズを使ってウォレットを復元してください</string>
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">お待ちください…</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">リンクを生成中…</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">アカウントにサインイン</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">Social Key Recovery でウォレットを回復するには、前回信頼できる連絡先を保存した Google アカウントを選択してください。</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">共有リンクの生成に失敗</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">後でもう一度お試しください。</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">ログインに失敗</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">後でもう一度お試しください。</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">信頼できる連絡先にサポートを依頼してください</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1.信頼できる3人の連絡先に連絡し、このリンクを共有してください。</string><!--1. Reach out three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2.各々の連絡先からコードが提供されます。以下に各コードを入力してください：</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">1つ以上のコードに誤りがあります。もう一度お試しください。</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">コードを入力</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">キャンセル</string><!--Cancel-->
+    <string name="social_restore_btn_next">次へ</string><!--Next-->
+    <string name="social_restore_no_backup_on_device">お使いのデバイスに %1$s 用のバックアップはありません。</string><!--There\'s no backup for %1$s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">回復に失敗しました</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">別のアカウントを使用するか、12文字の回復フレーズで復元してください。</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">%1$s からの招待</string><!--%1$s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">タップして承認する。</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">%1$s からの回復サポートリクエスト</string><!--Recovery support request from %1$s-->
+    <string name="social_restore_backup_tap_to_generate_code">タップしてコードを生成する。</string><!--Tap to generate code.-->
+    <string name="social_backup_update_backup_status">バックアップ状況を更新する</string><!--Update backup status-->
+    <string name="social_backup_not_now">後で行う</string><!--Not now-->
+    <string name="social_backup_oops_inactive">信頼できる連絡先に非アクティブのものがあります。</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">信頼できる連絡先と共に確認し、接続を確保してくただい。</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">このアカウントは他のデバイスで使用されたことがあります</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">すべての Social Key Recovery キーが永久に使用できなくなります。Social Key Recovery の使用を続ける場合は、別のアカウントにログインする必要があります。</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Some trusted contacts need to be re-/connected</string>-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">For security concerns, you need to resend the trusted contact invitation to %1$s, %2$s again.</string>-->
+
+    <string name="Settings">設定</string><!--Settings-->
+
+    <string name="socialkm_network_connection_title">接続できません。</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">このアプリを使用するには、ネットワーク接続が必要です。設定でモバイルデータか Wi-Fi をオンにしてください。</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">キャンセル</string><!--Cancel-->
+	<!--<string name="check">Check</string>-->
+
+    <string name="entry_ios_coming_soon">iOS 向けは近日リリース予定</string><!--COMING SOON FOR IOS-->
+
+	<!--<string name="socialkm_not_active_title">Social Key Recovery is not active</string>-->
+	<!--<string name="socialkm_not_active_message">You can try to contact your trusted contacts and check their backup status or find a new contact to help you.</string>-->
+
+</resources>

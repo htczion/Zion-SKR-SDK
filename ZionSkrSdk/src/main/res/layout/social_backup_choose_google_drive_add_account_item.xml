@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_add_account"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/lv_accounts"
+    android:paddingStart="30dp"
+    android:paddingEnd="30dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:foreground="@drawable/social_backup_choose_google_drive_account_item_overlay">
+
+    <ImageView
+        android:id="@+id/iv_add_account"
+        android:layout_width="42.5dp"
+        android:layout_height="42.5dp"
+        android:background="@drawable/shape_social_backup_google_choose_add_account"
+        android:src="@drawable/icon_indicator_add"/>
+
+    <TextView
+        android:id="@+id/tv_add_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/iv_add_account"
+        android:fontFamily="@string/font_family_regular"
+        android:text="@string/backup_choose_google_drive_add_account"
+        android:textColor="#ffffff"
+        android:textSize="17sp"/>
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:clipToPadding="false"
+    android:descendantFocusability="beforeDescendants"
+    android:filterTouchesWhenObscured="true"
+    android:fitsSystemWindows="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context=".verification.SocialKeyRecoveryRequestActivity">
+    <include
+        android:id="@+id/app_layout_social_backup_pending_toolbar"
+        layout="@layout/social_backup_pending_backup_target_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_pending"
+        android:layout_below="@id/app_layout_social_backup_pending_toolbar"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:splitMotionEvents="false"/>
+    <TextView
+        android:id="@+id/tv_null_contact"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/M1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@id/app_layout_social_backup_pending_toolbar"
+        android:textSize="17sp"
+        android:textColor="@color/light_primaryfont_color"
+        android:text="@string/backup_pending_target_null"
+        android:visibility="gone" />
+</RelativeLayout>

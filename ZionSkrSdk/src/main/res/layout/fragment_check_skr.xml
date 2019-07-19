@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".backup.CheckSKRFragment"
+    android:animateLayoutChanges="true">
+
+    <RelativeLayout
+        android:id="@+id/check_skr_panel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_no_network_panel_height"
+        android:background="@color/red_header_background"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/check_skr_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_indicator_warning_dark"
+            android:layout_marginStart="@dimen/margin_l"/>
+
+        <TextView style="@style/list_body_primary_m"
+            android:textColor="@color/dark_primaryfont_color"
+            android:id="@+id/check_skr_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/security_protection_header"
+            android:textSize="@dimen/warning_header_text_size"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/check_skr_icon"
+            android:layout_marginStart="@dimen/margin_m"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="30dp"
+    android:paddingEnd="30dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <ImageView
+        android:id="@+id/iv_remove_status_icon"
+        android:layout_marginTop="@dimen/M2"
+        android:layout_width="8dp"
+        android:layout_height="8dp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_remove_contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/iv_remove_status_icon"
+        android:layout_marginLeft="@dimen/M2">
+
+        <TextView
+            android:id="@+id/tv_remove_contact_name"
+            android:textSize="17sp"
+            android:textColor="@color/light_primaryfont_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_remove_last_check"
+            android:textSize="13sp"
+            android:textColor="@color/light_secondaryfont_color"
+            android:layout_marginTop="@dimen/M5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/cb_remove_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:theme="@style/socialBackupRemoveCheckBoxStyle"
+        android:layout_marginRight="@dimen/M1"/>
+
+
+</RelativeLayout>

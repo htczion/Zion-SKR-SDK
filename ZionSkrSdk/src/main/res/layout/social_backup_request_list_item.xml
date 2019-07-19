@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="@drawable/shape_social_backup_item_overlay"
+    android:paddingStart="30dp"
+    android:paddingEnd="30dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <ImageView
+        android:id="@+id/iv_status_icon"
+        android:layout_marginTop="@dimen/M2"
+        android:src="@drawable/shape_social_backup_status_pending"
+        android:layout_width="8dp"
+        android:layout_height="8dp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/iv_status_icon"
+        android:layout_marginLeft="@dimen/M2">
+
+        <TextView
+            android:id="@+id/tv_contact_name"
+            android:textSize="17sp"
+            android:textColor="@color/light_primaryfont_color"
+            android:lines="1"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_hint"
+            android:textSize="15sp"
+            android:lines="2"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textColor="@color/light_secondaryfont_color"
+            android:layout_marginTop="@dimen/M5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</RelativeLayout>

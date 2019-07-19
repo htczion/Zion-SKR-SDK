@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:clipToPadding="false"
+                android:descendantFocusability="beforeDescendants"
+                android:filterTouchesWhenObscured="true"
+                android:fitsSystemWindows="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical"
+                tools:context=".backup.SocialBackupActivity">
+
+    <include
+        android:id="@+id/app_layout_social_backup_toolbar"
+        layout="@layout/social_backup_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <include
+        android:id="@+id/rl_social_backup_warning"
+        layout="@layout/social_backup_warning"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/app_layout_social_backup_toolbar"
+        android:visibility="gone"/>
+
+    <include
+        android:id="@+id/rl_social_backup_invitation"
+        layout="@layout/social_backup_invitation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_social_backup_warning"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"/>
+
+    <include
+        android:id="@+id/rl_social_backup_trust_contact"
+        layout="@layout/social_backup_trust_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rl_social_backup_bottom_request_show"
+        android:layout_below="@+id/rl_social_backup_invitation"
+        android:layout_marginTop="20dp"/>
+
+    <include
+        android:id="@+id/rl_social_backup_bottom_request_show"
+        layout="@layout/social_backup_bottom_request_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"/>
+
+    <fragment
+        android:id="@+id/social_backup_fragment_check_skr"
+        android:name="com.htc.wallet.skrsdk.backup.CheckSKRFragment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_no_network_panel_height"
+        android:layout_below="@id/app_layout_social_backup_toolbar"
+        tools:visibility="invisible"/>
+
+</RelativeLayout>

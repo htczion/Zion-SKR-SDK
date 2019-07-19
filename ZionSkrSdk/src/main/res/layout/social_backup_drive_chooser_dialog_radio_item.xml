@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/rl_dialog_radio_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginTop="6dp"
+                android:paddingStart="@dimen/M1"
+                android:paddingEnd="@dimen/M1"
+                android:foreground="@drawable/social_backup_restore_chooser_dialog_radio_item_overlay">
+
+    <RadioButton
+        android:id="@+id/rb_chosen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/rb_chosen"
+        android:textColor="#000"
+        android:layout_centerVertical="true"
+        android:textSize="16sp"/>
+</RelativeLayout>

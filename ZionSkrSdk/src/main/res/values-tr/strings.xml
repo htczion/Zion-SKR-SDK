@@ -1,0 +1,172 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">Hayır</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">Tamam</string><!--OK-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- general -->
+    <string name="gen_new_version">Yeni sürüm var</string><!--New version available-->
+    <string name="gen_new_version_hint">İyileştirilmiş güvenlik ve kullanıcı deneyimi için lütfen uygulamayı daha yeni bir sürüme güncelleyin.</string><!--Please update app to newer version for enhanced security and user experience.-->
+    <string name="gen_update_now">ŞIMDI GÜNCELLE</string><!--UPDATE NOW-->
+<!-- end general -->
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">%1$s sizi güvenilir kişi olarak ekledi</string><!--%1$s added you as a trusted contact-->
+    <string name="ver_step1">Adım 1. Adınızı girin ve doğrulama kodunu %1$s kullanıcısından edinin.</string><!--Step 1. Enter your name and get the verification code from %1$s.--> 
+    <string name="ver_step2">Adım 2. Doğrulama kodunuz %1$s adlı kullanıcının telefonunda oluşturulur. Kodu onlardan isteyin ve girin.</string> 
+    <string name="ver_enter_name_hint">Adınızı girin</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">İstek kodu</string><!--Request code-->
+    <string name="ver_sharing_title">Bu kodu %1$s ile paylaş</string><!--Share this code to %1$s-->
+    <string name="ver_sharing_remind_route">M: %1$s aracılığıyla %2$s\n</string><!--M: %1$s\nvia %1$s-->
+    <string name="ver_sharing_reject">REDDET</string><!--REJECT-->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">Yeni istek; gönderen: %1$s</string><!--New request from %1$s--> 
+    <string name="ver_notification_request_content">Doğrulama kodunu görmek ve %1$s ile paylaşmak için dokunun.</string><!--Tap to see the verification code and share it with %1$s.-->
+    <string name="ver_notification_request_button">DOĞRULAMA KODUNU GÖSTER</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">Yanıt yok mu? %1$s kısmında başka bir istekte bulunabilirsiniz</string>
+    <string name="ver_verify">Doğrula</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">Artık %1$s için bir güvenilir kişisiniz.</string><!--You are now a trusted contact for %1$s.--> 
+    <string name="ver_ok_congratulation_msg">Kaybolması veya çalınması durumunda %1$s kullanıcısının cüzdanını kurtarmasına yardımcı olabilirsiniz. Zion, cüzdan kurtarma verilerinin bir kısmını şifreledi ve aygıtınıza kaydetti. Zion uygulamasını veya Zion uygulaması verilerini silmediğinizden emin olun; aksi durumda bu kurtarma verileri kaybedilecektir. Zion, kurtarma verilerinin hâlâ geçerli olduğunu doğrulamak için %2$s kullanıcısıyla düzenli olarak iletişim kuracaktır.</string><!--You can now help %1$s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %1$s periodically to verify the recovery data is still valid.-->
+    <string name="ver_ok_done">Bitti</string><!--Done-->
+    <string name="ver_pin_error_hint">Bu kod geçersiz; lütfen tekrar deneyin.</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_btn_ok">Tamam</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">Zaten %1$s kullanıcısının güvenilir kişisisiniz</string><!--You are already %1$s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">%1$s kullanıcısının verilerini yedeklemeye yardım ettiğiniz için teşekkür ederiz</string><!--Thanks for helping back up %1$s’s data-->
+    <string name="ver_dialog_verifying_title">Doğrulama gönderildi</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">Doğrulama için bekliyor. Doğrulama tamamlandığında %1$s kullanıcısının güvenilir kişisi olacaksınız.</string><!--Waiting for verifying. You will be %1$s’s trusted contact when verification is completed.-->
+    <string name="ver_unknown_phone_number">Bilinmiyor</string><!--Unknown-->
+    <string name="ver_unknown_name">Bilinmiyor</string><!--Unknown-->
+    <string name="ver_dialog_trusted_contact_full_title">Yardım ettiğin için teşekkür ederim!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">%1$s, 5 olan en fazla güvenilir kişi sayısına zaten ulaştı.</string><!--%1$s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">Bu bağlantının süresi doldu; lütfen %1$s kullanıcısından güncellenmiş bağlantıyı göndermesini isteyin.</string><!--This link is expired, please ask %1$s to send the updated link.-->
+    <string name="ver_request_timeout">İstek zaman aşımı; lütfen daha sonra tekrar deneyin.</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">Lütfen daha sonra yeniden deneyin</string><!--Please try again later-->
+    <string name="try_too_often_message">Çok sık deneme yapıyorsunuz; lütfen %1$d dakika sonra tekrar deneyin.</string>
+
+    <!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Social Key Recovery nedir?</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">Social Key Recovery güvenilir arkadaşlarınız veya aile üyeleriniz aracılığıyla cüzdanınızı kolayca kurtarmanıza yardımcı olabilir.</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">3 ila 5 kişiyi, cüzdanınızı kurtarmaya yardımcı olabilecek güvenilir kişiler olmaya davet edin.</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">Güvenilir kişileriniz, cüzdanınızı geri yüklemenize yardımcı olmak için bir kod gönderebilir.</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">Kur</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href="com.htc.wallet://">Şimdi değil</a></string>
+    <string name="backup_introduction_ok">Tamam</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">Güvenilir kişi listenizi yedekleyin</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">Cüzdanınızı Social Key Recovery işleviyle kurtarmak için, güvenilir kişilerinizi yedeklemek amacıyla bir Google hesabı seçin. Güvenilir kişi listeniz Google Drive\'da saklanacaktır.</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">Hesap ekle</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">İptal</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">Devam</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="backup_trusted_contact">Güvenilir kişi</string><!--Trusted contact-->
+    <string name="backup_null_contact">Henüz hiç güvenilir kişi eklemediniz.</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">Social Key Recovery en az 3 güvenilir kişiye (en fazla 5) sahip olduğunuzda kullanılabilecektir.</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">Güvenilir kişileriniz olacak \n arkadaşları davet edin</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">3 ila 5 arkadaşı veya aile üyesini güvenilir kişiler olmaya ve cüzdanınızı kurtarmaya yardım etmeye davet edin.</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.-->
+    <string name="backup_invitation_hi">Merhaba %1$s,</string><!--Hi %1$s,-->
+    <string name="backup_invitation_sharing">Davet paylaş</string><!--Share invitation-->
+    <string name="backup_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">Etkin değil</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">Etkin</string><!--Active-->
+    <string name="backup_invitation_message_first_part">Merhaba, \n\n Seni Zion cüzdanının Social Key Recovery özelliği için güvenilir kişim olarak atadım. \n Kurtarma verilerimi yedeklemede bana \n yardım etmek için lütfen aşağıdaki yönergeleri izle.\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) Zion uygulamasını indirip yüklemek için şu bağlantıya dokun:\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) Tamamladığında, benden \n doğrulama kodunu istemeyi unutma.\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">Teşekkürler!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">Son denetleme zamanı: %1$s</string><!--Last checked time: %1$s-->
+    <string name="backup_trust_item_sub2">Kod oluşturmak için buraya dokunun.</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">Tekrar Gönder</string><!--Resend-->
+    <string name="backup_bottom_request_show">Arkadaşlardan istekler</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">Güvenilir kişiyi kaldır</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_delete">Kaldır (%1$d)</string><!--Remove(%1$d)-->
+    <string name="backup_menu_remove_trust_title">Güvenilir kişiyi kaldır</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">Oturumu kapat</string>
+    <string name="backup_pending_target_toolbar">Arkadaşlardan istekler</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">Şu anda hiç istek yok.</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">Aynı aygıtta yedekleme desteklenmez.</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">Bu hesap başka bir aygıtta kullanılmış</string><!--This account has been used in another device-->
+    <string name="db_security_concern">Güvenlik nedeniyle her bir hesap yalnızca bir aygıt için kullanılabilir.</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">Social Key Recovery başlatmak için bu hesabı kullanmaya devam etmek mi veya başka bir tane kullanmak mı istiyorsunuz?</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">Bu hesabı kullan</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">Önceki güvenilir kişi listeniz kalıcı olarak kaybedilecektir.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">Başka bir hesap kullan</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">Önceki verileri koru ve yeni bir tane oluştur.</string><!--Keep previous data and create a new one.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">Merhaba, \n\n Güvenilir kişim olarak, Zion cüzdanımı kurtarmak için yardımına ihtiyacım var.\nGeri yükleme için aşağıdaki işlemleri gerçekleştirmen gerekli.\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) Bu bağlantıya dokunup bir doğrulama kodu oluştur.\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) Kodu bana gönder.\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">Teşekkürler!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">Lütfen bekleyin...</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">Oturum açılıyor...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">Bu hesap Social Key Recovery için etkinleştirilmemiş</string>
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">Cüzdanınızı geri yüklemek için lütfen başka bir hesap deneyin veya 12 sözcüklü kurtarma ifadesini kullanın.</string>
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">Lütfen bekleyin...</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">Bağlantı oluşturuluyor...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">Hesabınızda oturum açın</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">Cüzdanınızı Social Key Recovery işleviyle kurtarmak için, daha önce güvenilir kişi listenizi kaydettiğiniz Google hesabını seçin.</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">Paylaşım bağlantısı oluşturulamadı</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">Lütfen daha sonra yeniden deneyin.</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">Oturum açılamadı</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">Lütfen daha sonra yeniden deneyin.</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">Güvenilir kişilerinizden yardım isteyin</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. Güvenilir kişilerinizin üçüyle iletişime geçin ve onlarla bu bağlantıyı paylaşın.</string><!--1. Reach out three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. Her bir kişi size bir kod verecek. Her bir kodu aşağıya girin:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">Bir veya daha fazla kod yanlış. Tekrar deneyin.</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">Kod girin</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">İptal</string><!--Cancel-->
+    <string name="social_restore_btn_next">İleri</string><!--Next-->
+    <string name="social_restore_no_backup_on_device">Aygıtınızda %1$s için hiç yedekleme yok.</string><!--There\'s no backup for %1$s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">Geri yüklenemedi</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">Geri yüklemek için farklı bir hesap veya 12 sözcüklü kurtarma ifadenizi kullanmayı deneyin.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">%1$s daveti</string><!--%1$s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">Kabul etmek için dokunun.</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">%1$s kaynağından kurtarma desteği isteği</string><!--Recovery support request from %1$s-->
+    <string name="social_restore_backup_tap_to_generate_code">Kod oluşturmak için dokunun.</string><!--Tap to generate code.-->
+    <string name="social_backup_update_backup_status">Yedekleme durumunu güncelle</string><!--Update backup status-->
+    <string name="social_backup_not_now">Şimdi değil</string><!--Not now-->
+    <string name="social_backup_oops_inactive">Sorun oluştu; güvenilir kişilerinizin bazıları etkin değil.</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">Bağlantıları güvenli kılmak için güvenilir kişinizle görüşün.</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">Bu hesabı başka bir aygıtta kullandınız</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">Social Key Recovery verilerinizin tümü kalıcı olarak kullanılamaz. Social Key Recovery kullanmaya devam etmek için başka bir hesapta oturum açmanız gerekir.</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Some trusted contacts need to be re-/connected</string>-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">For security concerns, you need to resend the trusted contact invitation to %1$s, %2$s again.</string>-->
+
+    <string name="Settings">Ayarlar</string><!--Settings-->
+
+    <string name="socialkm_network_connection_title">Bağlanılamıyor.</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">Bu uygulamayı kullanmak için bir ağ bağlantısına ihtiyacınız var. Lütfen Ayarlar\'da Mobil Veri veya Wi-Fi\'ı açın.</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">İptal</string><!--Cancel-->
+	<!--<string name="check">Check</string>-->
+
+    <string name="entry_ios_coming_soon">IOS İÇİN YAKINDA</string><!--COMING SOON FOR IOS-->
+
+	<!--<string name="socialkm_not_active_title">Social Key Recovery is not active</string>-->
+	<!--<string name="socialkm_not_active_message">You can try to contact your trusted contacts and check their backup status or find a new contact to help you.</string>-->
+
+</resources>

@@ -1,0 +1,173 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">Не</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">OK</string><!--OK-->
+
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- general -->
+    <string name="gen_new_version">Налична е нова версия</string><!--New version available-->
+    <string name="gen_new_version_hint">Актуализирайте приложение до нова версия за подобрена защита и потребителско изживяване.</string><!--Please update app to newer version for enhanced security and user experience.-->
+    <string name="gen_update_now">АКТУАЛИЗИРАНЕ СЕГА</string><!--UPDATE NOW-->
+<!-- end general -->
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">%1$s Ви добави като доверен контакт</string><!--%1$s added you as a trusted contact-->
+    <string name="ver_step1">Стъпка 1. Въведете името си и получете код за проверка от %1$s.</string><!--Step 1. Enter your name and get the verification code from %1$s.-->
+    <string name="ver_step2">Стъпка 2. Вашият код за проверка е генериран на телефона на %1$s. Помолете го/я за кода и го въведете.</string>
+    <string name="ver_enter_name_hint">Въведете името си</string><!--Enter your name-->
+    <string name="ver_request_btn_text">Заявка за код</string><!--Request code-->
+    <string name="ver_sharing_title">Споделете този код до %1$s</string><!--Share this code to %1$s-->
+    <string name="ver_sharing_remind_route">M: %1$s\nчрез %2$s</string><!--M: %1$s\nvia %1$s-->
+    <string name="ver_sharing_reject">ОТХВЪРЛЯНЕ</string><!--REJECT-->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">Нова заявка от %1$s</string><!--New request from %1$s-->
+    <string name="ver_notification_request_content">Натиснете, за да видите кода за удостоверяване и да го споделите с/със %1$s</string><!--Tap to see the verification code and share it with %1$s.-->
+    <string name="ver_notification_request_button">ПОКАЗВАНЕ НА КОДА ЗА ПРОВЕРКА</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">Няма отговор? Може да направите заявка отново след %1$s</string>
+    <string name="ver_verify">Провери</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">Сега сте доверен контакт за %1$s.</string><!--You are now a trusted contact for %1$s.-->
+    <string name="ver_ok_congratulation_msg">Може да помогнете на %1$s да възстанови портфейла си, в случай че бъде изгубен или откраднат. Zion има записана и съхранена част от данните за възстановяване. Не изтривайте Zion или данните на приложението Zion. Ако го направите, тези данни за възстановяване ще бъдат изгубени. Zion ще се свързва периодично при %2$s, за да се гарантира, че данните за възстановяване са все още валидни.</string><!--You can now help %1$s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %1$s periodically to verify the recovery data is still valid.-->
+    <string name="ver_ok_done">Готово</string><!--Done-->
+    <string name="ver_pin_error_hint">Този код е невалиден. Опитайте отново.</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_btn_ok">OK</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">Вече сте доверен контакт на %1$s</string><!--You are already %1$s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">Благодарности за помощта за архивиране на данните на %1$s.</string><!--Thanks for helping back up %1$s’s data-->
+    <string name="ver_dialog_verifying_title">Проверката е изпратена</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">Изчакване за проверка. Ще бъдете доверен контакт на %1$s, когато проверката завърши.</string><!--Waiting for verifying. You will be %1$s’s trusted contact when verification is completed.-->
+    <string name="ver_unknown_phone_number">Неизвестен</string><!--Unknown-->
+    <string name="ver_unknown_name">Неизвестен</string><!--Unknown-->
+    <string name="ver_dialog_trusted_contact_full_title">Благодаря за помощта!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">%1$s достигна максималният брой от 5 доверени контакта.</string><!--%1$s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">Връзката е изтекла. Помолете %1$s да изпрати актуализираната връзка.</string><!--This link is expired, please ask %1$s to send the updated link.-->
+    <string name="ver_request_timeout">Времето за изчакване на заявката изтече, опитайте по-късно.</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">Моля опитайте отново по-късно</string><!--Please try again later-->
+    <string name="try_too_often_message">Опитвате твърде често. Опитайте отново след %1$d минути.</string>
+
+    <!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Какво е Social Key Recovery\?</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">Social Key Recovery може да Ви помогне удобно да възстановите портфейла си от Ваши доверени приятели или роднини.</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">Поканете от 3 до 5 души да бъдат доверени приятели, които да Ви помогнат да възстановите портфейла си.</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.-->
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">Вашите доверени контакти могат да изпратят код и да Ви помогнат да възстановите портфейла си.</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">Настройване</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href="com.htc.wallet://">Не сега</a></string>
+    <string name="backup_introduction_ok">OK</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">Архивирайте своя списък с доверени контакти</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">За възстановяване на Вашия портфейл чрез Social Key Recovery, изберете профил на Google, за да архивирате своите доверени контакти. Вашият списък с доверени контакти ще бъде записан в Google Диск.</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">Добавяне на профил</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">Отказ</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">Продължаване</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="backup_trusted_contact">Доверен контакт</string><!--Trusted contact-->
+    <string name="backup_null_contact">Все още нямате доверени контакти.</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">Social Key Recovery ще бъде наличен, когато имате най-малко 3 доверени контакта (макс. 5).</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">Поканете приятели да бъдат Ваш \n доверен контакт</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">Поканете от 3 до 5 приятели или семейството да бъдат Ваши доверени контакти и да Ви помогнат да възстановите портфейла си.</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.-->
+    <string name="backup_invitation_hi">Здравей, %1$s</string><!--Hi %1$s,-->
+    <string name="backup_invitation_sharing">Споделяне на покана</string><!--Share invitation-->
+    <string name="backup_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">Неактивно</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">Активно</string><!--Active-->
+    <string name="backup_invitation_message_first_part">Здравей, \n\n избрах те за мой доверен контакт за функцията Social Key Recovery на портфейла Zion. \n Следвай инструкциите, \n за да ми помогнеш да архивирам своите данни за възстановяване.\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) Натиснете тази връзка, за да изтеглите и инсталирате Zion:\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) Когато сте готови, не забравяйте \n да поискате кода за удостоверяване.\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">Благодарим Ви!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">Час на последна проверка: %1$s</string><!--Last checked time: %1$s-->
+    <string name="backup_trust_item_sub2">Натиснете тук за генериране на код.</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">Повторно изпращане</string><!--Resend-->
+    <string name="backup_bottom_request_show">Заявки от приятели</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">Премахване на доверен контакт</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_delete">Премахване(%1$d)</string><!--Remove(%1$d)-->
+    <string name="backup_menu_remove_trust_title">Премахване на доверен контакт</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">Изход</string>
+    <string name="backup_pending_target_toolbar">Заявки от приятели</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">Няма заявки към този момент.</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">Архивиране на същото устройство не се поддържа.</string><!--Back up on same device is not supported.-->
+
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">Този профил се използва от друго устройство</string><!--This account has been used in another device-->
+    <string name="db_security_concern">От съображения за сигурност, всеки профил може да се използва само на едно устройство.</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">Искате ли все още да използвате този профил или друг за стартиране на Social Key Recovery?</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">Да се използва този профил</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">Ще изгубите завинаги предварително записания списък с доверени контакти.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">Използване на друг профил</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">Запазете предишните данни и създайте нов.</string><!--Keep previous data and create a new one.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">Здрасти, \n\nКато мой доверен контакт, имам нужда да възстановя портфейла Zion.\nЗа целите на реставрация, трябва да направите следното.\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) Натиснете тази връзка и генерирайте код за проверка.\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) Изпратете ми код.\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">Благодарим Ви!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">Моля изчакайте...</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">Влизане...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">Този профил не е бил активиран за Social Key Recovery</string>
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">Опитайте с друг профил или използвайте фраза за възстановяване от 12 думи, за да възстановите портфейла си.</string>
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">Моля изчакайте...</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">Генерира се връзка...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">Влезте в профила си</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">За възстановяване на Вашия портфейл чрез Social Key Recovery, изберете профил на Google, където преди сте записали своя списък с доверени контакти.</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">Неуспешно генериране на връзка за споделяне</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">Опитайте отново по-късно.</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">Неуспешно влизане</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">Опитайте отново по-късно.</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">Поискайте помощ от Вашите доверени контакти</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. Свържете се с трима от Вашите доверени контакти и споделете тази връзка с тях.</string><!--1. Reach out three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. Всеки контакт ще Ви даде код. Въведете всеки код по-долу:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">Един или повече грешни кодове. Опитайте отново.</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">Въведете код</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">Отказ</string><!--Cancel-->
+    <string name="social_restore_btn_next">Напред</string><!--Next-->
+    <string name="social_restore_no_backup_on_device">Няма архив за %1$s на Вашето устройство.</string><!--There\'s no backup for %1$s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">Неуспешно възстановяване</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">Опитайте да използвате различен профил или Вашата фраза за възстановяване от 12 думи.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">Покана на %1$s</string><!--%1$s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">Натиснете за приемане.</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">Формуляр за заявка за възстановяване %1$s</string><!--Recovery support request from %1$s-->
+    <string name="social_restore_backup_tap_to_generate_code">Натиснете тук за генериране на код.</string><!--Tap to generate code.-->
+    <string name="social_backup_update_backup_status">Не може да се архивира състоянието</string><!--Update backup status-->
+    <string name="social_backup_not_now">Не сега</string><!--Not now-->
+    <string name="social_backup_oops_inactive">Опа! Някои от Вашите доверени контакти са неактивни.</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">Проверете при Вашия доверен контакт за защити връзките.</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">Използвали сте този профил на друго устройство.</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">Вашите данни на Social Key Recovery не могат да се използват постоянно. Трябва да влезете в друг профил, за да използвате Social Key Recovery.</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Some trusted contacts need to be re-/connected</string>-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">For security concerns, you need to resend the trusted contact invitation to %1$s, %2$s again.</string>-->
+    <string name="Settings">Настройки</string><!--Settings-->
+
+    <string name="socialkm_network_connection_title">Невъзможно свързване.</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">Трябва Ви мрежова връзка, за да използвате това приложение. Включете Мобилни данни или Wi-Fi от „Настройки“.</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">Отказ</string><!--Cancel-->
+	<!--<string name="check">Check</string>-->
+
+    <string name="entry_ios_coming_soon">СКОРО НАЛИЧНО ЗА IOS</string><!--COMING SOON FOR IOS-->
+
+	<!--<string name="socialkm_not_active_title">Social Key Recovery is not active</string>-->
+	<!--<string name="socialkm_not_active_message">You can try to contact your trusted contacts and check their backup status or find a new contact to help you.</string>-->
+
+</resources>

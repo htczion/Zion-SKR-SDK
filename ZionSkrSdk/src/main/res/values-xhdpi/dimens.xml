@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="wallet_01">21px</dimen> <!--Bold-->
+    <dimen name="wallet_02">86px</dimen>
+    <dimen name="wallet_04">30px</dimen>
+    <dimen name="wallet_09">50px</dimen> <!--Bold-->
+    <dimen name="wallet_14">60px</dimen>
+    <dimen name="wallet_17">60px</dimen>
+    <dimen name="wallet_19">50px</dimen>
+    <dimen name="wallet_20">86px</dimen>
+    <dimen name="wallet_21">50px</dimen>
+    <dimen name="wallet_22">21px</dimen> <!--Bold-->
+    <dimen name="wallet_26">50px</dimen>
+    <dimen name="wallet_27">28px</dimen>
+    <dimen name="wallet_31">50px</dimen>
+    <dimen name="wallet_33">39px</dimen>
+    <dimen name="wallet_39">60px</dimen>
+    <dimen name="wallet_41">60px</dimen> <!--Bold-->
+    <dimen name="wallet_42">30px</dimen>
+    <dimen name="wallet_45">40px</dimen> <!--Bold-->
+    <dimen name="wallet_46">27px</dimen>
+    <dimen name="wallet_49">86px</dimen>
+    <dimen name="wallet_55">24px</dimen>
+    <dimen name="wallet_57">31px</dimen>
+    <dimen name="wallet_64">22px</dimen>
+    <dimen name="wallet_66">29px</dimen>
+    <dimen name="wallet_67">16.5dp</dimen>
+    <dimen name="wallet_68">14.5dp</dimen>
+    <dimen name="wallet_69">15.5dp</dimen>
+
+    <dimen name="wallet_icon_side">72px</dimen>
+    <dimen name="wallet_icon_side_s">42px</dimen>
+    <dimen name="wallet_icon_side_l">100px</dimen>
+
+    <dimen name="collectible_icon_side">100px</dimen>
+    <dimen name="home_no_network_panel_height">100px</dimen>
+
+    <dimen name="button_height">80px</dimen>
+    <dimen name="send_max_height">42px</dimen>
+    <dimen name="send_fee_height">50px</dimen>
+    <dimen name="send_amount_size">60px</dimen>
+
+</resources>

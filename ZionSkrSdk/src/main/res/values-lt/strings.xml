@@ -1,0 +1,170 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">Ne</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">Gerai</string><!--OK-->
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- general -->
+    <string name="gen_new_version">Išleista nauja versija</string><!--New version available-->
+    <string name="gen_new_version_hint">Atnaujinkite programėlę į naujesnę versiją, siekdami padidinti saugumą ir pagerinti naudojimo patirtį.</string><!--Please update app to newer version for enhanced security and user experience.-->
+    <string name="gen_update_now">NAUJINTI DABAR</string><!--UPDATE NOW-->
+<!-- end general -->
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">„Social Key Recovery“</string><!--Social Key Recovery-->
+    <string name="ver_content_title">%1$s įtraukė jus į patikimųjų adresatų sąrašą</string><!--%1$s added you as a trusted contact-->
+    <string name="ver_step1">1 žingsnis. Įveskite savo vardą ir gaukite patvirtinimo kodą iš %1$s.</string><!--Step 1. Enter your name and get the verification code from %1$s.--> 
+    <string name="ver_step2">2 žingsnis. Jūsų patvirtinimo kodas sugeneruotas %1$s telefone. Paprašykite jų kodo ir įveskite jį.</string> 
+    <string name="ver_enter_name_hint">Įveskite savo vardą</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">Užklausti kodo</string><!--Request code-->
+    <string name="ver_sharing_title">Pabendrinkite šį kodą su %1$s</string><!--Share this code to %1$s-->
+    <string name="ver_sharing_remind_route">M: %1$s\nper %2$s</string><!--M: %1$s\nvia %1$s-->
+    <string name="ver_sharing_reject">ATMESTI</string><!--REJECT-->
+    <string name="ver_notification_channel_name">„Social Key Recovery“</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">Nauja užklausa iš %1$s</string><!--New request from %1$s--> 
+    <string name="ver_notification_request_content">Palieskite, kad pamatytumėte patvirtinimo kodą ir pabendrintumėte jį su %1$s.</string><!--Tap to see the verification code and share it with %1$s.-->
+    <string name="ver_notification_request_button">RODYTI PATVIRTINIMO KODĄ</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">Jokio atsakymo? Galite pakartoti užklausą po %1$s</string>
+    <string name="ver_verify">Patvirtinti</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">Tapote %1$s patikimuoju adresatu.</string><!--You are now a trusted contact for %1$s.--> 
+    <string name="ver_ok_congratulation_msg">Nuo šiol galėsite padėti %1$s atkurti jų piniginę, jei ji būtų prarasta ar pavogta. „Zion“ užšifravo ir įrašė dalį jų piniginės atkūrimo duomenų į jūsų įrenginį. Nepanaikinkite „Zion“ ar „Zion“ programėlės duomenų, nes kitaip šie atkūrimo duomenys dings. „Zion“ periodiškai informuos %2$s, siekiant patvirtinti, kad atkūrimo duomenys vis dar galioja.</string><!--You can now help %1$s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %1$s periodically to verify the recovery data is still valid.-->
+    <string name="ver_ok_done">Atlikta</string><!--Done-->
+    <string name="ver_pin_error_hint">Šis kodas negalioja: bandykite vėl.</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_btn_ok">Gerai</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">%1$s jau pasirinko jus patikimuoju adresatu</string><!--You are already %1$s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">Dėkojame už jūsų pagalbą %1$s duomenų atsarginei kopijai padaryti</string><!--Thanks for helping back up %1$s’s data-->
+    <string name="ver_dialog_verifying_title">Patvirtinimas išsiųstas</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">Laukiama patvirtinimo. Pasibaigus patvirtinimo procesui, būsite %1$s patikimasis adresatas.</string><!--Waiting for verifying. You will be %1$s’s trusted contact when verification is completed.-->
+    <string name="ver_unknown_phone_number">Nežinomas</string><!--Unknown-->
+    <string name="ver_unknown_name">Nežinomas</string><!--Unknown-->
+    <string name="ver_dialog_trusted_contact_full_title">Dėkoju, kad padedate!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">%1$s jau pasiekė maksimalų 5 patikimųjų adresatų skaičių.</string><!--%1$s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">Šis saitas baigė galioti: paprašykite %1$s išsiųsti atnaujintą saitą.</string><!--This link is expired, please ask %1$s to send the updated link.-->
+    <string name="ver_request_timeout">Užklausos laiko baigtis, bandykite dar kartą vėliau.</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">Bandykite dar kartą vėliau</string><!--Please try again later-->
+    <string name="try_too_often_message">Bandote per dažnai: praėjus po %1$d min.</string>
+
+    <!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Kas yra „Social Key Recovery“?</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">Funkcija „Social Key Recovery“ gali padėti patogiai atkurti savo piniginę iš patikimų draugų arba šeimos narių.</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">Pakvieskite 3–5 žmones tapti patikimaisiais adresatais, kurie padėtų atkurti jūsų piniginę.</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">Jūsų patikimieji adresatai gali išsiųsti kodą ir padėti jums atkurti savo piniginę.</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">Nustatyti</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href="com.htc.wallet://">Ne dabar</a></string>
+    <string name="backup_introduction_ok">Gerai</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">Padarykite savo patikimųjų adresatų sąrašo atsarginę kopiją</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">Norėdami atkurti savo piniginę naudodami funkciją „Social Key Recovery“, pasirinkite „Google“ paskyrą savo patikimųjų adresatų atsarginei kopijai padaryti. Jūsų patikimųjų adresatų sąrašas bus laikomas „Google Drive“.</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">Įtraukti paskyrą</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">Atšaukti</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">Tęsti</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="backup_trusted_contact">Patikimasis adresatas</string><!--Trusted contact-->
+    <string name="backup_null_contact">Dar neįtraukėte patikimųjų adresatų.</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">„Social Key Recovery“ bus pasiekiama, kai turėsite bent 3 patikimuosius adresatus (maks.: 5).</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">Pakvieskite draugus tapti \n jūsų patikimaisiais adresatais</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">Pakvieskite 3–5 draugus arba šeimos narius tapti patikimaisiais adresatais, kurie padėtų atkurti jūsų piniginę.</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.-->
+    <string name="backup_invitation_hi">Sveiki, %1$s,</string><!--Hi %1$s,-->
+    <string name="backup_invitation_sharing">Bendrinti kvietimą</string><!--Share invitation-->
+    <string name="backup_toolbar_title">„Social Key Recovery“</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">Neaktyvus</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">Aktyvus</string><!--Active-->
+    <string name="backup_invitation_message_first_part">Labas, \n\n paskyriau tave savo patikimuoju adresatu „Zion“ piniginės funkcijai „Social Key Recovery“ naudoti. \n Prašau vadovaujantis toliau pateiktomis instrukcijomis \n padėti man padaryti mano atkūrimo duomenų atsarginę kopiją.\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) Palieskite šį saitą, kad atsisiųstumėte ir įdiegtumėte „Zion“:\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) Baigę nepamirškite paprašyti \n manęs patvirtinimo kodo.\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">Ačiū!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">Paskutinį kartą tikrinta: %1$s</string><!--Last checked time: %1$s-->
+    <string name="backup_trust_item_sub2">Palieskite čia, kad sugeneruotumėte kodą.</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">Siųsti iš naujo</string><!--Resend-->
+    <string name="backup_bottom_request_show">Užklausos iš draugų</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">Šalinti patikimąjį adresatą</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_delete">Šalinti (%1$d)</string><!--Remove(%1$d)-->
+    <string name="backup_menu_remove_trust_title">Šalinti patikimąjį adresatą</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">Atsijungti</string>
+    <string name="backup_pending_target_toolbar">Užklausos iš draugų</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">Šiuo metu užklausų nėra.</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">Nėra galimybės daryti atsarginės kopijos į tą patį įrenginį.</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">Ši paskyra buvo naudojama kitame įrenginyje</string><!--This account has been used in another device-->
+    <string name="db_security_concern">Saugumo sumetimais vieną paskyrą galima naudoti tik su vienu įrenginiu.</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">Ar vis tiek norite naudoti šią paskyrą, ar naudosite kitą, kad pradėtumėte „Social Key Recovery“ procedūrą?</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">Naudoti šią paskyrą</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">Jūsų ankstesnių patikimųjų adresatų sąrašas bus negrįžtamai prarastas.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">Naudoti kitą paskyrą</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">Palikti ankstesnius duomenis ir sukurti naujus.</string><!--Keep previous data and create a new one.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">Labas, \n\n kaip pameni, esi mano patikimasis adresatas. Man reikia tavo pagalbos, kad galėčiau atkurti savo „Zion“ piniginę.\nŠiam tikslui prašau atlikti toliau nurodytus veiksmus.\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) Palieskite šį saitą ir sugeneruokite patvirtinimo kodą.\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) Atsiųskite man kodą.\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">Ačiū!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">Palaukite...</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">Prisijungiama...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">Ši paskyra neaktyvuota naudoti su „Social Key Recovery“</string>
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">Išbandykite kitą paskyrą arba panaudokite 12 žodžių atkūrimo frazę, kad atkurtumėte savo piniginę</string>
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">Palaukite...</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">Generuojamas saitas...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">Prisijunkite prie savo paskyros</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">Norėdami atkurti savo piniginę naudodami funkciją „Social Key Recovery“, pasirinkite tą „Google“ paskyrą, kurioje pirmiau įrašėte patikimųjų adresatų sąrašą.</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">Nepavyko sugeneruoti bendrinimo saito</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">Bandykite dar kartą vėliau.</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">Nepavyko prisijungti</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">Bandykite dar kartą vėliau.</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">Paprašykite savo patikimųjų adresatų padėti</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. Susisiekite su trimis iš savo patikimųjų adresatų ir pabendrinkite su jais šį saitą.</string><!--1. Reach out three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. Kiekvienas adresatas jums duos po kodą. Įveskite kiekvieną kodą toliau:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">Vienas arba daugiau kodų netinka. Bandykite vėl.</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">Įveskite kodą</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">Atšaukti</string><!--Cancel-->
+    <string name="social_restore_btn_next">Pirmyn</string><!--Next-->
+    <string name="social_restore_no_backup_on_device">Jūsų įrenginyje %1$s atsarginės kopijos nėra.</string><!--There\'s no backup for %1$s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">Nepavyko atkurti</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">Pamėginkite atkūrimui naudoti kitą paskyrą arba 12 žodžių atkūrimo frazę.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">Kvietimas iš %1$s</string><!--%1$s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">Palieskite, kad priimtumėte.</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">Atkūrimo pagalbos užklausa iš %1$s</string><!--Recovery support request from %1$s-->
+    <string name="social_restore_backup_tap_to_generate_code">Palieskite, kad sugeneruotumėte kodą.</string><!--Tap to generate code.-->
+    <string name="social_backup_update_backup_status">Naujinti atsarginės kopijos būseną</string><!--Update backup status-->
+    <string name="social_backup_not_now">Ne dabar</string><!--Not now-->
+    <string name="social_backup_oops_inactive">Atsiprašome, kai kurie jūsų patikimieji adresatai neaktyvūs.</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">Susisiekite su savo patikimuoju adresatu, kad užmegztumėte ryšius.</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">Jūs naudojote šią paskyrą kitame įrenginyje</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">Nebegalėsite naudoti savo „Social Key Recovery“ duomenų (tai negrįžtama). Norėdami toliau naudoti „Social Key Recovery“, turėsite prisijungti prie kitos paskyros.</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Some trusted contacts need to be re-/connected</string>-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">For security concerns, you need to resend the trusted contact invitation to %1$s, %2$s again.</string>-->
+
+    <string name="Settings">Nuostatos</string><!--Settings-->
+    <string name="socialkm_network_connection_title">Nepavyksta prisijungti.</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">Jums reikia tinklo ryšio, kad galėtumėte naudoti šią programėlę. Nuostatose įjunkite mobilųjį duomenų ryšį arba „Wi-Fi“.</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">Atšaukti</string><!--Cancel-->
+
+    <string name="entry_ios_coming_soon">GREITAI – IR „IOS“</string><!--COMING SOON FOR IOS-->
+
+	<!--<string name="socialkm_not_active_title">Social Key Recovery is not active</string>-->
+	<!--<string name="socialkm_not_active_message">You can try to contact your trusted contacts and check their backup status or find a new contact to help you.</string>-->
+
+</resources>

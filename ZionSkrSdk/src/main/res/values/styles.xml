@@ -1,0 +1,257 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/common_colorPrimary</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenu</item>
+    </style>
+
+    <style name="OverflowMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">-4dp</item>
+    </style>
+
+    <!--verification Start-->
+    <style name="verification_request_title">
+        <item name="android:layout_marginTop">@dimen/M5</item>
+        <!--TODO M1*2 need to define?-->
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:textSize">@dimen/Wallet_31</item>
+        <item name="android:fontFamily">@string/font_family_regular</item>
+    </style>
+
+    <style name="verification_request_step">
+        <item name="android:layout_marginTop">@dimen/margin_l</item>
+        <!--TODO M1*2 need to define?-->
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:textColor">@color/ver_request_content</item>
+        <item name="android:textSize">@dimen/Wallet_42</item>
+    </style>
+
+    <style name="verification_edittext_style">
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:selectAllOnFocus">true</item>
+        <item name="android:textColorHighlight">#4DFFFFFF</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textColorHint">@color/ver_request_edittext</item>
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name="colorControlActivated">#FFFFFF</item>
+    </style>
+
+    <style name="verification_request_button" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_marginBottom">@dimen/M1</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@drawable/verification_button</item>
+        <item name="android:foreground">@drawable/shape_verification_button_press_effect</item>
+        <item name="android:textColor">@color/ver_button_text_color</item>
+        <item name="android:textSize">@dimen/Wallet_43</item>
+    </style>
+
+    <style name="verification_code_no_response">
+        <item name="android:layout_marginTop">@dimen/M1</item>
+        <item name="android:layout_marginBottom">@dimen/M1</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="verification_pin_on_frame">
+        <item name="android:layout_height">58.5dp</item>
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_marginRight">@dimen/M5</item>
+        <item name="android:layout_marginLeft">@dimen/M5</item>
+        <item name="android:padding">@dimen/M2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/ver_verification_code_on</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="verification_pin_off_frame" parent="verification_pin_on_frame">
+        <item name="android:textColor">@color/ver_verification_code_off</item>
+    </style>
+
+    <style name="verification_pin_error_frame" parent="verification_pin_on_frame">
+        <item name="android:textColor">@color/ver_verification_code_error</item>
+    </style>
+
+    <style name="verification_pin_error_hint">
+        <item name="android:layout_marginTop">@dimen/margin_l</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/ver_verification_code_error</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="verification_verify_code_title" parent="verification_request_title"/>
+
+    <style name="verification_verify_code_step" parent="verification_request_step"/>
+
+    <style name="verification_verify_code_button" parent="verification_request_button"/>
+
+    <style name="verification_congratulation_title" parent="verification_request_title"/>
+
+    <style name="verification_congratulation_content">
+        <item name="android:layout_marginTop">@dimen/margin_l</item>
+        <!--TODO M1*2 need to define?-->
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/ver_request_content</item>
+        <item name="android:textSize">@dimen/Wallet_42</item>
+    </style>
+
+    <style name="verification_code_congratulation_image">
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="verification_congratulation_button" parent="verification_request_button"/>
+
+    <style name="verification_share_qr_title" parent="verification_request_title"/>
+
+    <style name="verification_share_qr_qrImg">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="verification_share_qr_pincode_layout">
+        <item name="android:layout_marginTop">85dp</item> <!-- V01, 340 px in xxxhdpi -->
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="verification_share_qr_pincode">
+        <item name="android:layout_marginLeft">7.5dp</item>
+        <item name="android:layout_marginRight">7.5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">42sp</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">@string/font_family_medium</item>
+    </style>
+
+    <style name="verification_recovery_from">
+        <item name="android:layout_marginTop">106.25dp</item> <!-- V02, 425 px in xxxhdpi -->
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lines">1</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+    </style>
+
+    <style name="verification_share_qr_name">
+        <item name="android:layout_marginTop">@dimen/M2</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lines">1</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">@string/font_family_medium</item>
+    </style>
+
+    <style name="verification_share_qr_route">
+        <item name="android:layout_marginTop">20dp</item> <!-- M2*2 -->
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">@string/font_family_light</item>
+    </style>
+
+    <style name="verification_share_qr_reject">
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_marginTop">30dp</item> <!-- M1*2 -->
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@string/font_family_light</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="social_backup_restore_edittext">
+        <item name="colorControlNormal">@color/dark_primaryfont_color</item>
+        <item name="colorControlActivated">@color/dark_primaryfont_color</item>
+    </style>
+    <!--verification End-->
+
+    <!-- Social Backup -->
+    <style name="SocialBackupToolbarTheme" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:colorControlNormal">@color/gray</item>
+        <item name="android:actionOverflowMenuStyle">@style/OverflowMenu</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+    </style>
+
+    <style name="socialBackupRemoveCheckBoxStyle" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">@color/social_backup_remove_checked_box</item>
+        <item name="android:textColorSecondary">@color/gray</item>
+    </style>
+
+    <!--From htccommoncontrol-->
+    <style name="DropDownDownTopCenter">
+        <item name="android:windowEnterAnimation">@anim/scale_grow_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/scale_shrink_fade_out</item>
+    </style>
+
+    <style name="regular" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="list_primary_s" parent="@style/regular">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+
+    <style name="notification_info_xs" parent="@style/regular">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+
+    <style name="light" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="list_body_primary_m" parent="@style/light">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+
+</resources>

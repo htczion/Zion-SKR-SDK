@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.htc.wallet.skrsdk">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application>
+        <receiver
+            android:name=".tools.security.attestation.AttestationBootReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".sqlite.SocialKmDatabaseUpdateReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".messaging.PushyNotificationReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="pushy.me"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="me.pushy.sdk.receivers.PushyUpdateReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="me.pushy.sdk.receivers.PushyBootReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".drives.onedrive.DriveDataUpdateService"/>
+        <service
+            android:name=".drives.DriveJobIntentService"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service
+            android:name=".monitor.BackupHealthReportJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service
+            android:name=".monitor.BackupHealthCheckJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service
+            android:name=".monitor.BackupUserManualCheckJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service
+            android:name=".monitor.CheckAutoBackupJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service
+            android:name=".monitor.CheckBackupVersionJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name=".messaging.WalletFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name="me.pushy.sdk.services.PushySocketService"/>
+        <service
+            android:name="me.pushy.sdk.services.PushyJobService"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+
+        <activity
+            android:name=".SocialBaseActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".verification.VerificationRequestActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity
+            android:name=".verification.VerificationCodeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".verification.VerificationOkCongratulationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".verification.SocialKeyRecoveryRequestActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".verification.BackupShowVerificationCodeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".verification.VerificationSharingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".verification.DialogActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".restore.SocialRestoreActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".backup.SocialKeyRecoveryChooseDriveAccountActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".backup.SocialBackupIntroductionActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".backup.SocialBackupActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".backup.RemoveTrustContactActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".applink.BaseAppLinkReceiverActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

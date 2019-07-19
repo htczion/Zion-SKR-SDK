@@ -1,0 +1,180 @@
+<resources>
+<!-- Do not translate app_name-->
+	<!--<string name="app_name">Zion</string>-->
+
+<!-- No button -->
+    <string name="Button.no">Nei</string><!--No-->
+<!-- OK button label -->
+    <string name="Button.ok">OK</string><!--OK-->
+
+
+<!-- Do not translate. name of blockfolio -->
+	<!--<string name="blockfolio">Blockfolio</string>-->
+
+<!-- Buy and Sell -->
+<!-- Do not translate. name of trade center-->
+	<!--<string name="maicoin">Maicoin</string>-->
+<!-- not to translate Maicoin-->
+<!-- End Buy and Sell -->
+
+<!-- general -->
+    <string name="gen_new_version">Ny versjon tilgjengelig</string><!--New version available-->
+    <string name="gen_new_version_hint">Oppdater appen til en nyere versjon for å oppnå økt sikkerhet og en bedre brukeropplevelse.</string><!--Please update app to newer version for enhanced security and user experience.-->
+    <string name="gen_update_now">OPPDATER NÅ</string><!--UPDATE NOW-->
+<!-- end general -->
+
+<!--Verification UI Start-->
+    <string name="ver_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_content_title">%1$s la deg til som klarert kontakt</string><!--%1$s added you as a trusted contact-->
+    <string name="ver_step1">Trinn 1. Angi navnet dit og hent bekreftelseskoden fra %1$s.</string><!--Step 1. Enter your name and get the verification code from %1$s.--> 
+    <string name="ver_step2">Trinn 2. Din bekreftelseskode genereres på telefonen til %1$ss. Spør dem om koden og angi den.</string> 
+    <string name="ver_enter_name_hint">Angi navnet ditt</string><!--Enter your name--> 
+    <string name="ver_request_btn_text">Anmodningskode</string><!--Request code-->
+    <string name="ver_sharing_title">Del denne koden med %1$s</string><!--Share this code to %1$s-->
+    <string name="ver_sharing_remind_route">M: %1$s\nvia %2$s</string><!--M: %1$s\nvia %1$s-->
+    <string name="ver_sharing_reject">AVVIS</string><!--REJECT-->
+    <string name="ver_notification_channel_name">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="ver_notification_request_title">Ny anmodning fra %1$s</string><!--New request from %1$s--> 
+    <string name="ver_notification_request_content">Klikk for å se bekreftelseskoden og del den med %1$s.</string><!--Tap to see the verification code and share it with %1$s.-->
+    <string name="ver_notification_request_button">VIS BEKREFTELSESKODE</string><!--SHOW VERIFICATION CODE-->
+    <string name="ver_no_response_hint">Ikke noe svar? Du kan foreta en ny anmodning om %1$s</string>
+    <string name="ver_verify">Bekreft</string><!--Verify-->
+    <string name="ver_ok_congratulation_title">Du er nå en klarert kontakt for %1$s.</string><!--You are now a trusted contact for %1$s.--> 
+    <string name="ver_ok_congratulation_msg">Du kan nå hjelpe %1$s med å gjenopprette lommeboken hvis den mistes eller blir stjålet. Zion har kryptert og lagret en del av lommebokens gjenopprettingsdata på enheten. Sørg for ikke å slette Zion- eller Zion-appdata. I motsatt fall vil disse gjenopprettingsdataene gå tapt. Zion vil fra tid til annen kontakte %2$s for å bekrefte at gjenopprettingsdataene fortsatt er gyldige.</string><!--You can now help %1$s recover their wallet if it is lost or stolen. Zion has encrypted and saved part of their wallet recovery data to your device. Make sure not to delete Zion or Zion app data, otherwise this recovery data will be lost. Zion will check with %1$s periodically to verify the recovery data is still valid.-->
+    <string name="ver_ok_done">Ferdig</string><!--Done-->
+    <string name="ver_pin_error_hint">Denne koden er ugyldig. Prøv på nytt.</string><!--This code is invalid, please try again.-->
+    <string name="ver_dialog_btn_ok">OK</string><!--OK-->
+    <string name="ver_dialog_backup_done_title">Du er allerede klarert kontakt for %1$s</string><!--You are already %1$s’s trusted contact-->
+    <string name="ver_dialog_backup_done_msg">Takk for at du hjelper med å sikkerhetskopiere dataene til %1$s</string><!--Thanks for helping back up %1$s’s data-->
+    <string name="ver_dialog_verifying_title">Bekreftelse sendt</string><!--Verification sent-->
+    <string name="ver_dialog_verifying">Takk for bekreftelsen. Du vil være den klarerte kontakten til %1$ss når bekreftelsen er fullført.</string><!--Waiting for verifying. You will be %1$s’s trusted contact when verification is completed.-->
+    <string name="ver_unknown_phone_number">Ukjent</string><!--Unknown-->
+    <string name="ver_unknown_name">Ukjent</string><!--Unknown-->
+    <string name="ver_dialog_trusted_contact_full_title">Takk for at du hjelper til!</string><!--Thank you for helping out!-->
+    <string name="ver_dialog_trusted_contact_full_content">%1$s har allerede nådd maksimum, som er 5 klarerte kontakter.</string><!--%1$s has already reached the maximum of 5 trusted contacts.-->
+    <string name="ver_expired_link">Denne koblingen er utløpt. Be %1$s om å sende den oppdaterte koblingen.</string><!--This link is expired, please ask %1$s to send the updated link.-->
+    <string name="ver_request_timeout">Tidsavbrudd ønsket. Prøv igjen senere.</string><!--Request timeout, please try again later.-->
+<!--Verification UI End-->
+
+    <string name="try_too_often_title">Prøv på nytt senere</string><!--Please try again later-->
+    <string name="try_too_often_message">Du prøver for ofte. Prøv igjen etter %1$d minutter</string>
+
+
+    <!-- Social Key Recovery introduction -->
+<!-- Zion is name, not to translate Zion-->
+    <string name="backup_introduction_title">Hva er Social Key Recovery\?</string><!--What is Social Key Recovery\?-->
+    <string name="backup_introduction_sub_title">Social Key Recovery kan hjelpe deg med å gjenopprette lommeboken på en praktisk måte fra klarerte venner eller familie.</string><!--Social Key Recovery can help you conveniently recover your wallet from your trusted friends or family.-->
+    <string name="backup_introduction_first_warning_title">1.</string>
+    <string name="backup_introduction_first_warning">Inviter 3 til 5 personer som klarerte kontakter som kan hjelpe deg med å gjenopprette lommeboken din.</string><!--Invite 3 to 5 people to be trusted contacts who can help recover your wallet.--> 
+    <string name="backup_introduction_second_warning_title">2.</string>
+    <string name="backup_introduction_second_warning">Dine klarerte kontakter kan sende deg en kode som hjelp til å gjenopprette lommeboken.</string><!--Your trusted contacts can send a code to help you restore your wallet.-->
+    <string name="backup_introduction_setup">Sett opp</string><!--Set up-->
+    <string name="backup_introduction_exit"><a href="com.htc.wallet://">Ikke nå</a></string>
+    <string name="backup_introduction_ok">OK</string><!--OK-->
+<!-- Social Key Recovery choose google drive -->
+    <string name="backup_choose_google_drive_title">Sikkerhetskopier data om dine klarerte kontakter</string><!--Back up your trusted contact list-->
+    <string name="backup_choose_google_drive_sub_title">Når du skal gjenopprette lommeboken med Social Key Recovery, velger du en Google-konto for å sikkerhetskopiere dine klarerte kontakter. Listen over klarerte kontakter vil lagres i Google Drive.</string><!--To recover your wallet with Social Key Recovery, select a Google account to back up your trusted contacts. Your trusted contact list will be stored in Google Drive.-->
+    <string name="backup_choose_google_drive_add_account">Legg til konto</string><!--Add account-->
+    <string name="backup_choose_google_drive_bottom_cancel_btn">Avbryt</string><!--Cancel-->
+    <string name="backup_choose_google_drive_bottom_continue_btn">Fortsett</string><!--Continue-->
+
+<!--Social Key Recovery -->
+    <string name="backup_trusted_contact">Klarert kontakt</string><!--Trusted contact-->
+    <string name="backup_null_contact">Du har ikke lagt til noen klarerte kontakter ennå.</string><!--You have\'t added any trusted contacts yet.-->
+    <string name="backup_warning_title">Social Key Recovery vil være tilgjengelig når du har minst 3 klarerte kontakter (maks. 5).</string><!--Social Key Recovery will be available when you have at least 3 trusted contacts (Max:5).-->
+    <string name="backup_invitation_title">Inviter venner til å være \n klarert kontakt</string><!--Invite friends to be your \n trusted contact-->
+    <string name="backup_invitation_content">Inviter 3 til 5 venner eller familie til å være klarerte kontakter og hjelpe til med å gjenopprette lommeboken din.</string><!--Invite 3 to 5 friends or family to be trusted contacts and help recover your wallet.-->
+    <string name="backup_invitation_hi">Hei %1$s,</string><!--Hi %1$s,-->
+    <string name="backup_invitation_sharing">Del invitasjon</string><!--Share invitation-->
+    <string name="backup_toolbar_title">Social Key Recovery</string><!--Social Key Recovery-->
+    <string name="backup_toolbar_sub_title_no_active_status">Ikke aktiv</string><!--Not active-->
+    <string name="backup_toolbar_sub_title_active_status">Aktiv</string><!--Active-->
+    <string name="backup_invitation_message_first_part">Hei, \n\n jeg har utpekt deg som min klarerte kontakt for Zion-lommebokens funksjon Social Key Recovery. \n Følg instruksjonene nedenfor for å \n være med å sikkerhetskopiere mine gjenopprettingsdata.\n\n</string><!--Hi, \n\n I\'ve designated you as my trusted contact for the Zion wallet\'s Social Key Recovery feature. \n Please follow the instructions below to \n help me back up my recovery data.\n\n-->
+    <string name="backup_invitation_message_second_part">1) Klikk på denne koblingen for å laste ned og installere Zion:\n</string><!--1) Tap this link to download and install Zion:\n-->
+    <string name="backup_invitation_message_third_part">2) Når du er ferdig, husk å \n be meg om bekreftelseskoden.\n\n</string><!--2) When you\'re done, remember to \n ask me for the verification code.\n\n-->
+    <string name="backup_invitation_message_fourth_part">Tusen takk!</string><!--Thanks!-->
+    <string name="backup_trust_item_sub">Siste sjekket tidspunkt: %1$s</string><!--Last checked time: %1$s-->
+    <string name="backup_trust_item_sub2">Klikk her for å generere kode.</string><!--Tap here to generate code.-->
+    <string name="backup_resend_button_title">Send på nytt</string><!--Resend-->
+    <string name="backup_bottom_request_show">Anmodninger fra venner</string><!--Requests from friends-->
+    <string name="backup_remove_toolbar_title">Fjern klarert kontakt</string><!--Remove trusted contact-->
+    <string name="backup_remove_button_delete">Fjern (%1$d)</string><!--Remove(%1$d)-->
+    <string name="backup_menu_remove_trust_title">Fjern klarert kontakt</string><!--Remove trusted contact-->
+    <string name="backup_menu_log_out_title">Logg ut</string>
+    <string name="backup_pending_target_toolbar">Anmodninger fra venner</string><!--Requests from friends--> 
+    <string name="backup_pending_target_null">Ingen anmodninger denne gang.</string><!--No requests at this time.--> 
+    <string name="backup_backup_on_same_device">Sikkerhetskopiering på samme enhet støttes ikke.</string><!--Back up on same device is not supported.-->
+
+<!--Social Key Recovery(DB (account has been used))-->
+    <string name="db_account_used">Denne kontoen var vært i bruk på en annen enhet</string><!--This account has been used in another device-->
+    <string name="db_security_concern">Av sikkerhetshensyn kan hver konto bare brukes til én enhet.</string><!--For security concern, each account can be used for one device only.-->
+    <string name="db_still_want_to_use_account">Vil du fortsatt bruke denne kontoen eller bruke en annen til å starte Social Key Recovery?</string><!--Do you still want to use this account or use another one to start Social Key Recovery?-->
+    <string name="db_use_this_account">Bruk denne kontoen</string><!--Use this account-->
+    <string name="db_account_cant_be_restore">Din tidligere liste over klarerte kontakter vil gå tapt for godt.</string><!--Your previous trusted contact list will be permanently lost.-->
+    <string name="db_use_another_account">Bruk en annen konto</string><!--Use another account-->
+    <string name="db_keep_previous_and_create_new">Behold tidligere data og opprett en ny.</string><!--Keep previous data and create a new one.-->
+
+<!-- Social Restore Invitation Message-->
+    <string name="restore_invitation_message_first_part">Hei, \n\n Som min klarerte kontakt trenger jeg din hjelp til å gjenopprette min Zion-lommebok.\nVed gjenoppretting må jeg gjøre følgende.\n\n</string><!--Hi, \n\n As my trusted contact, I need your help to recover my Zion wallet.\nFor restoration, I need you to do the following.\n\n-->
+    <string name="restore_invitation_message_second_part">1) Klikk på denne koblingen og generer en bekreftelseskode.\n</string><!--1) Tap this link and generate a verification code.\n-->
+    <string name="restore_invitation_message_third_part">2) Send meg koden.\n\n</string><!--2) Send me the code.\n\n-->
+    <string name="restore_invitation_message_fourth_part">Tusen takk!</string><!--Thanks!-->
+
+<!-- Social Restore Google Accounts Chooser -->
+    <string name="backup_choose_google_drive_dialog_title">Vent litt...</string><!--Please wait...-->
+    <string name="backup_choose_google_drive_dialog_content">Logger på...</string><!--Logging in...-->
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_title">Denne kontoen er ikke aktivert for Social Key Recovery</string>
+    <string name="backup_choose_google_drive_restore_source_not_enough_dialog_content">Prøv en annen konto, eller bruk det 12-ords gjenopprettingsuttrykket til å gjenopprette lommeboken</string>
+
+<!-- Social Restore AppLink loading Dialog-->
+    <string name="backup_choose_applink_dialog_title">Vent litt...</string><!--Please wait...-->
+    <string name="backup_choose_applink_dialog_content">Genererer kobling...</string><!--Generating link...-->
+
+    <string name="backup_choose_google_drive_title_for_restore">Logg på kontoen din</string><!--Sign in to your account-->
+    <string name="backup_choose_google_drive_sub_title_for_restore">Når du skal gjenopprette lommeboken med Social Key Recovery, velger du Google-kontoen der du lagret listen over klarerte kontakter tidligere.</string><!--To recover your wallet with Social Key Recovery, select that Google account where you previously saved your trusted contact list.-->
+
+<!-- Social Backup/Restore Google Service TimeOut-->
+    <string name="backup_restore_applink_timeout_dialog_title">Kan ikke generere delingskobling</string><!--Fail to generate share link-->
+    <string name="backup_restore_applink_timeout_dialog_content">Prøv på nytt senere.</string><!--Please try again later.-->
+    <string name="backup_restore_login_timeout_dialog_title">Kan ikke logge på</string><!--Fail to log in-->
+    <string name="backup_restore_login_timeout_dialog_content">Prøv på nytt senere.</string><!--Please try again later.-->
+
+<!-- Social Restore -->
+    <string name="social_restore_title">Be dine klarerte kontakter om hjelp</string><!--Ask your trusted contacts for help-->
+    <string name="social_restore_first_content">1. Pek ut tre av dine klarerte kontakter og del denne koblingen med dem.</string><!--1. Reach out three of your trusted contacts and share this link with them.-->
+    <string name="social_restore_second_content">2. Hver kontakt vil gi deg en kode. Angi hver kode nedenfor:</string><!--2. Each contact will give you a code. Enter each code below:-->
+    <string name="social_restore_valid_error_text">En eller flere koder er feil. Prøv på nytt.</string><!--One or more codes incorrect. Try again.-->
+    <string name="social_restore_input_hint">Angi koden</string><!--Enter code-->
+    <string name="social_restore_btn_cancel">Avbryt</string><!--Cancel-->
+    <string name="social_restore_btn_next">Neste</string><!--Next-->
+    <string name="social_restore_no_backup_on_device">Det finnes ingen sikkerhetskopi for %1$s på enheten.</string><!--There\'s no backup for %1$s on your device.-->
+    <string name="social_restore_dialog_failed_to_restore_title">Klarte ikke å gjenopprette</string><!--Failed to restore-->
+    <string name="social_restore_dialog_failed_to_restore_content">Prøv å bruke en annen konto eller ditt 12-ords gjenopprettingsuttrykk for å gjenopprette.</string><!--Try using a different account or your 12-/word recovery phrase to restore.-->
+
+<!--Social Restore/backup other String -->
+    <string name="social_restore_backup_requests">Invitasjon fra %1$s</string><!--%1$s\'s invitation-->
+    <string name="social_restore_backup_tap_to_enter_code">Klikk for å godta.</string><!--Tap to accept.-->
+    <string name="social_restore_backup_recovery_support_request_from">Anmodning om gjenopprettingsstøtte fra %1$s</string><!--Recovery support request from %1$s-->
+    <string name="social_restore_backup_tap_to_generate_code">Klikk for å generere koden.</string><!--Tap to generate code.-->
+    <string name="social_backup_update_backup_status">Oppdater sikkerhetskopistatus</string><!--Update backup status-->
+    <string name="social_backup_not_now">Ikke nå</string><!--Not now-->
+    <string name="social_backup_oops_inactive">Heisann, en del av dine klarerte kontakter er inaktive.</string><!--Oops, some of your trusted contacts are inactive.-->
+    <string name="social_backup_check_with_your_trusted_contact_to_secure">Sjekk din klarerte kontakt for å sikre tilkoblingene.</string><!--Check with your trusted contact to secure the connections.-->
+    <string name="social_backup_used_another_device_title">Du har brukt denne kontoen på en annen enhet</string><!--You have used this account in another device-->
+    <string name="social_backup_used_another_device_content">Alle dine data for Social Key Recovery kan ikke brukes permanent. Du må logge på en annen konto for å fortsette å bruke Social Key Recovery.</string><!--All your Social Key Recovery data can\'t be used permanently. You need to log in another account to continue to use Social Key Recovery.-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_title">Some trusted contacts need to be re-/connected</string>-->
+	<!--<string name="social_restore_backup_rebuild_trust_contact_remind_dialog_content">For security concerns, you need to resend the trusted contact invitation to %1$s, %2$s again.</string>-->
+
+    <string name="Settings">Innstillinger</string><!--Settings-->
+
+    <string name="socialkm_network_connection_title">Kan ikke koble til.</string><!--Unable to connect.--> 
+    <string name="socialkm_network_connection_message">Du trenger nettverkstilkobling for å bruke denne appen. Slå på mobildata eller Wi-Fi i Innstillinger.</string><!--You need a network connection to use this app. Please turn on Mobile Data or Wi-/Fi in Settings.-->
+    <string name="cancel">Avbryt</string><!--Cancel-->
+	<!--<string name="check">Check</string>-->
+
+    <string name="entry_ios_coming_soon">KOMMER SNART FOR IOS</string><!--COMING SOON FOR IOS-->
+
+	<!--<string name="socialkm_not_active_title">Social Key Recovery is not active</string>-->
+	<!--<string name="socialkm_not_active_message">You can try to contact your trusted contacts and check their backup status or find a new contact to help you.</string>-->
+
+</resources>
