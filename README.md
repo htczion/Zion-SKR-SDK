@@ -49,7 +49,7 @@ Sequence diagram describes the partial seed's restore flow with friend.
 1. Integration guide for using Zion-SKR-SDK to backup and restore seeds in HTC Exodus phone.
   * [https://github.com/htczion/Zion-SKR-SDK/wiki](https://github.com/htczion/Zion-SKR-SDK/wiki)
 2. Apply and integrate related cloud services.
-  * [https://github.com/htczion/Zion-SKR-SDK/wiki](https://github.com/htczion/Zion-SKR-SDK/wiki)
+  * [https://github.com/htczion/Zion-SKR-SDK/wiki/Cloud-Settings](https://github.com/htczion/Zion-SKR-SDK/wiki/Cloud-Settings)
 3. Provide your app's info for applying HTC Key Server usage.  
  Please provide following infomation in your mail:
   * Full name, e.g., Hank Chiu
