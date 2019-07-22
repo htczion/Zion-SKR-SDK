@@ -1,5 +1,5 @@
 # Zion Social Key Recovery SDK
-
+[![Build Status](https://travis-ci.com/htczion/Zion-SKR-SDK.svg?branch=master)](https://travis-ci.com/htczion/Zion-SKR-SDK)
 
 
 ## Introduction
