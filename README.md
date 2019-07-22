@@ -15,6 +15,8 @@ Zion Social Key Recovery SDK (Zion-SKR-SDK) is an Android library that provides 
 The below architecture diagram describes the components involved when we implement the Social Key Recovery.
 
 ![Architecture](media/architecture.png "Architecture")
+*Note: The HTC Public Key Server stores only the public key for encryption purposes. The private key is only stored in the TEE.*
+
 
 * Wallet app
   * Android  
